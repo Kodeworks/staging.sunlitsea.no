@@ -1,6 +1,6 @@
 {
   "name": "staging.sunlitsea.no",
-  "homepage": "http://kodeworks.github.io/staging.sunlitsea.no",
+  "homepage": "http://staging.sunlitsea.no",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
