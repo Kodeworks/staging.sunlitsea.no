@@ -49,7 +49,7 @@ const Main: React.FC = () => {
           />
           <MainMenuItem
             title="Contact"
-            image="Contact"
+            image="contact"
             description="Get in touch with us if you are still wondering about anything."
           />
         </div>

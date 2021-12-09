@@ -32,7 +32,7 @@ This will push the build folder to the gh-pages branch, which is deployed by git
 If some refs failed: 
 
 `git checkout master`
-`git subtree split --prefix dist -b gh-pages`
+`git subtree split --prefix build -b gh-pages`
 `git push -f origin gh-pages:gh-pages`
 `git branch -D gh-pages`
 
