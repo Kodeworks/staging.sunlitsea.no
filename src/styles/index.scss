@@ -11,3 +11,7 @@ Html {
 #root {
   @apply flex flex-col h-full;
 }
+
+.whiteSecondaryGradient {
+  background: linear-gradient(180deg, #ffffff 0%, #cbd3f0 100%);
+}

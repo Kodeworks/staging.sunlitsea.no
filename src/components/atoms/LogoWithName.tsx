@@ -6,13 +6,9 @@ interface Props {
   textClassName: string;
 }
 
-const LogoWithName: React.FC<Props> = ({
-  containerClassName,
-  svgClassName,
-  textClassName,
-}) => {
+const LogoWithName: React.FC<Props> = ({ containerClassName, svgClassName, textClassName }) => {
   return (
-    <div className={`${containerClassName}`}>
+    <a className={`${containerClassName}`} href="/">
       <span className="flex flex-row space-x-3 align-middle">
         <svg
           className={`${svgClassName}`}
@@ -24,7 +20,7 @@ const LogoWithName: React.FC<Props> = ({
         </svg>
         <div className={`${textClassName}`}>SUNLIT SEA</div>
       </span>
-    </div>
+    </a>
   );
 };
 
