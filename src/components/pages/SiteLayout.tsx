@@ -23,7 +23,7 @@ const SiteLayout: React.FC = ({ children }) => {
           />
           {items.map(function (object, i) {
             return (
-              <a className="mx-1 my-auto text-2xl font-body" key={i} href={object.link}>
+              <a className="mx-1 my-auto text-2xl font-body" key={i} href={'#/' + object.link}>
                 {object.name}
               </a>
             );

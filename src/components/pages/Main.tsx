@@ -1,10 +1,16 @@
 import React from 'react';
 import MainMenuItem from '../atoms/MainMenuItem';
+import Quoter from '../molecules/Quoter';
 
 const Main: React.FC = () => {
   return (
     <>
-      <img className="w-full" src="img/splash.png" />
+      <div className="relative">
+        <div className="absolute bottom-0 w-7/12 p-8 mb-16 ml-16 rounded-3xl whiteSecondaryGradient opacity-95">
+          <Quoter />
+        </div>
+        <img className="w-full" src="img/splash.png" />
+      </div>
       <div className="w-full pb-8 whiteSecondaryGradient">
         <div className="w-1/2 mx-auto mt-8 text-2xl text-center font-arial">
           SunlitSea was founded in March 2019 by Per Lindberg and Kodeworks AS as a technology

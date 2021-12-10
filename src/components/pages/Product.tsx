@@ -1,10 +1,11 @@
 import React from 'react';
 import ApplicationAreaItem from './../atoms/ApplicationAreaItem';
+import Quoter from './../molecules/Quoter';
 
 const Product: React.FC = () => {
   return (
     <>
-      <div className="flex flex-col px-24 whiteSecondaryGradient">
+      <div className="flex flex-col px-32 pb-24 whiteSecondaryGradient">
         <section className="flex flex-row mt-16 ml-8">
           <div className="flex flex-col">
             <div className="text-6xl font-body">Floating Solar Panels</div>
@@ -53,7 +54,7 @@ const Product: React.FC = () => {
           </div>
         </section>
 
-        <section className="flex flex-col mt-24">
+        <section className="flex flex-col pb-24 mt-24">
           <div className="flex flex-row justify-between">
             <div className="flex flex-row w-1/2 justify-evenly">
               <ApplicationAreaItem title="Deep sea mining" image="deep_sea_mining" />
@@ -77,6 +78,9 @@ const Product: React.FC = () => {
               <ApplicationAreaItem title="Marinas" image="marinas" />
             </div>
           </div>
+        </section>
+        <section className="w-7/12">
+          <Quoter />
         </section>
       </div>
     </>

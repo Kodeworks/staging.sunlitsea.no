@@ -25,7 +25,7 @@ build needs to be removed from .gitignore
 
 Commit the build folder, so it can be pushed.
 
-`git subtree push --prefix dist origin gh-pages`
+`git subtree push --prefix build origin gh-pages`
 
 This will push the build folder to the gh-pages branch, which is deployed by github pages.
 
