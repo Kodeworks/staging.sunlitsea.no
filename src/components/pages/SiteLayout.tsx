@@ -5,7 +5,7 @@ import Footer from '../molecules/Footer';
 const SiteLayout: React.FC = ({ children }) => {
   return (
     <>
-      <div className="w-full">
+      <div className="w-full min-h-screen bg-black">
         <NavBar />
         <main className="w-full mt-16">{children}</main>
         <Footer />

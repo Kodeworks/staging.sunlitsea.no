@@ -12,7 +12,7 @@ const Main: React.FC = () => {
         <img className="w-full" src="img/splash.png" />
       </div>
       <div className="w-full pb-8 whiteSecondaryGradient">
-        <div className="w-1/2 mx-auto mt-8 text-2xl text-center font-arial">
+        <div className="w-1/2 pt-8 mx-auto text-2xl text-center font-arial">
           SunlitSea was founded in March 2019 by Per Lindberg and Kodeworks AS as a technology
           provider to the floating solar industry. With a new and rapidly growing market, Sunlit Sea
           aims to address the potential of optimizing cost, longevity, power production, operation

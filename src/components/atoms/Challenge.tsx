@@ -18,7 +18,7 @@ const Challenge: React.FC<Props> = ({ name, style, child }) => {
             style
           }
         >
-          <div className="mx-8 my-auto text-xl">{name}</div>
+          <div className="mx-8 my-auto text-lg leading-tight">{name}</div>
         </button>
       }
       modal

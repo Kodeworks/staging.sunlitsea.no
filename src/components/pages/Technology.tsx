@@ -1,7 +1,22 @@
 import React from 'react';
 import ChallengeTitle from './../atoms/ChallengeTitle';
 import Challenge from './../atoms/Challenge';
-import WarmthDegradation from './../molecules/technology/WarmthDegradation';
+import Technology1 from '../molecules/technology/Technology1';
+import Technology2 from './../molecules/technology/Technology2';
+import Technology3 from './../molecules/technology/Technology3';
+import Technology4 from './../molecules/technology/Technology4';
+import Technology5 from './../molecules/technology/Technology5';
+import Technology6 from './../molecules/technology/Technology6';
+import Technology7 from './../molecules/technology/Technology7';
+import Technology8 from './../molecules/technology/Technology8';
+import Technology9 from './../molecules/technology/Technology9';
+import Technology10 from './../molecules/technology/Technology10';
+import Technology11 from './../molecules/technology/Technology11';
+import Technology12 from './../molecules/technology/Technology12';
+import Technology13 from './../molecules/technology/Technology13';
+import Technology14 from './../molecules/technology/Technology14';
+import Technology15 from './../molecules/technology/Technology15';
+import Technology16 from './../molecules/technology/Technology16';
 
 const Technology: React.FC = () => {
   return (
@@ -15,105 +30,92 @@ const Technology: React.FC = () => {
         <div className="flex flex-row mt-8">
           <ChallengeTitle name="Vær" />
           <Challenge
-            name="Varme degraderer solcellepaneler over tid"
+            name="1. Varme degraderer solcellepaneler over tid"
             style="bg-secondary-100"
-            child={<WarmthDegradation />}
+            child={<Technology1 />}
           />
           <Challenge
-            name="Varme degraderer solcellepaneler over tid"
+            name="2. Varme reduserer strømproduksjon"
             style="bg-secondary-100"
-            child={<WarmthDegradation />}
+            child={<Technology2 />}
           />
           <Challenge
-            name="Varme degraderer solcellepaneler over tid"
+            name="3. Bølger reduserer strømproduksjon på grunn av mismatch losses"
             style="bg-secondary-100"
-            child={<WarmthDegradation />}
+            child={<Technology3 />}
           />
           <Challenge
-            name="Varme degraderer solcellepaneler over tid"
+            name="4. Bevegelser degraderer ytelsen til paneler og elektriske komponenter"
             style="bg-secondary-100"
-            child={<WarmthDegradation />}
+            child={<Technology4 />}
           />
           <Challenge
-            name="Varme degraderer solcellepaneler over tid"
+            name="5. Is ødelegger flytende solkraft-installasjoner"
             style="bg-secondary-100"
-            child={<WarmthDegradation />}
+            child={<Technology5 />}
           />
           <Challenge
-            name="Varme degraderer solcellepaneler over tid"
+            name="6. Vind påvirker flytende solkraft-installasjoner"
             style="bg-secondary-100"
-            child={<WarmthDegradation />}
+            child={<Technology6 />}
           />
         </div>
         <div className="flex flex-row mt-8">
-          <ChallengeTitle name="Vær" />
+          <ChallengeTitle name="Installasjon og vedlikehold" />
           <Challenge
-            name="Varme degraderer solcellepaneler over tid"
+            name="7. Installasjon av flytende solkraft er tidkrevende, kostnadsdrivende og kvalitetsreduserende"
             style="bg-secondary-300"
-            child={<WarmthDegradation />}
+            child={<Technology7 />}
           />
           <Challenge
-            name="Varme degraderer solcellepaneler over tid"
+            name="8. Vedlikehold og håndtering av solceller reduserer strømproduksjon"
             style="bg-secondary-300"
-            child={<WarmthDegradation />}
+            child={<Technology8 />}
           />
           <Challenge
-            name="Varme degraderer solcellepaneler over tid"
+            name="9. Performance ratio kan ikke garanteres"
             style="bg-secondary-300"
-            child={<WarmthDegradation />}
+            child={<Technology9 />}
           />
           <Challenge
-            name="Varme degraderer solcellepaneler over tid"
+            name="10. Solcellepaneler spesiallaget for vann, og spesielt saltvann, er dyre"
             style="bg-secondary-300"
-            child={<WarmthDegradation />}
+            child={<Technology10 />}
           />
           <Challenge
-            name="Varme degraderer solcellepaneler over tid"
+            name="11. Flytende solkraft er uegnet for kortere prosjekter"
             style="bg-secondary-300"
-            child={<WarmthDegradation />}
+            child={<Technology11 />}
           />
           <div className="flex-1 mx-4" />
         </div>
         <div className="flex flex-row mt-8">
-          <ChallengeTitle name="Vær" />
+          <ChallengeTitle name="Landskap og miljø" />
           <Challenge
-            name="Varme degraderer solcellepaneler over tid"
+            name="12. Landbasert solkraft nær forbrukersentrum har høy arealkostnad"
             style="bg-secondary-200"
-            child={<WarmthDegradation />}
+            child={<Technology12 />}
           />
           <Challenge
-            name="Varme degraderer solcellepaneler over tid"
+            name="13. Marin begroing skaper store vedlikeholdskostnader"
             style="bg-secondary-200"
-            child={<WarmthDegradation />}
+            child={<Technology13 />}
           />
           <Challenge
-            name="Varme degraderer solcellepaneler over tid"
+            name="14. Strøm i saltvann kan utgjøre en fare for liv og helse"
             style="bg-secondary-200"
-            child={<WarmthDegradation />}
+            child={<Technology14 />}
           />
           <Challenge
-            name="Varme degraderer solcellepaneler over tid"
+            name="15. Strøm i saltvann kan forårsake korrosjon"
             style="bg-secondary-200"
-            child={<WarmthDegradation />}
-          />
-          <div className="flex-1 mx-4" />
-          <div className="flex-1 mx-4" />
-        </div>
-        <div className="flex flex-row mt-8">
-          <ChallengeTitle name="Vær" />
-          <Challenge
-            name="Varme degraderer solcellepaneler over tid"
-            style="bg-secondary-400"
-            child={<WarmthDegradation />}
+            child={<Technology15 />}
           />
           <Challenge
-            name="Varme degraderer solcellepaneler over tid"
-            style="bg-secondary-400"
-            child={<WarmthDegradation />}
+            name="16. Flytende solkraft bruker ikke-bærekraftige materialer"
+            style="bg-secondary-200"
+            child={<Technology16 />}
           />
-          <div className="flex-1 mx-4" />
-          <div className="flex-1 mx-4" />
-          <div className="flex-1 mx-4" />
           <div className="flex-1 mx-4" />
         </div>
       </div>
