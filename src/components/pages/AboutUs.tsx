@@ -5,7 +5,7 @@ import Consultant from './../atoms/Consultant';
 const AboutUs: React.FC = () => {
   return (
     <>
-      <div className="flex flex-col justify-center">
+      <div className="flex flex-col justify-center bg-white">
         <div className="mt-16 ml-16 text-6xl font-body">The Team</div>
         <div className="mx-24 mt-4 text-3xl">
           The core team consist of full-time employees with great experience in various fields. Some
