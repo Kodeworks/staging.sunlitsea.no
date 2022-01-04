@@ -5,30 +5,30 @@ const WhyInvest: React.FC = () => {
   return (
     <>
       <div className="flex flex-col justify-around px-32 mt-24">
-        <div className="text-5xl font-body">Hvorfor investere i Sunlit Sea</div>
+        <div className="text-5xl font-body">Why invest in Sunlit Sea?</div>
         <div className="flex flex-row mt-8">
-          <WhyInvestTile name="Svært god historikk på verdistigning fra 2019 til nå" number="1" />
+          <WhyInvestTile name="Very good history of gained value from 2019 to now" number="1" />
           <WhyInvestTile
-            name="Deep-tech; men den største teknologirisikoen er allerede overkommet"
+            name="Deep-tech; where the biggest technology risk has already been overcome"
             number="2"
           />
           <WhyInvestTile
-            name="Enormt marked estimert til ytterligere 10 GWp installert kapasitet innen 2025"
+            name="Huge market estimated at an additional 10 GWp of installed capacity by 2025"
             number="3"
           />
           <WhyInvestTile
-            name="Pilotkunder etablert i Norge. Sterk interesse fra utland"
+            name="Pilot customers established in Norway. Strong interest internationally"
             number="4"
           />
         </div>
         <div className="flex flex-row mt-8">
-          <WhyInvestTile name="Faglig kompetent og stabilt partnernettverk" number="5" />
+          <WhyInvestTile name="Professionally competent and stable partner network" number="5" />
           <WhyInvestTile
-            name="Strategiske investorer på aksjonærlisten og i styret. Sterkt tverrfaglig team med spisskompetanse innen sine teknologier"
+            name="Strategic investors on the shareholder list and on the board. Strong interdisciplinary team with cutting-edge expertise in their technologies"
             number="6"
           />
           <WhyInvestTile
-            name="Teknologien gir markedets laveste pris på near-shore flytende solkraft, både på kapitalkostnad (CAPEX), operasjonskostnad (OPEX) og levelized-cost-of-electricity (LCOE)"
+            name="The technology offers the market's lowest price for near-shore solar power, both in terms of capital cost (CAPEX), operating cost (OPEX) and levelized-cost-of-electricity (LCOE)"
             number="7"
           />
         </div>

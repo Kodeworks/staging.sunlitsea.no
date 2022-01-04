@@ -7,14 +7,15 @@ const Quoter: React.FC = () => {
   return (
     <>
       <div className="flex flex-col">
-        <div className="text-5xl font-body">Get a quote for your floating solar installation</div>
+        <div className="text-5xl font-body">
+          Get an estimate for your floating solar installation
+        </div>
         <div className="mt-4 text-2xl">
-          If you are curious to find out if our floating solar installations can be of value to you:
-          check out the beta version of our{' '}
+          How can our system be of value to you: Check out our{' '}
           <a href="https://quote.sunlitsea.no" className="underline text-support-dark">
             Smart Quoter
-          </a>
-          . Fill out the desired location below to start.
+          </a>{' '}
+          (beta version). Select your location to get started.
         </div>
         <div className="mt-8 ml-8 text-2xl">Location</div>
         <div className="flex flex-row">

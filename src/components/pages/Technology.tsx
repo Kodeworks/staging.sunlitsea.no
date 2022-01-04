@@ -28,91 +28,91 @@ const Technology: React.FC = () => {
           Click on them to see how we solve them.
         </div>
         <div className="flex flex-row mt-8">
-          <ChallengeTitle name="Vær" />
+          <ChallengeTitle name="Weather" />
           <Challenge
-            name="1. Varme degraderer solcellepaneler over tid"
+            name="1. Heat degrades solar panels over time"
             style="bg-secondary-100"
             child={<Technology1 />}
           />
           <Challenge
-            name="2. Varme reduserer strømproduksjon"
+            name="2. Heat reduces power production"
             style="bg-secondary-100"
             child={<Technology2 />}
           />
           <Challenge
-            name="3. Bølger reduserer strømproduksjon på grunn av mismatch losses"
+            name="3. Waves reduce power output"
             style="bg-secondary-100"
             child={<Technology3 />}
           />
           <Challenge
-            name="4. Bevegelser degraderer ytelsen til paneler og elektriske komponenter"
+            name="4. Movements degrade performance of solar panels"
             style="bg-secondary-100"
             child={<Technology4 />}
           />
           <Challenge
-            name="5. Is ødelegger flytende solkraft-installasjoner"
+            name="5. Ice offers risk to installations"
             style="bg-secondary-100"
             child={<Technology5 />}
           />
           <Challenge
-            name="6. Vind påvirker flytende solkraft-installasjoner"
+            name="6. Floating structures exposed to wind"
             style="bg-secondary-100"
             child={<Technology6 />}
           />
         </div>
         <div className="flex flex-row mt-8">
-          <ChallengeTitle name="Installasjon og vedlikehold" />
+          <ChallengeTitle name="Installation and maintenance" />
           <Challenge
-            name="7. Installasjon av flytende solkraft er tidkrevende, kostnadsdrivende og kvalitetsreduserende"
+            name="7. Time consuming installation processes"
             style="bg-secondary-300"
             child={<Technology7 />}
           />
           <Challenge
-            name="8. Vedlikehold og håndtering av solceller reduserer strømproduksjon"
+            name="8. Downtime during maintenance and handling"
             style="bg-secondary-300"
             child={<Technology8 />}
           />
           <Challenge
-            name="9. Performance ratio kan ikke garanteres"
+            name="9. Difficulties guaranteeing performance ratio"
             style="bg-secondary-300"
             child={<Technology9 />}
           />
           <Challenge
-            name="10. Solcellepaneler spesiallaget for vann, og spesielt saltvann, er dyre"
+            name="10. Expensive marine technology"
             style="bg-secondary-300"
             child={<Technology10 />}
           />
           <Challenge
-            name="11. Flytende solkraft er uegnet for kortere prosjekter"
+            name="11. Challenges linked to short project lifespan"
             style="bg-secondary-300"
             child={<Technology11 />}
           />
           <div className="flex-1 mx-4" />
         </div>
         <div className="flex flex-row mt-8">
-          <ChallengeTitle name="Landskap og miljø" />
+          <ChallengeTitle name="Landscape and environment" />
           <Challenge
-            name="12. Landbasert solkraft nær forbrukersentrum har høy arealkostnad"
+            name="12. Centralized land-based solar is expensive"
             style="bg-secondary-200"
             child={<Technology12 />}
           />
           <Challenge
-            name="13. Marin begroing skaper store vedlikeholdskostnader"
+            name="13. Marine overgrowth impose large costs"
             style="bg-secondary-200"
             child={<Technology13 />}
           />
           <Challenge
-            name="14. Strøm i saltvann kan utgjøre en fare for liv og helse"
+            name="14. Power leaks pose a threat to life and health"
             style="bg-secondary-200"
             child={<Technology14 />}
           />
           <Challenge
-            name="15. Strøm i saltvann kan forårsake korrosjon"
+            name="15. Electricity in salt water can cause corrosion"
             style="bg-secondary-200"
             child={<Technology15 />}
           />
           <Challenge
-            name="16. Flytende solkraft bruker ikke-bærekraftige materialer"
+            name="16. Floating solar apply unsustainable materials"
             style="bg-secondary-200"
             child={<Technology16 />}
           />

@@ -50,7 +50,7 @@ const Footer: React.FC = () => {
           </div>
         </div>
         <div className="mb-1 wh1:mb-4">
-          <span>Copyright SunlitSea AS 2021</span>
+          <span>Copyright SunlitSea AS 2022</span>
         </div>
       </footer>
     </div>

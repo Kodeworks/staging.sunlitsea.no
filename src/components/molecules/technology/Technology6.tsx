@@ -5,16 +5,16 @@ const Technology6: React.FC = () => {
     <>
       <div className="flex flex-row pb-8">
         <div className="flex flex-col w-7/12 px-12">
-          <div className="text-3xl font-body">6. Flytende solkraftanlegg er utsatt for vind</div>
+          <div className="text-3xl font-body">6. Floating structures exposed to wind</div>
           <div className="mt-4 text-xl">
-            Flere nylige ulykker koblet til vind demonstrerer nødvendigheten av gode aerodynamiske
-            egenskaper til flytende solkraftverk.
+            Several recent accidents connected to wind demonstrate the need for excellent
+            aerodynamic properties for floating solar power plants.
           </div>
-          <div className="mt-8 text-2xl font-body">Vår løsning</div>
+          <div className="mt-8 text-2xl font-body">Our solution</div>
           <div className="mt-4 text-xl">
-            Sunlit Sea sin løsning har svært lavt vindfang, liten dypgang og spalter mellom
-            flottører som betraktelig reduserer overtrykk under matrisen. Effekten er et kraftverk
-            som kan operere i mye sterkere vind enn dagens løsninger.
+            Sunlit Sea{"'"}s solution has very low wind deflection, small draft and gaps between
+            floats that significantly reduce overpressure under the matrix. The effect is a power
+            plant that can operate in much stronger winds than current solutions.
           </div>
         </div>
         <div className="flex flex-col w-5/12">
@@ -23,7 +23,9 @@ const Technology6: React.FC = () => {
             src={'/img/technology/technology_6_1.jpg'}
             alt="technology_6_1"
           />
-          <div className="text-xl text-right">Kyocera TCL Solar-ulykken i Yamakura Dam i 2019</div>
+          <div className="text-xl text-right">
+            Kyocera TCL Solar accident in Yamakura Dam in 2019
+          </div>
           <img
             className="object-contain mt-4"
             src={'/img/technology/technology_6_2.jpg'}

@@ -5,21 +5,21 @@ const Technology9: React.FC = () => {
     <>
       <div className="flex flex-row pb-8">
         <div className="flex flex-col w-1/2 px-12">
-          <div className="text-3xl font-body">9. Performance ratio kan ikke garanteres.</div>
+          <div className="text-3xl font-body">9. Difficulties guaranteeing performance ratio</div>
           <div className="mt-4 text-xl">
-            Performance ratio er forholdet mellom produsert elektrisitet og teoretisk mulig
-            produksjon, normalisert i forhold til blant annet solinnstråling i programvare som
-            PVsyst. Dette brukes som kontraktsunderlag. For flytende solkraft er ikke
-            produksjonsestimeringen standardisert. Vanlige modeller tar ikke høyde for bølger,
-            degrading i maritimt miljø, effekt av kjøling fra vann, etc.
+            Performance ratio is the ratio between produced electricity and theoretically possible
+            production, normalized in relation to, among other things, solar radiation in software
+            such as PVsyst. This is used as a contract basis. For floating solar power, production
+            estimation is not standardized. Ordinary models do not take into account waves,
+            degradation in the maritime environment, the effect of cooling from water, etc.
           </div>
-          <div className="mt-8 text-2xl font-body">Vår løsning</div>
+          <div className="mt-8 text-2xl font-body">Our solution</div>
           <div className="mt-4 text-xl">
-            Sunlit Sea bruker sin kompetanse innen metocean, elkraft, elektronikk, solkraft og
-            programmering til å utvikle et konsept for marine grade performance ratio som presist
-            kan predikere produksjon under gitte forutsetninger. Dette gir grunnlag for garantier
-            ovenfor interessenter på at anlegget vil levere i henhold til forventning, noe som
-            reduserer økonomisk risiko betraktelig.
+            Sunlit Sea uses its expertise in metocean, electric power, electronics, solar power and
+            programming to develop a concept for marine grade performance ratio that can precisely
+            predict production under given conditions. This provides a basis for guarantees to
+            stakeholders that the plant will deliver as expected, which significantly reduces
+            financial risk
           </div>
         </div>
         <div className="flex flex-col w-1/2">

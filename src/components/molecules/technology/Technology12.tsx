@@ -5,33 +5,31 @@ const Technology12: React.FC = () => {
     <>
       <div className="flex flex-row pb-8">
         <div className="flex flex-col w-7/12 px-12">
-          <div className="text-3xl font-body">
-            12. Landbasert solkraft nær forbrukersentrum har høy arealkostnad
-          </div>
+          <div className="text-3xl font-body">12. Centralized land-based solar is expensive</div>
           <div className="mt-4 text-xl">
-            Nær forbrukersentrum er det i hovedsak to markeder for flytende solkraft:
+            Near the consumer center, there are mainly two markets for floating solar power:
           </div>
           <ul className="mt-4 text-xl">
-            Stille vann
-            <li className="ml-6 list-disc">Vann med variabel vannstand</li>
-            <li className="ml-6 list-disc">Vann som delvis tørker ut</li>
-            <li className="ml-6 list-disc">Vann med konstant vannstand</li>
+            Still water:
+            <li className="ml-6 list-disc">Water with variable water level</li>
+            <li className="ml-6 list-disc">Water that partially is dried out</li>
+            <li className="ml-6 list-disc">Water with constant water level</li>
           </ul>
           <ul className="mt-4 text-xl">
-            Bølgete vann
+            Wavy water
             <li className="ml-6 list-disc">Salt</li>
-            <li className="ml-6 list-disc">Ferskt</li>
+            <li className="ml-6 list-disc">Fresh</li>
             <li className="ml-6 list-disc">
-              I tillegg finnes det et marked for offshore, men det er utenfor vårt scope
+              In addition, there is a market for offshore, but it is outside our scope
             </li>
           </ul>
-          <div className="mt-8 text-2xl font-body">Vår løsning</div>
+          <div className="mt-8 text-2xl font-body">Our solution</div>
           <div className="mt-4 text-xl">
-            Sunlit Seas løsning er robust med gode hydrodynamiske og aerodynamiske egenskaper, som
-            gjør at den fungerer fint på både stille og bølgete vann med lav bølgehøyde. Ytelsen per
-            areal er svært høy og profilen er lav. Anodiseringen gir en mørk farge som gjør at
-            flottøren blir lite synlig i vannet. Samlet sett er løsningen egnet til god
-            arkitektonisk integrasjon med bymiljøet.
+            Sunlit Sea{"'"}s solution is robust with good hydrodynamic and aerodynamic properties,
+            which means that it works well on both still and undulating water with low wave height.
+            The performance per square foot is very high and the profile is low. The anodizing gives
+            a dark color which makes the float less visible in the water. Overall, the solution is
+            suitable for good architectural integration with the urban environment.
           </div>
         </div>
         <div className="flex flex-col w-5/12">

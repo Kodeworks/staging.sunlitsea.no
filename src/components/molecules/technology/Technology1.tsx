@@ -5,21 +5,22 @@ const Technology1: React.FC = () => {
     <>
       <div className="flex flex-row pb-8">
         <div className="flex flex-col w-7/12 px-12">
-          <div className="text-3xl font-body">1. Varme degraderer solcellepaneler over tid</div>
+          <div className="text-3xl font-body">1. Heat degrades solar panels over time</div>
           <div className="mt-4 text-xl">
-            Høye temperaturer innvirker på diffusjon, som promoterer hotspots, ingress av
-            kontaminerende elementer og vanninngress. Hotspots er typisk artefakter fra produksjonen
-            eller materialfeil som skaper små områder i panelet som reduserer strømproduksjonen.
-            Temperatursvigninger over tid bidrar også til slitasje på elektriske koblinger inne i
-            solcellepanelet. På grunn av måten celler i solcellepaneler er koblet sammen i serie
-            blir effekten ytterligere forsterket.
+            High temperatures affect diffusion, which promotes hotspots, ingress of contaminating
+            elements and water ingress. Hotspots are typically artifacts from production or material
+            defects that create small areas in the panel that reduce power production. Temperature
+            fluctuations over time also contribute to wear on electrical connections inside the
+            solar panel. Due to the way cells in solar panels are connected in series, the effect is
+            further enhanced.
           </div>
-          <div className="mt-8 text-2xl font-body">Vår løsning</div>
+          <div className="mt-8 text-2xl font-body">Our solution</div>
           <div className="mt-4 text-xl">
-            Våre paneler opererer på en temperatur nært vanntemperaturen. Årsaken er den termiske
-            konduktiviteten til aluminium kombinert med optimal kontaktflate fra panel via aluminium
-            ned i vann. Simuleringer i PVsyst viser at effekten kan utgjøre opp til 20% differanse i
-            strømproduksjon over 25 år, mest signifikant de siste årene av en installasjons levetid.
+            Our panels operate at a temperature close to the water temperature. The reason is the
+            thermal conductivity of aluminum combined with optimal contact surface from panel via
+            aluminum into water. Simulations in PVsyst (analytics tool) show that the effect can be
+            up to 20% difference in power production over 25 years, most significantly in the last
+            years of an installation{"'"}s lifetime.
           </div>
         </div>
         <div className="flex flex-col w-5/12">
@@ -28,7 +29,7 @@ const Technology1: React.FC = () => {
             src={'/img/technology/technology_1.jpg'}
             alt="technology_1"
           />
-          <div className="px-32 text-xl text-right">Hotspots på solcellepanel</div>
+          <div className="px-32 text-xl text-right">Hotspots on a solar panel</div>
         </div>
       </div>
     </>

@@ -5,22 +5,19 @@ const Technology3: React.FC = () => {
     <>
       <div className="flex flex-row pb-8">
         <div className="flex flex-col w-7/12 px-12">
-          <div className="text-3xl font-body">
-            3. Bølger reduserer strømproduksjon på grunn av mismatch losses
-          </div>
+          <div className="text-3xl font-body">3. Waves reduce power output</div>
           <div className="mt-4 text-xl">
-            Seriekoblede flottører med solcellepaneler som beveger seg individuelt på bølgete vann
-            vil skape såkalte mismatch losses. Det vil si at den til enhver tid dårligste vinkelen
-            mot sola vil være dominerende for hvor mye elektrisitet som produseres. For landbasert
-            solkraft unngås dette delvis ved å montere alle seriekoblede solcellepaneler i samme
-            vinkel, og i noen tilfeller ved å installere en såkalt modulnivå maximum power-point
-            tracking.
+            Interconnected floats with solar panels that move individually on wavy water will create
+            so-called mismatch losses. This means that the worst angle to the sun at any given time
+            will be dominant for how much electricity is produced. For land-based solar power, this
+            is partly avoided by mounting all interconnected solar panels at the same angle, and in
+            some cases by installing a so-called module level maximum power-point tracking.
           </div>
-          <div className="mt-8 text-2xl font-body">Vår løsning</div>
+          <div className="mt-8 text-2xl font-body">Our solution</div>
           <div className="mt-4 text-xl">
-            Sunlit Sea utvikler en løsning som håndterer mismatch losses på modulnivå på en svært
-            kostnadseffektiv måte. Dette er mulig å få til fordi all kraftelektronikk og sensorikk
-            for våre paneler utvikles in-house.
+            Sunlit Sea is developing a solution that handles mismatch losses at the module level in
+            a very cost-effective way. This is possible because all power electronics and sensors
+            for our panels are developed in-house.
           </div>
         </div>
         <div className="flex flex-col w-5/12">
@@ -29,8 +26,8 @@ const Technology3: React.FC = () => {
             src={'/img/technology/technology_3.jpg'}
             alt="technology_3"
           />
-          <div className="px-32 text-xl text-center">
-            Sanntids tolkning av sjøtilstand og flottørmodell gir svært god presisjon.
+          <div className="px-24 text-xl text-center">
+            Real time analysis of the sea state and float model results in quite good precision.
           </div>
         </div>
       </div>

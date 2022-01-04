@@ -10,9 +10,13 @@ const Product: React.FC = () => {
           <div className="flex flex-col">
             <div className="text-6xl font-body">Floating Solar Panels</div>
             <div className="mt-8 ml-8 text-2xl">
-              Sunlit Sea delivers floating solar panel installations. Leverer beskrivelse av laster.
-              Kommer med en garanti at vi overskrider ikke lastene. MGPR garanti. Foreslår
-              mooringssystem.
+              Sunlit Sea delivers prefabricated floating solar panel installations. This saves time,
+              reduces multiple sources of risk and the amount of personnel needed to assemble the
+              modules on site. The floats are delivered as strings, perfectly designed to fit a
+              shipping container, which offers effortless handling and quick deployment. The system
+              has a built-in wave analysis tool called the Marine Grade Performance Ratio (MGPR) and
+              presents an enlarged ability to calculate loss in power production due to wave induced
+              mismatch losses.
             </div>
           </div>
           <img src={'/img/product/panels.png'} className="w-1/2 px-8" alt="Floating solar panels" />
@@ -27,8 +31,10 @@ const Product: React.FC = () => {
             <div className="text-5xl font-body">From manufacturing to deployment</div>
             <div className="mt-8 ml-8 text-2xl">
               Our quick manufacturing and deployment process is what makes Sunlit Sea stand out. By
-              preassembling the floats they can easily be transported and deployed on water. This
-              leads to easy logistics and low capital binding.
+              pre-assembling the floats they can easily be transported and deployed on water. This
+              leads to easy logistics and low capital binding. Our industry specialists possess up
+              to date expertise of the marine environment, and will consult customers on issues
+              regarding mooring, location and installment.
             </div>
           </div>
         </section>
@@ -67,8 +73,11 @@ const Product: React.FC = () => {
             <div className="flex flex-col w-1/2 mt-8">
               <div className="ml-4 text-5xl font-body">Application areas</div>
               <div className="mt-4 ml-16 text-2xl">
-                Thanks to extended longevity and rapid decomissioning, our installations are
-                applicable for a wide variety of use cases.
+                Thanks to extended longevity and rapid decommissioning our installations are
+                applicable for a wide variety of operations, such as dredging, commercial harbors or
+                even as a supplement to other energy producing facilities, such as dams. The system
+                may feed power into municipal or regional grids for city integrated solar or energy
+                intensive industries like data storage centres.
               </div>
             </div>
           </div>

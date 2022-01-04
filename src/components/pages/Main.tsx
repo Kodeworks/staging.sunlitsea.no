@@ -13,51 +13,43 @@ const Main: React.FC = () => {
       </div>
       <div className="w-full pb-8 whiteSecondaryGradient">
         <div className="w-1/2 pt-8 mx-auto text-2xl text-center font-arial">
-          SunlitSea was founded in March 2019 by Per Lindberg and Kodeworks AS as a technology
-          provider to the floating solar industry. With a new and rapidly growing market, Sunlit Sea
-          aims to address the potential of optimizing cost, longevity, power production, operation
-          and maintenance, degradation, safety and decommissioning. With an exceptional great team
-          and support from our partners we are fit for this job and ready to revolutionize ocean
-          based floating solar.
+          Sunlit Sea is a technology provider to the floating solar industry and was founded by Per
+          Lindberg and Kodeworks AS in 2019. With a new and rapidly growing market Sunlit Sea aims
+          to address the potential of optimizing cost, longevity, power production, operation and
+          maintenance, degradation, safety and decommissioning. With an exceptionally great team and
+          support from our partners we are fit for this job and ready to revolutionize ocean based
+          floating solar.
         </div>
         <div className="flex flex-row mx-16 mt-16 justify-evenly">
           <MainMenuItem
-            title="About Us"
+            title="About"
             image="about_us"
-            description="Learn more about the company, the team, and our mission."
+            description="Learn about our company, the team and our mission"
           />
-          <MainMenuItem
-            title="Product"
-            image="product"
-            description="Take a look at our products and effortlessly calculate a quote."
-          />
+          <MainMenuItem title="Product" image="product" description="Our system explained" />
           <MainMenuItem
             title="Technology"
             image="technology"
-            description="Explore our innovations in the floating solar industry."
+            description="Explore our innovations in the industry of floating solar"
           />
           <MainMenuItem
             title="Roadmap"
             image="roadmap"
-            description="See our list of upcoming milestones."
+            description="Upcoming company milestones and accomplishments"
           />
         </div>
         <div className="flex flex-row mx-16 mt-16 justify-evenly">
           <MainMenuItem
             title="Careers"
             image="careers"
-            description="Find out what employment opportunities we can offer you."
+            description="Sunlit Sea employment opportunities; join our journey"
           />
           <MainMenuItem
             title="Investors"
             image="investors"
-            description="Find out how Sunlit Sea compares against the market."
+            description="Find out how Sunlit Sea compares against the market"
           />
-          <MainMenuItem
-            title="Contact"
-            image="contact"
-            description="Get in touch with us if you are still wondering about anything."
-          />
+          <MainMenuItem title="Contact" image="contact" description="Get in touch" />
         </div>
       </div>
     </>

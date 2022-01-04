@@ -5,17 +5,17 @@ const Technology2: React.FC = () => {
     <>
       <div className="flex flex-row pb-8">
         <div className="flex flex-col w-7/12 px-12">
-          <div className="text-3xl font-body">2. Varme reduserer strømproduksjon</div>
+          <div className="text-3xl font-body">2. Heat reduces power production</div>
           <div className="mt-4 text-xl">
-            Effektiviteten til solcellepaneler synker med økende temperatur, og på land har
-            solcelleanlegg en begrenset evne til kjøling.
+            The efficiency of solar panels decreases with increasing temperature, and therefore land
+            based solar systems will have a limited ability to cool.
           </div>
-          <div className="mt-8 text-2xl font-body">Vår løsning</div>
+          <div className="mt-8 text-2xl font-body">Our solution</div>
           <div className="mt-4 text-xl">
-            Våre paneler opererer på en temperatur nært vanntemperaturen. Årsaken er den termiske
-            konduktiviteten til aluminium kombinert med optimal kontaktflate fra panel via aluminium
-            ned i vann. Denne effekten vil tallfestes gjennom en studie i regi av Institutt for
-            Energiteknikk.
+            Our panels operate at a temperature close to the water temperature. The reason is the
+            thermal conductivity of aluminum combined with optimal contact surface from the panel -
+            via aluminum - into water. This effect will be further quantified through a study under
+            the auspices of the Institute for Energy Technology.
           </div>
         </div>
         <div className="flex flex-col w-5/12">

@@ -8,22 +8,24 @@ const AboutUs: React.FC = () => {
       <div className="flex flex-col justify-center bg-white">
         <div className="mt-16 ml-16 text-6xl font-body">The Team</div>
         <div className="mx-24 mt-4 text-3xl">
-          The core team consist of full-time employees with great experience in various fields. Some
-          pitch/description of team dynamics, competencies etc. Maybe some info about the company in
-          general around here.
+          Our core team consists of full-time employees with great experience with business
+          development, photovoltaics, industrial fabrication, software and hardware processes,
+          hydrodynamics, material physics, engineering among others. Combined our team possesses the
+          full spectrum needed to succeed with floating solar industrialization and implementation.
         </div>
         <div className="flex flex-row justify-between px-32 mt-8 ">
           <Employee
             name="PER LINDBERG"
             image="per"
             role="FOUNDER / CEO"
-            description="With more than 10 years of experience with solar energy, Per has acquired both a deep understanding and a holistic perspective in this field."
+            description="With more than 10 years of experience within the solar industry, Per has acquired a deep understanding and a holistic perspective of the entire solar electricity value chain. 
+            He is a former Phd research fellow at the University of Oslo / Semiconductor Physics Group, holds a masters degree in materials physics and many years experience within business development and consultancy."
           />
           <Employee
             name="EIRIK LARSEN"
             image="eirik"
             role="FOUNDER / CDO / CFO"
-            description="Eirik leads IT software and hardware projects in Sunlit Sea. He has 16 years of experience as a software developer and he is the CEO of the Kodeworks company."
+            description="Eirik Larsen is the founder, CEO and major shareholder of industrial IT consultancy Kodeworks of Norway. He leads IT software and hardware projects at Sunlit Sea;  monitoring and analysis of sensor data - in addition to sales, investor relations and business development. Eirik has a leadership background from the Norwegian Armed Forces and a proven track record with business management and product development for a variety of national and international brands/institutions."
           />
         </div>
         <div className="flex flex-row justify-between px-32 mt-16 ">
@@ -31,31 +33,19 @@ const AboutUs: React.FC = () => {
             name="BJØRN HERVOLD RIISE"
             image="bjorn"
             role="CTO"
-            list={[
-              'PhD University of Oslo',
-              'Hydrodynamics expert with experience from DNV',
-              'Project manager',
-              'Product development',
-            ]}
+            description="Bjørn is a Hydrodynamics and metocean specialist with a background from DNV, with extensive experience as a project manager and product developer. He obtained his PhD at University of Oslo in Marine Hydrodynamics and has solid experience as a diver in the Norwegian Armed Forces."
           />
           <Employee
             name="Guillaume Kegelart"
             image="guillaume"
             role="CHIEF OF INDUSTRIALIZATION"
-            list={[
-              'MSc mechanical engineering Arts & Metiers ParisTech',
-              'Founder of SportTech, product development',
-              'Experience with planning and implementation of production lines',
-              "Responsible for development of Sunlit Sea's production lines",
-            ]}
+            description="Guillaume is an accomplished mechanical/industrial engineer with a Masters degree from ParisTech. He is co-founder of SportTech and possesses broad knowledge about product establishment, hardware design and supply management. Guillaume is managing the development of Sunlit Sea's production lines."
           />
         </div>
 
         <div className="mt-16 ml-16 text-5xl font-body">Consultants</div>
         <div className="mx-24 mt-4 text-3xl">
-          Sunlit Sea hires multiple consultants to work on specialized tasks. Some more description
-          here. Include Karim, Thomas, production line workers? (Maybe unnecessary to split into
-          team and consultants sections / some better section division?)
+          Sunlit Sea also hires consultants to work on specialized tasks in multiple fields.
         </div>
 
         <div className="flex flex-row justify-between px-16 mt-16">
@@ -73,23 +63,20 @@ const AboutUs: React.FC = () => {
         <div className="mt-16 ml-16 text-5xl font-body">Network</div>
         <div className="flex flex-row justify-between px-16 mt-4 mb-16">
           <div className="flex flex-col mx-24 text-3xl">
-            <div className="underline">
-              Decide whether to just translate this or put something else here
+            <div className="mt-4">
+              Being a startup is a true challenge. For many it would not be possible to exist
+              without support and endorsement. Sunlit Sea has been able to further develop due to
+              financial programs and incentive schemes provided by Innovation Norway and The
+              Research Council of Norway. This has helped form the foundation of what could become a
+              new industrial fairy tale.
             </div>
             <div className="mt-4">
-              Uten støtte fra Innovasjon Norge og Forskningsrådet hadde ikke Sunlit Sea eksistert i
-              dag. Både finansiell støtte og insentivordninger som har ført oss i kontakt med
-              partnere, legger til rette for å skape det som skal bli et nytt norsk industrieventyr.
-            </div>
-            <div className="mt-4">
-              Alle våre partnere har bidratt enten som del av kjerneteamet, eller i kritiske faser
-              av produktutviklingen med spisskompetanse, eller med støtte og markedsføring av vår
-              teknologi.
-            </div>
-            <div className="mt-4">
-              Sunlit Sea vil fortsette å bygge allianser og partnernettverk i tiden framover. Norge
-              har en enorm erfaring og kompetanse å dra på både innen offshore og nå i nyere tid
-              solkraft. Sammen med våre partnere skal vi vise at Norge er verdens energinasjon!
+              All our partners have contributed either as part of the core team, or in critical
+              phases of product development with cutting-edge expertise, support and marketing of
+              our technology. Sunlit Sea will continue to build alliances and partner networks in
+              the future. Norway has enormous experience and expertise to draw on both from offshore
+              and solar power. Together with our partners we will show that Norway is the world{"'"}
+              s leading energy nation!
             </div>
           </div>
           <img className="object-contain w-1/2 px-16" src={'/img/partners.jpg'} alt="partners" />
