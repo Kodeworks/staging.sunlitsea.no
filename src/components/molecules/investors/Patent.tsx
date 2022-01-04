@@ -9,24 +9,25 @@ const Patent: React.FC = () => {
           <div className="flex flex-col pr-8">
             <ul>
               <li className="mt-8 ml-8 list-disc">
-                Sunlit Sea innehar to patentsøknader i UK datert 23.12.2019.
+                Sunlit Sea holds two patent applications in the UK dated 23.12.2019.
               </li>
               <li className="mt-4 ml-8 list-disc">
-                Patentsøknadene ble utvidet til internasjonale PCT søknader 22.12.2020.
+                The patent applications were extended to international PCT applications on
+                22.12.2020.
               </li>
-              <li className="mt-4 ml-8 list-disc">Begge søknadene er nå på IPE-stadiet.</li>
+              <li className="mt-4 ml-8 list-disc">Both applications are now at the IPE stage.</li>
               <li className="mt-4 ml-8 list-disc">
-                Patentene angår karakteristikker vedrørende selve flottøren, og måten flottører
-                sammenkobles.
-              </li>
-              <li className="mt-4 ml-8 list-disc">
-                Sunlit Sea har gjort grundige prior art undersøkelser, og verifisert at ingen kjente
-                eksisterende patenter eller patentsøknader krenkes.
+                The patents concern characteristics concerning the float itself, and the way floats
+                are connected.
               </li>
               <li className="mt-4 ml-8 list-disc">
-                I alt arbeid hvor underleverandører er involvert sikres Sunlit Seas IP rettigheter,
-                slik at vi unngår situasjoner hvor en tredjepart er medoppfinner i eventuelle
-                kommende patenter.
+                Sunlit Sea has conducted thorough prior art investigations, and verified that no
+                known existing patents or patent applications are infringed.
+              </li>
+              <li className="mt-4 ml-8 list-disc">
+                In all work where subcontractors are involved, Sunlit Seas{"'"} IP rights are
+                secured, so that we avoid situations where a third party is a co-inventor in any
+                future patents.
               </li>
             </ul>
           </div>

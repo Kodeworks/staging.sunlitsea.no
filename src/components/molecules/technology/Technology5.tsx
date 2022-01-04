@@ -5,17 +5,17 @@ const Technology5: React.FC = () => {
     <>
       <div className="flex flex-row pb-8">
         <div className="flex flex-col w-1/2 px-12">
-          <div className="text-3xl font-body">5. Is ødelegger flytende solkraft-installasjoner</div>
+          <div className="text-3xl font-body">5. Ice offers risk to installations</div>
           <div className="mt-4 text-xl">
-            Under veldig kalde forhold må et flytende solkraftverk håndtere frostspreng, krakelering
-            av skjøre materialer, variable laster på forankring og ekstra belastning på
-            koblingspunkter mellom flottører.
+            In very cold conditions a floating solar power plant must handle frost blasting,
+            cracking fragile materials, variable loads on anchorages and extra load on connection
+            points between floats.
           </div>
-          <div className="mt-8 text-2xl font-body">Vår løsning</div>
+          <div className="mt-8 text-2xl font-body">Our solution</div>
           <div className="mt-4 text-xl">
-            Sunlit Seas solcelleflottører er laget av robuste materialer, hvor effekten av
-            frostspreng er minimert. Koblingspunktene mellom flottørene og mot forankringen tåler
-            kreftene fra is.
+            Sunlit Sea{"'"}s solar cell floats are made of robust materials, where the effect of
+            frostbite is minimized. The connection points between the floats and towards the
+            anchorage can withstand the forces of ice and sub-zero-temperatures.
           </div>
         </div>
         <div className="flex flex-col w-1/2">

@@ -4,24 +4,25 @@ import BoardMember from '../../atoms/BoardMember';
 const Governance: React.FC = () => {
   return (
     <>
-      <div className="flex flex-row justify-around px-16 mt-24">
+      <div className="flex flex-row justify-around px-16 pb-8 mt-24">
         <div className="flex flex-col w-5/12">
           <div className="text-5xl font-body">Corporate Governance</div>
           <ul className="mt-4 ml-8 text-3xl leading-normal list-disc ">
-            <li>Faglig dyktig og arbeidende styre</li>
+            <li>Professionally skilled and working board</li>
             <ul className="ml-8 list-disc">
-              <li>Per Lindberg - styreleder</li>
-              <li>Eirik Larsen - styremedlem</li>
-              <li>Kim André Johnsen - styremedlem</li>
+              <li>Per Lindberg - Chairman of the Board</li>
+              <li>Eirik Larsen - board member</li>
+              <li>Kim André Johnsen - board member</li>
             </ul>
-            <li>Kjernekompetanse forpliktet og insentivert til å forbli i selskapet</li>
+            <li>Core competence committed and incentivized to remain in the company</li>
             <li>
-              Sterke rettigheter for <i>alle</i> aksjonærer
+              Strong rights for <i>all</i> shareholders
             </li>
-            <li>Åpenhet og delingskultur også ovenfor investorer</li>
-            <li>Marginal utvanning av eksisterende aksjonærer planlagt (20% i 2022)</li>
+            <li>Openness and a culture of sharing also towards investors</li>
+            <li>Marginal dilution of existing shareholders planned (20% in 2022)</li>
             <li>
-              Corporate governance regulert av en solid aksjonæravtale og den norske aksjeloven.
+              Corporate governance regulated by a solid shareholder agreement and the Norwegian
+              Companies Act.
             </li>
           </ul>
         </div>

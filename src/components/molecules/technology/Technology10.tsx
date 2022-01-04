@@ -5,21 +5,19 @@ const Technology10: React.FC = () => {
     <>
       <div className="flex flex-row pb-8">
         <div className="flex flex-col w-7/12 px-12">
-          <div className="text-3xl font-body">
-            10. Solcellepaneler spesiallaget for vann, spesielt saltvann, er dyre
-          </div>
+          <div className="text-3xl font-body">10. Expensive marine technology</div>
           <div className="mt-4 text-xl">
-            Solcellepaneler adaptert til maritimt bruk er dyrere enn solcellepaneler til bruk på
-            land, fordi de må spesiallages og testes grundig. Dette gjør at endringer i produktet,
-            som for eksempel å gå over til andre typer solceller, tar lang tid å kommersialisere til
-            et nivå hvor prisen er akseptabel i mainstream-markedet.
+            Solar panels adapted for maritime use are more expensive than solar panels for use on
+            land, because they must be specially made and thoroughly tested. This means that changes
+            in the product, such as switching to other types of solar cells, take a long time to
+            commercialize to a level where the price is acceptable in the mainstream market.
           </div>
-          <div className="mt-8 text-2xl font-body">Vår løsning</div>
+          <div className="mt-8 text-2xl font-body">Our solution</div>
           <div className="mt-4 text-xl">
-            Sunlit Sea bruker standard produksjonslinjer for solcellepaneler, men produserer på
-            spesifikasjon. Det betyr at vi kan oppnå nært opp mot de samme prisene for etablert
-            teknologi, samtidig som vi kan inkorporere ny teknologi som shingle-wafers eller
-            perovskite på en priseffektiv måte tidligere enn våre konkurrenter.
+            Sunlit Sea uses standard production lines for solar panels, but produces to
+            specification. This means that we can achieve close to the same prices for established
+            technology, while at the same time incorporate new technology such as shingled wafers or
+            perovskite in a cost-effective way earlier than our competitors.
           </div>
         </div>
         <div className="flex flex-col w-5/12">
@@ -40,7 +38,7 @@ const Technology10: React.FC = () => {
             src={'/img/technology/technology_10_3.jpg'}
             alt="technology_10_3"
           />
-          <div className="text-xl">Dobbelglass</div>
+          <div className="text-xl">Double glass</div>
         </div>
       </div>
     </>

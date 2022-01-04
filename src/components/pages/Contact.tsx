@@ -7,7 +7,7 @@ const Contact: React.FC = () => {
         <div className="mt-8 text-left ml-44 text-7xl font-body">Contact</div>
         <div className="flex flex-row justify-center mt-4">
           <img className="object-contain" width={'14%'} src={'/img/people/per.jpg'} alt="Per" />
-          <div className="flex flex-col ml-4">
+          <div className="flex flex-col w-1/6 ml-4">
             <div className="text-5xl font-body">Per Lindberg</div>
             <div className="text-4xl text-gray-700 font-body">CEO</div>
             <a
@@ -17,9 +17,6 @@ const Contact: React.FC = () => {
               per@sunlitsea.no
             </a>
             <div className="mt-2 text-3xl">+47 97079523</div>
-            <div className="max-w-md mt-2 text-3xl">
-              Per can be contacted regarding this and that.
-            </div>
           </div>
           <div className="max-w-md mt-8 ml-32">
             <div className="px-4 py-8 bg-primary-300 rounded-xl">
@@ -36,7 +33,7 @@ const Contact: React.FC = () => {
         </div>
         <div className="flex flex-row justify-center mt-8">
           <img className="object-contain" width={'14%'} src={'/img/people/eirik.jpg'} alt="Eirik" />
-          <div className="flex flex-col ml-4">
+          <div className="flex flex-col w-1/6 ml-4">
             <div className="text-5xl font-body">Eirik Larsen</div>
             <div className="text-4xl text-gray-700 font-body">CFO / CDO</div>
             <a
@@ -46,9 +43,6 @@ const Contact: React.FC = () => {
               eirik@sunlitsea.no
             </a>
             <div className="mt-2 text-3xl">+47 41670269</div>
-            <div className="max-w-md mt-2 text-3xl">
-              Eirik can be contacted regarding this and that.
-            </div>
           </div>
           <div className="max-w-lg py-8 ml-16">
             <div className="px-4 py-8 bg-secondary-200 rounded-xl">

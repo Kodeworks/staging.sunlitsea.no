@@ -3,7 +3,7 @@ import LogoWithName from '../atoms/LogoWithName';
 
 const NavBar: React.FC = () => {
   const items = [
-    { name: 'About Us', link: 'about_us' },
+    { name: 'About', link: 'about_us' },
     { name: 'Product', link: 'product' },
     { name: 'Technology', link: 'technology' },
     { name: 'Roadmap', link: 'roadmap' },
