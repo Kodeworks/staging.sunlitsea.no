@@ -28,7 +28,7 @@ const Quoter: React.FC = () => {
           />
           <a
             className="z-10 flex flex-col justify-center px-3 mt-6 mb-2 -ml-20 rounded-full bg-primary-200 hover:bg-primary-500"
-            href={'https://quote.sunlitsea.no/?location=' + encodeURIComponent(location)}
+            href={'https://staging.quote.sunlitsea.no/?location=' + encodeURIComponent(location)}
           >
             <RightArrow className="w-10 pointer-events-none" />
           </a>
