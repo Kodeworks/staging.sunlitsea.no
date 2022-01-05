@@ -67,8 +67,8 @@ const Product: React.FC = () => {
         <section className="flex flex-col pb-24 mt-24">
           <div className="flex flex-row justify-between">
             <div className="flex flex-row w-1/2 justify-evenly">
-              <ApplicationAreaItem title="Deep sea mining" image="deep_sea_mining" />
-              <ApplicationAreaItem title="Desalination" image="desalination" />
+              <ApplicationAreaItem title="Cottages" image="cottage" />
+              <ApplicationAreaItem title="Hydroelectric dams" image="hydroelectric_dam" />
             </div>
             <div className="flex flex-col w-1/2 mt-8">
               <div className="ml-4 text-5xl font-body">Application areas</div>
@@ -83,7 +83,7 @@ const Product: React.FC = () => {
           </div>
           <div className="flex flex-row mt-8">
             <div className="flex flex-row w-1/2 justify-evenly">
-              <ApplicationAreaItem title="Marinas" image="marinas" />
+              <ApplicationAreaItem title="Dredging" image="dredging" />
               <ApplicationAreaItem title="Deep sea mining" image="deep_sea_mining" />
             </div>
             <div className="flex flex-row w-1/2 justify-evenly">
