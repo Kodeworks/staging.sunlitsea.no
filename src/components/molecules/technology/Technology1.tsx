@@ -24,6 +24,7 @@ const Technology1: React.FC = () => {
           </div>
         </div>
         <div className="flex flex-col w-5/12">
+          <div className="ml-20 text-xl">Reduction in solar panel efficiency over time</div>
           <img
             className="object-contain"
             src={'/img/technology/technology_1.jpg'}
