@@ -3,6 +3,9 @@ import PositionTile from './../atoms/PositionTile';
 import careersData from '../../data/careers.json';
 
 const Careers: React.FC = () => {
+  const positionsAvailable = careersData
+    .map((item) => item.positionsOpened)
+    .reduce((prev, next) => prev + next);
   return (
     <>
       <div className="flex flex-col justify-center px-32 pb-16 whiteSecondaryGradient">
@@ -64,7 +67,9 @@ const Careers: React.FC = () => {
             alt="Factory video"
           />
         </section>
-        <div className="mt-16 text-5xl text-center font-body">10 job openings available</div>
+        <div className="mt-16 text-5xl text-center font-body">
+          {positionsAvailable} job openings available
+        </div>
         <div className="w-1/2 mx-auto mt-8 text-2xl text-center">
           We are currently looking for people with the following profiles. You may also send us an
           open application at{' '}
@@ -76,10 +81,10 @@ const Careers: React.FC = () => {
           </a>
           .
         </div>
-        <div className="flex flex-row justify-around mt-8">
+        <div className="flex flex-row flex-wrap justify-around">
           {careersData.map(({ positionsOpened, position, image, description }) => (
             <PositionTile
-              number={positionsOpened}
+              positionsOpened={positionsOpened}
               position={position}
               description={description}
               image={image}

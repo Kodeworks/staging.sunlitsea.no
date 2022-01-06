@@ -1,29 +1,29 @@
 [
   {
-    "positionsOpened": 2,
+    "positionsOpened": 1,
     "position": "metallurgy specialist",
     "description": "Need description and optionally a fitting image",
     "image": "placeholder.jpg"
   },
   {
-    "positionsOpened": 1,
+    "positionsOpened": 2,
     "position": "production line developer",
     "description": "Need description and optionally a fitting image"
   },
   {
-    "positionsOpened": 2,
+    "positionsOpened": 1,
     "position": "chemist or sealant specialist",
     "description": "Need description and optionally a fitting image",
     "image": "placeholder.jpg"
   },
   {
-    "positionsOpened": 2,
+    "positionsOpened": 1,
     "position": "senior embedded programmer and electronics specialist",
     "description": "Need description and optionally a fitting image",
     "image": "placeholder.jpg"
   },
   {
-    "positionsOpened": 2,
+    "positionsOpened": 1,
     "position": "high voltage electrician",
     "description": "Need description and optionally a fitting image",
     "image": "placeholder.jpg"
