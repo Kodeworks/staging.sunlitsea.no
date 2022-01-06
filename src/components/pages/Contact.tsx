@@ -45,7 +45,7 @@ const Contact: React.FC = () => {
                 <p className="text-center font-body">Got a general inquiry?</p>
                 <p className="pb-4 mt-4 text-center font-body">
                   Send an email to{' '}
-                  <a href="mailto:per@sunlitsea.no" className="underline hover:text-support-light">
+                  <a href="mailto:post@sunlitsea.no" className="underline hover:text-support-light">
                     post@sunlitsea.no
                   </a>
                   !
