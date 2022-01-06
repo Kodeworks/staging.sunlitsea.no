@@ -1,5 +1,6 @@
 import React from 'react';
 import PositionTile from './../atoms/PositionTile';
+import careersData from '../../data/careers.json';
 
 const Careers: React.FC = () => {
   return (
@@ -76,42 +77,15 @@ const Careers: React.FC = () => {
           .
         </div>
         <div className="flex flex-row justify-around mt-8">
-          <PositionTile
-            number={2}
-            position="metallurgy specialist"
-            description="Need description and optionally a fitting image"
-            image="placeholder.jpg"
-          />
-          <PositionTile
-            number={1}
-            position="production line developer"
-            description="Need description and optionally a fitting image"
-          />
-          <PositionTile
-            number={2}
-            position="chemist or sealant specialist"
-            description="Need description and optionally a fitting image"
-            image="placeholder.jpg"
-          />
-        </div>
-        <div className="flex flex-row justify-around mt-8">
-          <PositionTile
-            number={2}
-            position="senior embedded programmer and electronics specialist"
-            description="Need description and optionally a fitting image"
-            image="placeholder.jpg"
-          />
-          <PositionTile
-            number={2}
-            position="high voltage electrician"
-            description="Need description and optionally a fitting image"
-            image="placeholder.jpg"
-          />
-          <PositionTile
-            number={1}
-            position="project leader with experience from (floating) solar projects"
-            description="Need description and optionally a fitting image"
-          />
+          {careersData.map(({ positionsOpened, position, image, description }) => (
+            <PositionTile
+              number={positionsOpened}
+              position={position}
+              description={description}
+              image={image}
+              key={position}
+            />
+          ))}
         </div>
       </div>
     </>
