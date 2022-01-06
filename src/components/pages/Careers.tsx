@@ -1,7 +1,11 @@
 import React from 'react';
 import PositionTile from './../atoms/PositionTile';
+import careersData from '../../data/careers.json';
 
 const Careers: React.FC = () => {
+  const positionsAvailable = careersData
+    .map((item) => item.positionsOpened)
+    .reduce((prev, next) => prev + next);
   return (
     <>
       <div className="flex flex-col justify-center px-32 pb-16 whiteSecondaryGradient">
@@ -63,7 +67,9 @@ const Careers: React.FC = () => {
             alt="Factory video"
           />
         </section>
-        <div className="mt-16 text-5xl text-center font-body">10 job openings available</div>
+        <div className="mt-16 text-5xl text-center font-body">
+          {positionsAvailable} job openings available
+        </div>
         <div className="w-1/2 mx-auto mt-8 text-2xl text-center">
           We are currently looking for people with the following profiles. You may also send us an
           open application at{' '}
@@ -75,43 +81,16 @@ const Careers: React.FC = () => {
           </a>
           .
         </div>
-        <div className="flex flex-row justify-around mt-8">
-          <PositionTile
-            number={2}
-            position="metallurgy specialist"
-            description="Need description and optionally a fitting image"
-            image="placeholder.jpg"
-          />
-          <PositionTile
-            number={1}
-            position="production line developer"
-            description="Need description and optionally a fitting image"
-          />
-          <PositionTile
-            number={2}
-            position="chemist or sealant specialist"
-            description="Need description and optionally a fitting image"
-            image="placeholder.jpg"
-          />
-        </div>
-        <div className="flex flex-row justify-around mt-8">
-          <PositionTile
-            number={2}
-            position="senior embedded programmer and electronics specialist"
-            description="Need description and optionally a fitting image"
-            image="placeholder.jpg"
-          />
-          <PositionTile
-            number={2}
-            position="high voltage electrician"
-            description="Need description and optionally a fitting image"
-            image="placeholder.jpg"
-          />
-          <PositionTile
-            number={1}
-            position="project leader with experience from (floating) solar projects"
-            description="Need description and optionally a fitting image"
-          />
+        <div className="flex flex-row flex-wrap justify-around">
+          {careersData.map(({ positionsOpened, position, image, description }) => (
+            <PositionTile
+              positionsOpened={positionsOpened}
+              position={position}
+              description={description}
+              image={image}
+              key={position}
+            />
+          ))}
         </div>
       </div>
     </>
