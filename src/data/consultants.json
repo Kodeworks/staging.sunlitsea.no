@@ -1,0 +1,42 @@
+[
+  {
+    "name": "GRAHAM MUTER",
+    "image": "graham.jpg",
+    "role": "INDUSTRIAL PROCESSES"
+  },
+  {
+    "name": "JAN BURAK",
+    "image": "jan.jpg",
+    "role": "IT DEVELOPER"
+  },
+  {
+    "name": "KIM JOHNSEN",
+    "image": "kim.jpg",
+    "role": "BOARD MEMBER / FINANCE"
+  },
+  {
+    "name": "SIMEN STORVIK",
+    "image": "simen.jpg",
+    "role": "DATA PROCESSING"
+  },
+  {
+    "name": "FERDY WESSING",
+    "image": "ferdy.jpg",
+    "role": "IT DEVELOPER"
+  },
+  {
+    "name": "OLE MARIUS FORBORD",
+    "image": "ole.jpg",
+    "role": "ELECTRICAL ENGINEER"
+  },
+  {
+    "name": "RUNE HOLMGREN",
+    "image": "rune.jpg",
+    "role": "ELECTRONICS AND COMMUNICATION"
+  },
+  {
+    "name": "WILCO HEKKERT",
+    "image": "wilco.jpg",
+    "role": "B2B SALES"
+  }
+]

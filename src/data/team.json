@@ -1,0 +1,26 @@
+[
+  {
+    "name": "PER LINDBERG",
+    "image": "per.jpg",
+    "role": "FOUNDER / CEO",
+    "description": "With more than 10 years of experience within the solar industry, Per has acquired a deep understanding and a holistic perspective of the entire solar electricity value chain. He is a former Phd research fellow at the University of Oslo / Semiconductor Physics Group, holds a masters degree in materials physics and many years experience within business development and consultancy."
+  },
+  {
+    "name": "EIRIK LARSEN",
+    "image": "eirik.jpg",
+    "role": "FOUNDER / CDO / CFO",
+    "description": "Eirik Larsen is the founder, CEO and major shareholder of industrial IT consultancy Kodeworks of Norway. He leads IT software and hardware projects at Sunlit Sea;  monitoring and analysis of sensor data - in addition to sales, investor relations and business development. Eirik has a leadership background from the Norwegian Armed Forces and a proven track record with business management and product development for a variety of national and international brands/institutions."
+  },
+  {
+    "name": "BJØRN HERVOLD RIISE",
+    "image": "bjorn.jpg",
+    "role": "CTO",
+    "description": "Bjørn is a Hydrodynamics and metocean specialist with a background from DNV, with extensive experience as a project manager and product developer. He obtained his PhD at University of Oslo in Marine Hydrodynamics and has solid experience as a diver in the Norwegian Armed Forces."
+  },
+  {
+    "name": "Guillaume Kegelart",
+    "image": "guillaume.jpg",
+    "role": "CHIEF OF INDUSTRIALIZATION",
+    "description": "Guillaume is an accomplished mechanical/industrial engineer with a Masters degree from ParisTech. He is co-founder of SportTech and possesses broad knowledge about product establishment, hardware design and supply management. Guillaume is managing the development of Sunlit Sea's production lines."
+  }
+]

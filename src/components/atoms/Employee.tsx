@@ -10,8 +10,8 @@ interface Props {
 
 const Employee: React.FC<Props> = ({ name, image, role, description, list }) => {
   return (
-    <div className="flex flex-row flex-1">
-      <img className="object-contain" src={'/img/people/' + image + '.jpg'} alt={image} />
+    <div className="flex flex-row w-1/2 mt-8">
+      <img className="object-contain" src={'/img/people/' + image} alt={image} />
       <div className="flex flex-col pr-8 mt-8 ml-4">
         <div className="text-4xl font-body">{name.toUpperCase()}</div>
         <div className="text-3xl text-gray-700 font-body">{role.toUpperCase()}</div>
