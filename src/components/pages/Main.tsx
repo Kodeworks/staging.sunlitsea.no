@@ -12,9 +12,8 @@ const Main: React.FC = () => {
           muted={true}
           className="top-0 left-0 object-cover w-screen h-230 filter brightness-75"
           poster="img/jumbotron_video_poster.jpg"
-        >
-          <source src="jumbotronBackgroundVideo-smaller.mp4" type="video/mp4" />
-        </video>
+          src="https://user-images.githubusercontent.com/66632214/148779626-72c2596b-4f4e-43c1-bc58-ea5a96a6f201.mp4"
+        />
         <div className="absolute bottom-0 w-7/12 p-8 mb-16 ml-16 rounded-3xl whiteSecondaryGradient opacity-95">
           <Quoter />
         </div>
