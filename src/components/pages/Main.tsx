@@ -6,10 +6,18 @@ const Main: React.FC = () => {
   return (
     <>
       <div className="relative">
+        <video
+          autoPlay={true}
+          loop={true}
+          muted={true}
+          className="top-0 left-0 object-cover w-screen h-230 filter brightness-75"
+          poster="img/jumbotron_video_poster.jpg"
+        >
+          <source src="jumbotronBackgroundVideo-smaller.mp4" type="video/mp4" />
+        </video>
         <div className="absolute bottom-0 w-7/12 p-8 mb-16 ml-16 rounded-3xl whiteSecondaryGradient opacity-95">
           <Quoter />
         </div>
-        <img className="w-full" src="img/splash.png" />
       </div>
       <div className="w-full pb-8 whiteSecondaryGradient">
         <div className="w-1/2 pt-8 mx-auto text-2xl text-center font-arial">
