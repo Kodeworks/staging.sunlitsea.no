@@ -1,0 +1,64 @@
+{
+  "yearsToShow": [2019, 2021],
+  "displayArrowOnAxisEnd": false,
+  "events": [
+    {
+      "date": "2019-03-01",
+      "text": "Sunlit Sea ble stiftet av Per Lindberg og Kodeworks AS",
+      "markerStyle": "completed"
+    },
+    {
+      "date": "2019-11-10",
+      "text": "Sunlit Sea mottok det første av flere tilskudd fra Innovasjon Norge og landet et stort initielt salg av aksjer til eksterne investorer",
+      "markerStyle": "completed"
+    },
+    {
+      "date": "2020-03-03",
+      "text": "Prototype 1 installert i Oslofjorden",
+      "markerStyle": "completed",
+      "image": "/img/timeline/timeline-achieved-prototype-1.png"
+    },
+    {
+      "date": "2020-06-15",
+      "text": "Intensjonsavtale signert som foretrukket leverandør til det største bærekraftige eiendomsprosjektet i Norge, “Fjordbyen” ved Lierstranda",
+      "markerStyle": "completed"
+    },
+    {
+      "date": "2020-11-01",
+      "text": "November 2020 – total finansiering: 29 MNOK, totale kostnader: 6 MNOK",
+      "markerStyle": "completed"
+    },
+    {
+      "date": "2020-12-01",
+      "text": "Prototype 2 installert i Oslofjorden",
+      "markerStyle": "completed",
+      "image": "/img/timeline/timeline-achieved-prototype-2.png"
+    },
+    {
+      "date": "2021-02-01",
+      "text": "Ny valuering: 300MNOK",
+      "markerStyle": "completed"
+    },
+    {
+      "date": "2021-05-01",
+      "text": "Prototype 3 installert i Trondheim",
+      "markerStyle": "completed",
+      "image": "/img/timeline/timeline-achieved-prototype-2.png"
+    },
+    {
+      "date": "2021-05-15",
+      "text": "2 nøkkelinvestorer investert: Nunchi Corp AS og Holta Invest AS",
+      "markerStyle": "completed"
+    },
+    {
+      "date": "2021-08-15",
+      "text": "R&D production line etablert",
+      "markerStyle": "completed"
+    },
+    {
+      "date": "2021-12-30",
+      "text": "Total finansiering 50 MNOK, kostnader så langt 20 MNOK",
+      "markerStyle": "completed"
+    }
+  ]
+}
