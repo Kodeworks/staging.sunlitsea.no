@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg viewBox="0 0 17 17" version="1.1"  style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(2.46774,0,0,2.46774,-15.9812,-12.6265)">
+        <circle cx="9.92" cy="8.561" r="3.433" style="fill:rgb(66,126,132);"/>
+    </g>
+    <g transform="matrix(0.812299,0.812299,-0.535887,0.535887,4.98765,1.0472)">
+        <rect x="3.484" y="7.171" width="5.189" height="3.189" style="fill:white;"/>
+    </g>
+    <g transform="matrix(1.51055,-1.51055,0.575921,0.575921,-4.74349,12.9353)">
+        <rect x="3.484" y="7.171" width="5.189" height="3.189" style="fill:white;"/>
+    </g>
+</svg>

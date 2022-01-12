@@ -1,0 +1,20 @@
+export const TIMELINE_GRAPH_CONSTANTS = {
+  axisThickness: 44,
+  eventBoxWidth: 205,
+  eventBoxVerticalPadding: 4,
+  eventBoxHorizontalPadding: 4,
+  eventBoxVerticalPaddingSmall: 8,
+  eventBoxVerticalPaddingNormal: 16,
+  eventBoxLineHeight: 20,
+  eventMarkerWidth: 15,
+  eventsBaseTopOffset: 16,
+  verticalBreakpointWidth: 720,
+  generalPadding: 8,
+  yearAxisVerticalWidth: 40,
+  yearAxisHorizontalHeight: 44,
+  maximumVerticalLIncrement: 1.5, // must be >1
+  maximumVerticalLTotalIncrease: 4,
+  initialGraphHeight: 400,
+  annotationLineStrokeWidth: 4,
+  annotationIconDiameter: 17,
+};
