@@ -76,12 +76,12 @@ const Contact: React.FC = () => {
                   <SocialIcon
                     url="https://www.linkedin.com/company/sunlitsea/"
                     fgColor="white"
-                    className="transform scale-125"
+                    className="scale-125"
                   />
                   <SocialIcon
                     url="https://www.youtube.com/channel/UCuDWVcMb3metkdBTk1CSxig"
                     fgColor="white"
-                    className="ml-8 transform scale-125 "
+                    className="ml-8 scale-125"
                   />
                 </div>
               </div>

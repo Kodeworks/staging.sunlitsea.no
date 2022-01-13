@@ -6,7 +6,7 @@ const MainPageQuoter: React.FC = () => {
   const [location, setLocation] = useState('');
   return (
     <>
-      <div className="flex flex-col w-7/12 pb-8 mx-auto text-white pt-156">
+      <div className="flex flex-col justify-end w-7/12 h-full pb-8 mx-auto text-white">
         <div className="text-5xl font-body">
           Get an estimate for your floating solar installation
         </div>

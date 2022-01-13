@@ -1,31 +1,9 @@
 module.exports = {
-  purge: [
+  content: [
     './src/components/**/*.{js,ts,jsx,tsx}',
-    './src/lib/**/*.{js,ts,jsx,tsx}',
-    './src/pages/**/*.{js,ts,jsx,tsx}',
-    './src/pages/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     extend: {
-      screens: {
-        'wh-2': {'raw': 'screen and (min-width: 560px) and (min-height: 420px)'},
-        'wh-1': {'raw': 'screen and (min-width: 640px) and (min-height: 480px)'},
-        'wh0': {'raw': 'screen and (min-width: 720px) and (min-height: 540px)'},
-        'wh1': {'raw': 'screen and (min-width: 768px) and (min-height: 576px)'},
-        'wh2': {'raw': 'screen and (min-width: 800px) and (min-height: 600px)'},
-        'wh3': {'raw': 'screen and (min-width: 960px) and (min-height: 720px)'},
-        'wh4': {'raw': 'screen and (min-width: 1024px) and (min-height: 768px)'},
-        'wh5': {'raw': 'screen and (min-width: 1280px) and (min-height: 960px)'},
-        'wh6': {'raw': 'screen and (min-width: 1400px) and (min-height: 1050px)'},
-        'wh7': {'raw': 'screen and (min-width: 1600px) and (min-height: 1200px)'},
-        'wh8': {'raw': 'screen and (min-width: 1856px) and (min-height: 1392px)'},
-        'wh9': {'raw': 'screen and (min-width: 1920px) and (min-height: 1440px)'},
-        'wh10': {'raw': 'screen and (min-width: 2048px) and (min-height: 1536px)'},
-      },
-      fontSize:{
-        'xs2': '0.625rem',
-        'xs3': '0.5rem'
-      },
       fontFamily: {
         headline: ['Everett', 'sans-serif'],
         body: ['Everett', 'sans-serif'],
@@ -75,23 +53,6 @@ module.exports = {
         'alert-light': '#F7E8F0',
         'support-light': '#81D5C8',
         'support-dark': '#437E84',
-      },
-      scale: {
-        '101': '1.01',
-        '106': '1.06',
-      },
-      inset: {
-        '100p': '100%',
-        '1': '0.25rem',
-        '15': '3.75rem',
-      },
-      flex: {
-        'grow-no-shrink': '1 0 auto',
-      },
-      spacing: {
-        '120': '30rem',
-        '156': '39rem',
-        '230': '57rem'
       }
     },
   },
@@ -102,12 +63,6 @@ module.exports = {
     extendedSpacingScale: true,
     extendedFontSizeScale: true,
     defaultLineHeights: true,
-  },
-  variants: {
-    scale: ['responsive', 'hover', 'focus', 'active'],
-    backgroundColor: ['responsive', 'hover', 'focus', 'active'],
-    borderColor: ['responsive', 'hover', 'focus', 'active'],
-    maxHeight: ['group-hover'],
   },
   plugins: [],
 };
