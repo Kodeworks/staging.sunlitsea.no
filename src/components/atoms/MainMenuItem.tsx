@@ -1,4 +1,5 @@
 import React from 'react';
+import RightArrow from './RightArrow';
 
 interface Props {
   title: string;
@@ -8,10 +9,15 @@ interface Props {
 
 const MainMenuItem: React.FC<Props> = ({ title, image, description }) => {
   return (
-    <a className="flex flex-col w-1/4 px-4" href={'#/' + image}>
-      <div className="mx-auto text-4xl">{title}</div>
-      <img className="w-1/2 py-2 mx-auto" src={'/img/icons/' + image + '.png'} alt={image} />
-      <div className="mx-auto text-2xl text-center">{description}</div>
+    <a className="relative flex flex-col w-1/3 mx-4 group" href={'#/' + image}>
+      <img className="" src={'/img/main/' + image + '.jpg'} alt={image} />
+      <div className="absolute bottom-0 w-full h-full pl-4 transition-all duration-500 ease-in-out bg-primary-200 opacity-90 group-hover:max-h-full max-h-20">
+        <div className="my-4 text-4xl font-bold opacity-100">{title}</div>
+        <div className="text-xl transition-all duration-500 opacity-0 pointer-events-none group-hover:opacity-100">
+          {description}
+        </div>
+        <RightArrow className="absolute bottom-0 right-0 mb-6 mr-6 transition-all duration-500 opacity-0 pointer-events-none group-hover:opacity-100" />
+      </div>
     </a>
   );
 };

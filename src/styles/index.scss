@@ -16,6 +16,10 @@ Html {
   background: linear-gradient(180deg, #ffffff 0%, #cbd3f0 100%);
 }
 
+.transparentBlackGradient {
+  background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 79.69%);
+}
+
 .popup-overlay {
   background-color: rgba(112, 112, 112, 0.7);
 }

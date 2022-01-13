@@ -13,19 +13,21 @@ const NavBar: React.FC = () => {
   ];
   return (
     <>
-      <div className="fixed z-40 flex flex-row w-full py-4 border-b-4 border-primary-300 justify-evenly bg-primary-100">
+      <div className="fixed z-40 flex flex-row justify-between w-full py-4 bg-primary-100">
         <LogoWithName
-          containerClassName="my-auto"
+          containerClassName="my-auto ml-8"
           svgClassName="w-8"
-          textClassName="text-4xl font-body font-bold"
+          textClassName="text-4xl font-body font-bold mt-1"
         />
-        {items.map(function (object, i) {
-          return (
-            <a className="mx-1 my-auto text-2xl font-body" key={i} href={'#/' + object.link}>
-              {object.name}
-            </a>
-          );
-        })}
+        <div className="pr-4 my-auto">
+          {items.map(function (object, i) {
+            return (
+              <a className="mx-4 my-auto text-2xl font-body" key={i} href={'#/' + object.link}>
+                {object.name}
+              </a>
+            );
+          })}
+        </div>
       </div>
     </>
   );

@@ -107,6 +107,7 @@ module.exports = {
     scale: ['responsive', 'hover', 'focus', 'active'],
     backgroundColor: ['responsive', 'hover', 'focus', 'active'],
     borderColor: ['responsive', 'hover', 'focus', 'active'],
+    maxHeight: ['group-hover'],
   },
   plugins: [],
 };

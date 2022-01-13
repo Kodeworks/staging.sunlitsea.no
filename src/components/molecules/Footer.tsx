@@ -6,7 +6,7 @@ import LogoWithName from '../atoms/LogoWithName';
 const Footer: React.FC = () => {
   return (
     <div className="flex w-full max-w-full pointer-events-none">
-      <footer className="flex flex-col items-center w-full px-4 pt-1 text-base text-white bg-black pointer-events-auto wh1:py-8 h-44">
+      <footer className="flex flex-col items-center w-full px-4 pt-1 text-base text-white bg-gray-900 pointer-events-auto wh1:py-8 h-44">
         <div className="flex flex-row justify-between w-full h-auto px-2">
           <div className="flex flex-row ">
             <LogoWithName
