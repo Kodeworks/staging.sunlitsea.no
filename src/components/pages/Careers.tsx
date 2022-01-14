@@ -1,28 +1,36 @@
 import React from 'react';
 import PositionTile from './../atoms/PositionTile';
 import careersData from '../../data/careers.json';
+import { TopPagePoster } from '../molecules/TopPagePoster';
+import { ContentContainer } from '../atoms/ContentContainer';
 
 const Careers: React.FC = () => {
   const positionsAvailable = careersData
     .map((item) => item.positionsOpened)
     .reduce((prev, next) => prev + next);
+
   return (
-    <>
-      <div className="flex flex-col justify-center px-32 pb-16 whiteSecondaryGradient">
-        <div className="mt-8 text-6xl text-center font-body">Careers in Sunlit Sea</div>
-        <div className="w-1/2 mx-auto mt-8 text-2xl text-center">
-          Sunlit Sea is in rapid growth and the need for experienced industry professionals is ever
-          present. Come join our journey to supply the world with clean, water based solar energy.
-        </div>
-        <section className="flex flex-row mt-16">
+    <div className="bg-white">
+      <TopPagePoster
+        image={'/img/careers/person-soldering.jpg'}
+        imageAlt={'person soldering'}
+        headingText="Careers in Sunlit Sea"
+        subHeadingText={[
+          'Sunlit Sea is in rapid growth and the need for experienced industry professionals is ever present.',
+          ' Come join our journey to supply the world with clean, water based solar energy.',
+        ]}
+      />
+
+      <ContentContainer>
+        <section className="flex md:flex-row flex-col mt-16 md:mt-24 lg:mt-40 items-start">
           <img
-            className="w-1/2 px-12 mx-4 mt-4"
-            src={'/img/deployment_video_placeholder.jpg'}
-            alt="Deployment video"
+            className="md:w-1/2 w-full pr-8 object-contain"
+            src={'/img/careers/team-working-in-lab.jpg'}
+            alt="Team working in lab"
           />
-          <div className="flex flex-col w-1/2 mt-2">
-            <div className="text-5xl font-body">Who we are</div>
-            <div className="mt-4 ml-4 text-2xl">
+          <div className="flex flex-col md:w-1/2 w-full md:pl-8">
+            <h2 className="md:text-6xl text-4xl font-body md:mt-0 mt-4">Who we are</h2>
+            <div className="mt-4 md:text-2xl text-xl">
               Sunlit Sea AS is developing a new type of technology for floating solar cell
               installations. The solution is based on prefabrication of solar panel strings on
               robust floats, adapted for and integrated with a new and efficient solution for
@@ -37,10 +45,13 @@ const Careers: React.FC = () => {
             </div>
           </div>
         </section>
-        <section className="flex flex-row mt-16">
-          <div className="flex flex-col w-1/2 mt-8 ml-4">
-            <div className="text-5xl font-body">Why Sunlit Sea?</div>
-            <ul className="pb-8 mt-8 ml-8 text-2xl">
+      </ContentContainer>
+
+      <ContentContainer>
+        <section className="flex  md:flex-row flex-col-reverse mt-16 md:mt-24 lg:mt-40 items-start">
+          <div className="flex flex-col md:w-1/2 w-full md:pr-8 pr-0">
+            <h2 className="md:text-6xl text-4xl font-body mt-8">Why Sunlit Sea?</h2>
+            <ul className="pb-8 mt-8 md:ml-8 md:text-2xl text-xl">
               <li className="ml-6 list-disc">Builds new, ground breaking industry</li>
               <li className="ml-6 list-disc">Sets the new standard for the industry</li>
               <li className="ml-6 list-disc">
@@ -61,39 +72,46 @@ const Careers: React.FC = () => {
               <li className="ml-6 list-disc">Opportunity to join a fantastic journey</li>
             </ul>
           </div>
+
           <img
-            className="w-1/2 px-8 mx-4"
-            src={'/img/factory_video_placeholder.jpg'}
-            alt="Factory video"
+            className="md:w-1/2 w-full pl-8 object-contain"
+            src={'/img/careers/team-working-at-sea.jpg'}
+            alt="Team working at sea"
           />
         </section>
-        <div className="mt-16 text-5xl text-center font-body">
+      </ContentContainer>
+
+      <ContentContainer>
+        <h2 className="lg:mt-52 mt-16 md:text-6xl text-5xl md:text-center font-headline">
           {positionsAvailable} job openings available
+        </h2>
+        <div className="mt-8 md:text-3xl text-xl md:text-center">
+          <p>We are currently looking for people with the following profiles.</p>
+          <p>
+            You may also send us an open application at{' '}
+            <a
+              className="text-gray-900 font-bold"
+              href={'mailto:post@sunlitsea.no?subject=' + encodeURIComponent('Open application')}
+            >
+              post@sunlitsea.no
+            </a>
+            .
+          </p>
         </div>
-        <div className="w-1/2 mx-auto mt-8 text-2xl text-center">
-          We are currently looking for people with the following profiles. You may also send us an
-          open application at{' '}
-          <a
-            className="underline text-support-dark"
-            href={'mailto:post@sunlitsea.no?subject=' + encodeURIComponent('Open application')}
-          >
-            post@sunlitsea.no
-          </a>
-          .
-        </div>
-        <div className="flex flex-row flex-wrap justify-around">
-          {careersData.map(({ positionsOpened, position, image, description }) => (
-            <PositionTile
-              positionsOpened={positionsOpened}
-              position={position}
-              description={description}
-              image={image}
-              key={position}
-            />
-          ))}
-        </div>
-      </div>
-    </>
+      </ContentContainer>
+
+      <ContentContainer className="grid mt-16 md:mt-24 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 mb-16">
+        {careersData.map(({ positionsOpened, position, image, description }) => (
+          <PositionTile
+            positionsOpened={positionsOpened}
+            position={position}
+            description={description}
+            image={image}
+            key={position}
+          />
+        ))}
+      </ContentContainer>
+    </div>
   );
 };
 

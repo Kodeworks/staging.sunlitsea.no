@@ -23,3 +23,8 @@ Html {
 .popup-overlay {
   background-color: rgba(112, 112, 112, 0.7);
 }
+
+.sls-top-page-poster__gradient {
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 79.69%);
+  transform: rotate(-180deg);
+}

@@ -5,14 +5,17 @@ import { HashRouter } from 'react-router-dom';
 import { AppRoutes } from './AppRoutes';
 import SiteLayout from './pages/SiteLayout';
 import ScrollToTop from './ScrollToTop';
+import { SizeContext } from './util/SizeContext';
 
 const App: React.FC = () => {
   return (
     <HashRouter>
-      <ScrollToTop />
-      <SiteLayout>
-        <AppRoutes />
-      </SiteLayout>
+      <SizeContext>
+        <ScrollToTop />
+        <SiteLayout>
+          <AppRoutes />
+        </SiteLayout>
+      </SizeContext>
     </HashRouter>
   );
 };
