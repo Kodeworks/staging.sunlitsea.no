@@ -44,7 +44,13 @@ export const TimelineEventWindowContainer: React.FC<TimelineEventWindowContainer
           visibility: loading ? 'hidden' : 'visible',
         }}
       >
-        <TimelineEventWindow event={event} sizeUpdater={updateRealEventWindowSize} index={index} />
+        <TimelineEventWindow
+          event={event}
+          sizeUpdater={updateRealEventWindowSize}
+          index={index}
+          markerPlacementStyle={eventPlacement?.markerPlacementStyle}
+          orientation={graphState.state.orientation}
+        />
       </div>
     );
   }
@@ -70,7 +76,13 @@ export const TimelineEventWindowContainer: React.FC<TimelineEventWindowContainer
           visibility: loading ? 'hidden' : 'visible',
         }}
       >
-        <TimelineEventWindow event={event} sizeUpdater={updateRealEventWindowSize} index={index} />
+        <TimelineEventWindow
+          event={event}
+          sizeUpdater={updateRealEventWindowSize}
+          index={index}
+          markerPlacementStyle={eventPlacement?.markerPlacementStyle}
+          orientation={graphState.state.orientation}
+        />
       </div>
     );
   }

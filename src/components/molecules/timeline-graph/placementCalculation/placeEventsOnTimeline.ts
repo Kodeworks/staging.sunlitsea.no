@@ -41,10 +41,7 @@ export function placeEventsOnTimeline(
       ),
     };
   } else {
-    return placeEventsOnTimelineVertical(
-      graphState,
-      realEventWindowSizes
-    );
+    return placeEventsOnTimelineVertical(graphState, realEventWindowSizes);
   }
 }
 
@@ -198,10 +195,11 @@ export function placeEventsOnTimelineVertical(
   })();
 
   let done = false;
-  let L = lInit;
+  let L = lInit; //total length of y-axis
   let eventPlacements: EventPlacementOn1DTimelineGraph[] = [];
   let boundsList: Bounds1D[] = [];
   let forceCombine = false;
+  const forceCombinedIndices: number[] = [];
   while (!done) {
     const pressures = combinedLines.map((line, i) => calculatePressure(L, combinedLines, i));
     let i: number;
@@ -212,7 +210,10 @@ export function placeEventsOnTimelineVertical(
       const { bounds, eventPlacement } = selectPosition(L, line, pressure);
       eventPlacements.push(eventPlacement);
       boundsList.push(bounds);
-      if (i > 0 && boundsIntersect(bounds, boundsList[i - 1])) {
+      if (
+        i > 0 &&
+        (boundsIntersect(bounds, boundsList[i - 1]) || boundsBelowBounds(boundsList[i - 1], bounds))
+      ) {
         if (forceCombine) {
           // revert current operation, modify, reapply
           boundsList.splice(boundsList.length - 1, 1);
@@ -231,6 +232,7 @@ export function placeEventsOnTimelineVertical(
           if (i === combinedLines.length - 1) {
             done = true;
           }
+          forceCombinedIndices.push(i);
         } else {
           // need new L
           const newLCandidate = increaseLFromIntersection(L, boundsList[i - 1], bounds);
@@ -254,7 +256,9 @@ export function placeEventsOnTimelineVertical(
   const translatedEventPlacements: EventPlacementOnTimelineGraph[] = [];
   combinedLinesLookup.forEach((placementIndex, index) => {
     // This means this [i] event is in thes same group as previous
-    const combinedWithPrevious = index > 0 && combinedLinesLookup[index - 1] === placementIndex;
+    const combinedWithPrevious =
+      (index > 0 && combinedLinesLookup[index - 1] === placementIndex) ||
+      forceCombinedIndices.some((_) => _ === placementIndex);
     const y = combinedWithPrevious
       ? translatedEventPlacements[index - 1].y + translatedEventPlacements[index - 1].completeHeight
       : eventPlacements[placementIndex].y;
@@ -339,4 +343,8 @@ export function placeEventsOnTimelineHorizontal(
     boxBounds.push(eventPlacementBoxBounds(placement));
   }
   return eventPlacements;
+}
+
+function boundsBelowBounds(a: Bounds1D, b: Bounds1D): boolean {
+  return a.top > b.top;
 }

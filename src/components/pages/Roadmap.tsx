@@ -2,6 +2,9 @@ import React from 'react';
 import { TimelineGraph } from '../molecules/timeline-graph/TimelineGraph';
 import AccomplishmentsDataset from '../../data/accomplishments.json';
 import RoadmapDataset from '../../data/roadmap.json';
+import { compareAsc } from 'date-fns';
+AccomplishmentsDataset.events.sort((a, b) => compareAsc(new Date(a.date), new Date(b.date)));
+RoadmapDataset.events.sort((a, b) => compareAsc(new Date(a.date), new Date(b.date)));
 
 const Roadmap: React.FC = () => {
   return (

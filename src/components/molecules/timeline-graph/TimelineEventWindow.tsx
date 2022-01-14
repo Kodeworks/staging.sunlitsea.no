@@ -1,11 +1,13 @@
 import React, { useEffect, useRef } from 'react';
 import { useResizeDetector } from 'react-resize-detector';
-import { EventWindowSize, TimelineEvent } from './graphTypes';
+import { EventWindowSize, MarkerPlacementStyle, TimelineEvent } from './graphTypes';
 
 interface TimelineEventWindowProps {
   event: TimelineEvent;
   sizeUpdater(eventWindowSize: EventWindowSize, index: number): void;
   index: number;
+  markerPlacementStyle?: MarkerPlacementStyle;
+  orientation: 'vertical' | 'horizontal';
 }
 
 /**
@@ -16,6 +18,8 @@ export const TimelineEventWindow: React.FC<TimelineEventWindowProps> = ({
   event,
   sizeUpdater,
   index,
+  markerPlacementStyle,
+  orientation,
 }) => {
   const { width, height, ref } = useResizeDetector();
 
@@ -28,9 +32,15 @@ export const TimelineEventWindow: React.FC<TimelineEventWindowProps> = ({
   }, [width, height]);
 
   return (
-    <div ref={ref}>
+    <div
+      ref={ref}
+      className={
+        markerPlacementStyle === MarkerPlacementStyle.after && orientation === 'horizontal'
+          ? 'text-right'
+          : ''
+      }
+    >
       {event.text}
     </div>
   );
 };
-
