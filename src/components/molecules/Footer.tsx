@@ -6,7 +6,7 @@ import LogoWithName from '../atoms/LogoWithName';
 const Footer: React.FC = () => {
   return (
     <div className="flex w-full max-w-full pointer-events-none">
-      <footer className="flex flex-col items-center w-full px-4 pt-1 text-base text-white bg-black pointer-events-auto wh1:py-8 h-44">
+      <footer className="flex flex-col items-center w-full px-4 py-8 pt-1 text-base text-white bg-gray-900 pointer-events-auto h-44">
         <div className="flex flex-row justify-between w-full h-auto px-2">
           <div className="flex flex-row ">
             <LogoWithName
@@ -17,12 +17,12 @@ const Footer: React.FC = () => {
             <SocialIcon
               url="https://www.linkedin.com/company/sunlitsea/"
               fgColor="white"
-              className="ml-4 transform scale-90"
+              className="ml-4 scale-90"
             />
             <SocialIcon
               url="https://www.youtube.com/channel/UCuDWVcMb3metkdBTk1CSxig"
               fgColor="white"
-              className="ml-1 transform scale-90 "
+              className="ml-1 scale-90"
             />
           </div>
           <div className="flex flex-col mx-4 ">

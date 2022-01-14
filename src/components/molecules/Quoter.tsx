@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import RightArrow from './../atoms/RightArrow';
+import RightArrowThin from '../atoms/RightArrowThin';
 
 const Quoter: React.FC = () => {
-  //TODO won't work on going back to the page, as the field is filled out from before but the state is not
   const [location, setLocation] = useState('');
   return (
     <>
@@ -30,7 +29,7 @@ const Quoter: React.FC = () => {
             className="z-10 flex flex-col justify-center px-3 mt-6 mb-2 -ml-20 rounded-full bg-primary-200 hover:bg-primary-500"
             href={'https://quote.sunlitsea.no/?location=' + encodeURIComponent(location)}
           >
-            <RightArrow className="w-10 pointer-events-none" />
+            <RightArrowThin className="w-10 pointer-events-none" />
           </a>
         </div>
       </div>

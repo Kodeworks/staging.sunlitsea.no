@@ -8,10 +8,16 @@ const RightArrow: React.FC<Props> = ({ className }) => {
   return (
     <svg
       className={`${className}`}
-      viewBox="0 0 52 28"
+      width="32"
+      height="29"
+      viewBox="0 0 32 29"
+      fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <path d="M51.51 11.814v3.595H0v-3.595h51.51zm0 3.595v3.736l-20 7.875v-3.736l20-7.875zM31.51 3.736V0l20 8.078v3.736l-20-8.078z" />
+      <path
+        d="M32 19.9061L32 8.56746L15.8655 -1.03665e-06L15.8655 4.03199L31.4856 12.3245L1.54084e-06 12.3245L1.42723e-06 16.1449L31.4856 16.1449L15.8655 24.4416L15.8655 28.4694L32 19.9061Z"
+        fill="#101010"
+      />
     </svg>
   );
 };
