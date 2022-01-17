@@ -4,9 +4,9 @@ import WhyInvestTile from '../../atoms/WhyInvestTile';
 const WhyInvest: React.FC = () => {
   return (
     <>
-      <div className="flex flex-col justify-around px-32 mt-24">
-        <div className="text-5xl font-body">Why invest in Sunlit Sea?</div>
-        <div className="flex flex-row mt-8">
+      <div className="flex flex-col justify-between">
+        <div className="text-6xl font-body">Why invest in Sunlit Sea?</div>
+        <div className="flex flex-row gap-4 mt-8">
           <WhyInvestTile name="Very good history of gained value from 2019 to now" number="1" />
           <WhyInvestTile
             name="Deep-tech; where the biggest technology risk has already been overcome"
@@ -21,7 +21,7 @@ const WhyInvest: React.FC = () => {
             number="4"
           />
         </div>
-        <div className="flex flex-row mt-8">
+        <div className="flex flex-row gap-4 mt-8">
           <WhyInvestTile name="Professionally competent and stable partner network" number="5" />
           <WhyInvestTile
             name="Strategic investors on the shareholder list and on the board. Strong interdisciplinary team with cutting-edge expertise in their technologies"

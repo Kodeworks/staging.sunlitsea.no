@@ -22,15 +22,15 @@ const Careers: React.FC = () => {
       />
 
       <ContentContainer>
-        <section className="flex md:flex-row flex-col mt-16 md:mt-24 lg:mt-40 items-start">
+        <section className="flex flex-col items-start mt-16 md:flex-row md:mt-24 lg:mt-40">
           <img
-            className="md:w-1/2 w-full pr-8 object-contain"
+            className="object-contain w-full md:pr-8 md:w-1/2"
             src={'/img/careers/team-working-in-lab.jpg'}
             alt="Team working in lab"
           />
-          <div className="flex flex-col md:w-1/2 w-full md:pl-8">
-            <h2 className="md:text-6xl text-4xl font-body md:mt-0 mt-4">Who we are</h2>
-            <div className="mt-4 md:text-2xl text-xl">
+          <div className="flex flex-col w-full md:w-1/2 md:pl-8">
+            <h2 className="mt-4 text-4xl md:text-6xl font-body md:mt-0">Who we are</h2>
+            <div className="mt-4 text-xl md:text-2xl">
               Sunlit Sea AS is developing a new type of technology for floating solar cell
               installations. The solution is based on prefabrication of solar panel strings on
               robust floats, adapted for and integrated with a new and efficient solution for
@@ -45,13 +45,11 @@ const Careers: React.FC = () => {
             </div>
           </div>
         </section>
-      </ContentContainer>
 
-      <ContentContainer>
-        <section className="flex  md:flex-row flex-col-reverse mt-16 md:mt-24 lg:mt-40 items-start">
-          <div className="flex flex-col md:w-1/2 w-full md:pr-8 pr-0">
-            <h2 className="md:text-6xl text-4xl font-body mt-8">Why Sunlit Sea?</h2>
-            <ul className="pb-8 mt-8 md:ml-8 md:text-2xl text-xl">
+        <section className="flex flex-col-reverse items-start mt-16 md:flex-row md:mt-24 lg:mt-40">
+          <div className="flex flex-col w-full pr-0 md:w-1/2 md:pr-8">
+            <h2 className="mt-8 text-4xl md:text-6xl font-body">Why Sunlit Sea?</h2>
+            <ul className="pb-8 mt-8 text-xl md:ml-8 md:text-2xl">
               <li className="ml-6 list-disc">Builds new, ground breaking industry</li>
               <li className="ml-6 list-disc">Sets the new standard for the industry</li>
               <li className="ml-6 list-disc">
@@ -74,42 +72,42 @@ const Careers: React.FC = () => {
           </div>
 
           <img
-            className="md:w-1/2 w-full pl-8 object-contain"
+            className="object-contain w-full md:w-1/2 md:pl-8"
             src={'/img/careers/team-working-at-sea.jpg'}
             alt="Team working at sea"
           />
         </section>
-      </ContentContainer>
 
-      <ContentContainer>
-        <h2 className="lg:mt-52 mt-16 md:text-6xl text-5xl md:text-center font-headline">
-          {positionsAvailable} job openings available
-        </h2>
-        <div className="mt-8 md:text-3xl text-xl md:text-center">
-          <p>We are currently looking for people with the following profiles.</p>
-          <p>
-            You may also send us an open application at{' '}
-            <a
-              className="text-gray-900 font-bold"
-              href={'mailto:post@sunlitsea.no?subject=' + encodeURIComponent('Open application')}
-            >
-              post@sunlitsea.no
-            </a>
-            .
-          </p>
-        </div>
-      </ContentContainer>
+        <section>
+          <h2 className="mt-16 text-5xl lg:mt-52 md:text-6xl md:text-center font-headline">
+            {positionsAvailable} job openings available
+          </h2>
+          <div className="mt-8 text-xl md:text-3xl md:text-center">
+            <p>We are currently looking for people with the following profiles.</p>
+            <p>
+              You may also send us an open application at{' '}
+              <a
+                className="font-bold text-gray-900"
+                href={'mailto:post@sunlitsea.no?subject=' + encodeURIComponent('Open application')}
+              >
+                post@sunlitsea.no
+              </a>
+              .
+            </p>
+          </div>
 
-      <ContentContainer className="grid mt-16 md:mt-24 lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4 mb-16">
-        {careersData.map(({ positionsOpened, position, image, description }) => (
-          <PositionTile
-            positionsOpened={positionsOpened}
-            position={position}
-            description={description}
-            image={image}
-            key={position}
-          />
-        ))}
+          <div className="grid grid-cols-1 gap-4 mt-16 mb-16 md:mt-24 lg:grid-cols-3 sm:grid-cols-2">
+            {careersData.map(({ positionsOpened, position, image, description }) => (
+              <PositionTile
+                positionsOpened={positionsOpened}
+                position={position}
+                description={description}
+                image={image}
+                key={position}
+              />
+            ))}
+          </div>
+        </section>
       </ContentContainer>
     </div>
   );

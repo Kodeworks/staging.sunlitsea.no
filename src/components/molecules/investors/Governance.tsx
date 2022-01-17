@@ -4,10 +4,18 @@ import BoardMember from '../../atoms/BoardMember';
 const Governance: React.FC = () => {
   return (
     <>
-      <div className="flex flex-row justify-around px-16 pb-8 mt-24">
-        <div className="flex flex-col w-5/12">
-          <div className="text-5xl font-body">Corporate Governance</div>
-          <ul className="mt-4 ml-8 text-3xl leading-normal list-disc ">
+      <section className="flex flex-row gap-16">
+        <div className="flex flex-col w-1/2">
+          <img className="object-contain" src="/img/governance.jpg" alt="Governance" />
+          <div className="flex flex-row justify-between pr-24 mt-1 text-center">
+            <BoardMember name="Kim André Johnsen" company="Nunchi" />
+            <BoardMember name="Per Lindberg" company="Sunlit Sea" />
+            <BoardMember name="Eirik Larsen" company="Kodeworks" />
+          </div>
+        </div>
+        <div className="flex flex-col w-1/2">
+          <div className="text-6xl font-body">Corporate Governance</div>
+          <ul className="mt-4 ml-8 text-2xl leading-snug list-disc ">
             <li>Professionally skilled and working board</li>
             <ul className="ml-8 list-disc">
               <li>Per Lindberg - Chairman of the Board</li>
@@ -26,15 +34,7 @@ const Governance: React.FC = () => {
             </li>
           </ul>
         </div>
-        <div className="flex flex-col w-5/12 mt-16">
-          <img className="object-contain" src="/img/governance.jpg" alt="Governance" />
-          <div className="flex flex-row justify-between pl-10 pr-24 mt-2 text-center">
-            <BoardMember name="Kim André Johnsen" company="Nunchi" />
-            <BoardMember name="Per Lindberg" company="Sunlit Sea" />
-            <BoardMember name="Eirik Larsen" company="Kodeworks" />
-          </div>
-        </div>
-      </div>
+      </section>
     </>
   );
 };
