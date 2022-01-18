@@ -22,11 +22,11 @@ const Investors: React.FC = () => {
           ]}
         />
         <ContentContainer>
-          <div className="flex flex-col gap-32 py-32">
+          <div className="flex flex-col py-16 gap-y-16 lg:py-32 lg:gap-y-32">
             <WhyInvest />
             <Governance />
             <Marketing />
-            <div className="flex flex-row gap-16">
+            <div className="flex flex-col gap-16 lg:flex-row">
               <Costs />
               <Patent />
             </div>

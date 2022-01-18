@@ -3,9 +3,9 @@ import React from 'react';
 const Patent: React.FC = () => {
   return (
     <>
-      <div className="flex flex-col w-1/2 px-8 pt-10 bg-secondary-100">
-        <div className="text-6xl font-body">Patent</div>
-        <div className="flex flex-col pr-8 mt-12 ml-8 text-2xl">
+      <div className="flex flex-col px-8 pt-10 pb-8 lg:pb-0 lg:w-1/2 bg-secondary-100">
+        <h2 className="text-4xl xl:text-6xl md:text-5xl font-body">Patent</h2>
+        <div className="flex flex-col pr-8 mt-4 ml-8 text-lg lg:mt-12 xl:text-2xl">
           <ul>
             <li className="list-disc ">
               Sunlit Sea holds two patent applications in the UK dated 23.12.2019.

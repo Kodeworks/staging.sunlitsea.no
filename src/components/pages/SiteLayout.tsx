@@ -7,7 +7,7 @@ const SiteLayout: React.FC = ({ children }) => {
     <>
       <div className="w-full min-h-screen bg-black">
         <NavBar />
-        <main className="w-full mt-16">{children}</main>
+        <main className="w-full">{children}</main>
         <Footer />
       </div>
     </>

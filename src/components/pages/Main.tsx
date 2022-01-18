@@ -23,15 +23,15 @@ const Main: React.FC = () => {
 
         <ContentContainer>
           <div className="w-full pt-16 pb-32 ">
-            <section className="flex flex-row">
-              <div className="w-1/2 pr-6">
+            <section className="flex flex-row gap-6 lg:gap-12">
+              <div className="hidden md:w-1/2 md:block">
                 <img
                   className="object-contain"
                   src="/img/main/main_page_placeholder.jpg"
                   alt="placeholder"
                 />
               </div>
-              <div className="w-1/2 pl-6 text-3xl leading-normal font-arial">
+              <div className="text-lg md:w-1/2 2xl:leading-normal lg:text-xl xl:text-2xl 2xl:text-3xl font-arial">
                 Sunlit Sea is a technology provider to the floating solar industry and was founded
                 by Per Lindberg and Kodeworks AS in 2019. With a new and rapidly growing market
                 Sunlit Sea aims to address the potential of optimizing cost, longevity, power

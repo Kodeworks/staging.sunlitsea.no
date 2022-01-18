@@ -60,15 +60,6 @@ github->settings->pages: Write "staging.sunlitsea.no" in Custom domain and press
 - [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 - [Headwind](https://marketplace.visualstudio.com/items?itemName=heybourn.headwind)
 
-### PostCSS
-
-This project uses [PostCSS](https://github.com/postcss/postcss) for transforming CSS with JavaScript used by [Tailwind CSS](https://tailwindcss.com). It includes the following PostCSS plugins:
-
-- [postcss-preset-env](https://preset-env.cssdb.org/) - Adds stage 2+ features and autoprefixes
-- [postcss-import](https://github.com/postcss/postcss-import) - transforms @import rules by inlining content
-
-To control the generated stylesheet's filesize, this project uses Tailwind CSS' [`purge` option](https://tailwindcss.com/docs/controlling-file-size/#removing-unused-css) to remove unused CSS.
-
 ### Stylelint
 
 VSCodes built-in CSS validator does not support Tailwind syntax. Disable it by adding the following config to `.vscode/settings.json` to avoid false errors, and use Stylelint instead by installing the `stylelint` extension in VSCode.

@@ -9,7 +9,7 @@ interface Props {
 const LogoWithName: React.FC<Props> = ({ containerClassName, svgClassName, textClassName }) => {
   return (
     <a className={`${containerClassName}`} href="/">
-      <span className="flex flex-row space-x-3 align-middle">
+      <span className="flex flex-row align-middle">
         <svg
           className={`${svgClassName}`}
           xmlns="http://www.w3.org/2000/svg"
