@@ -39,13 +39,13 @@ export const TopPagePoster: React.FC<TopPagePosterProps> = (props) => {
   } else {
     return (
       <>
-        <div className="relative min-h-[400px] md:min-h-[600px] lg:min-h-[800px] xl:min-h-[1008px]">
+        <div className="relative min-h-[400px] md:min-h-[600px] lg:min-h-[800px] mt-10">
           <img
             src={props.image}
             alt={props.imageAlt}
             className="absolute top-0 left-0 object-cover w-full h-full"
           />
-          <div className="w-full sls-top-page-poster__gradient min-h-[400px] md:min-h-[600px] lg:min-h-[800px] xl:min-h-[1008px]" />
+          <div className="w-full sls-top-page-poster__gradient min-h-[400px] md:min-h-[600px] lg:min-h-[800px]" />
           <div className="absolute bottom-0 w-full xl:bottom-24 lg:bottom-16 md:bottom-12 sm:bottom-4">
             <ContentContainer>
               <h1 className="mt-8 text-6xl text-white font-headline">{props.headingText}</h1>

@@ -17,7 +17,7 @@ const Contact: React.FC = () => {
                   role="FOUNDER / CEO"
                   image="per.jpg"
                   email="per@sunlitsea.no"
-                  phone="+47 97079523"
+                  phone="+47 970 79 523"
                 />
 
                 <ContactPerson
@@ -25,7 +25,7 @@ const Contact: React.FC = () => {
                   role="FOUNDER / CFO / CDO"
                   image="eirik.jpg"
                   email="eirik@sunlitsea.no"
-                  phone="+47 41670269"
+                  phone="+47 416 70 269"
                 />
               </div>
 

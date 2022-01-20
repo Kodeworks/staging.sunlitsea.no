@@ -5,7 +5,6 @@ import Main from './pages/Main';
 import Product from './pages/Product';
 import AboutUs from './pages/AboutUs';
 import Technology from './pages/Technology';
-import Roadmap from './pages/Roadmap';
 import Careers from './pages/Careers';
 import Investors from './pages/Investors';
 import Contact from './pages/Contact';
@@ -15,7 +14,6 @@ export const routes = {
   '/product': Product,
   '/about_us': AboutUs,
   '/technology': Technology,
-  '/roadmap': Roadmap,
   '/careers': Careers,
   '/investors': Investors,
   '/contact': Contact,

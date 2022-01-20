@@ -1,7 +1,7 @@
 import React from 'react';
 import { ContentContainer } from '../atoms/ContentContainer';
 import MainMenuItem from '../atoms/MainMenuItem';
-import MainPageQuoter from '../molecules/MainPageQuoter';
+import Quoter from '../molecules/Quoter';
 
 const Main: React.FC = () => {
   return (
@@ -17,7 +17,7 @@ const Main: React.FC = () => {
             src="https://user-images.githubusercontent.com/66632214/148779626-72c2596b-4f4e-43c1-bc58-ea5a96a6f201.mp4"
           />
           <div className="absolute bottom-0 w-full h-full transparentBlackGradient">
-            <MainPageQuoter />
+            <Quoter />
           </div>
         </div>
 
@@ -41,7 +41,7 @@ const Main: React.FC = () => {
               </div>
             </section>
 
-            <div className="grid grid-cols-3 gap-8 mt-16">
+            <div className="grid grid-cols-1 gap-8 mt-16 sm:grid-cols-2 lg:grid-cols-3">
               <MainMenuItem title="Product" image="product" description="Our system explained" />
               <MainMenuItem
                 title="Technology"
@@ -50,7 +50,7 @@ const Main: React.FC = () => {
               />
               <MainMenuItem
                 title="About"
-                image="about"
+                image="about_us"
                 description="Learn about our company, the team and our mission"
               />
               <MainMenuItem

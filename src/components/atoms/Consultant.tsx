@@ -8,10 +8,10 @@ interface Props {
 
 const Consultant: React.FC<Props> = ({ name, image, role }) => {
   return (
-    <div className="flex flex-col w-1/4 px-8 mt-16">
-      <img className="object-contain" src={'/img/people/' + image} alt={image} />
-      <div className="mt-2 text-3xl font-body">{name.toUpperCase()}</div>
-      <div className="text-2xl text-gray-700 font-body">{role.toUpperCase()}</div>
+    <div className="flex flex-col">
+      <img className="object-contain" src={'/img/about/' + image} alt={image} />
+      <div className="mt-2 text-xl lg:text-3xl font-body">{name.toUpperCase()}</div>
+      <div className="text-lg text-gray-700 lg:text-2xl font-body">{role.toUpperCase()}</div>
     </div>
   );
 };

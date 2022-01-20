@@ -40,7 +40,7 @@ export const TimelineEventWindow: React.FC<TimelineEventWindowProps> = ({
           : ''
       }
     >
-      {event.text}
+      <span className="bg-white">{event.text}</span>
     </div>
   );
 };

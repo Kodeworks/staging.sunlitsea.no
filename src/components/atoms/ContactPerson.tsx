@@ -12,7 +12,7 @@ const ContactPerson: React.FC<Props> = ({ name, image, role, email, phone }) => 
   return (
     <>
       <div className="flex flex-row pb-4">
-        <img className="object-contain h-[400px]" src={'/img/people/' + image} alt={name} />
+        <img className="object-contain h-[400px]" src={'/img/about/' + image} alt={name} />
         <div className="flex flex-col ml-4">
           <div className="text-4xl font-body">{name.toUpperCase()}</div>
           <div className="text-2xl text-gray-700 font-body">{role.toUpperCase()}</div>

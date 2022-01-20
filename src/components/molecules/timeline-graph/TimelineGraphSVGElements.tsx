@@ -7,7 +7,7 @@ import {
   TimelinePointStyle,
 } from './graphTypes';
 import { TIMELINE_GRAPH_CONSTANTS } from './constants';
-import { ReactComponent as CheckmarkIcon } from './svg/checkmark-icon.svg';
+import { ReactComponent as AccomplishmentMarker } from './svg/accomplishment-marker.svg';
 import { ReactComponent as ExpectedMilestoneIcon } from './svg/expected-milestone-marker.svg';
 
 const MARKER_DIAMETER =
@@ -23,7 +23,8 @@ export const EventAnnotationMarker: React.FC<{
   coordinate: Coordinate;
   markerStyle: TimelinePointStyle;
 }> = ({ coordinate, markerStyle }) => {
-  const Marker = markerStyle === TimelinePointStyle.aim ? ExpectedMilestoneIcon : CheckmarkIcon;
+  const Marker =
+    markerStyle === TimelinePointStyle.aim ? ExpectedMilestoneIcon : AccomplishmentMarker;
   return (
     <Marker
       x={coordinate.x - TIMELINE_GRAPH_CONSTANTS.annotationIconDiameter / 2}
@@ -55,7 +56,7 @@ export const TimelineGraphSVGElements: React.FC<TimelineGraphSVGElementsProps> =
           y1={coordinates[0].y}
           x2={coordinates[1].x}
           y2={coordinates[1].y}
-          stroke={'#e6e6e6'}
+          stroke={'#595959'}
           strokeWidth={TIMELINE_GRAPH_CONSTANTS.annotationLineStrokeWidth}
         />
       );
@@ -89,7 +90,7 @@ export const TimelineGraphSVGElements: React.FC<TimelineGraphSVGElementsProps> =
             y1={coordinate.y}
             x2={previousCoordinate.x}
             y2={previousCoordinate.y}
-            stroke={'#e6e6e6'}
+            stroke={'#595959'}
             strokeWidth={TIMELINE_GRAPH_CONSTANTS.annotationLineStrokeWidth}
           />
         );

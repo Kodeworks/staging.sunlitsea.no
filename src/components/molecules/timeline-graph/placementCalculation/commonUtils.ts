@@ -6,7 +6,7 @@
  * @param axisLengths
  */
 import { TimelineEvent } from '../graphTypes';
-import { differenceInDays, getDayOfYear, getYear, sub } from 'date-fns';
+import { differenceInDays, getYear, sub } from 'date-fns';
 import { InitializedGraphState } from '../graphState';
 import { useEffect, useRef } from 'react';
 
@@ -34,7 +34,7 @@ export function getDateAxisCoordinateForEvent(
     }
     return accumulator;
   })();
-  const howFarInYear = getDayOfYear(date) / 365.0;
+  const howFarInYear = date.getMonth() / 12;
   return howFarInYear * yearPixelLength + baseX;
 }
 
@@ -45,7 +45,7 @@ export function getDateAxisCoordinateForEvent(
  */
 export function getDateAxisCoordinateForEventVertical(
   event: TimelineEvent,
-  axis: InitializedGraphState['state']['axis'],
+  axis: InitializedGraphState['state']['axis']
 ): number {
   const date = new Date(event.date);
   const lowestDay = new Date(`${axis[0]}-01-01`);
