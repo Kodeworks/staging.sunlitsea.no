@@ -9,9 +9,9 @@ const Contact: React.FC = () => {
       <div className="pb-8 bg-white">
         <ContentContainer>
           <div className="flex flex-col ">
-            <h1 className="mt-24 text-6xl font-body">Contact</h1>
-            <div className="flex flex-row mt-8 justify-evenly">
-              <div className="flex flex-col w-1/2 pr-8">
+            <h1 className="mt-12 text-5xl md:mt-24 md:text-6xl font-body">Contact</h1>
+            <div className="flex flex-col mt-8 md:flex-row justify-evenly">
+              <div className="flex flex-col mx-auto md:pr-8 md:w-1/2">
                 <ContactPerson
                   name="Per Lindberg"
                   role="FOUNDER / CEO"
@@ -29,9 +29,9 @@ const Contact: React.FC = () => {
                 />
               </div>
 
-              <div className="flex flex-col w-1/2 pl-8">
-                <div className="mt-2 text-3xl ">
-                  <div className="bg-primary-100 h-[250px] px-4 py-4">
+              <div className="flex flex-col mx-auto text-xl md:pl-8 md:w-5/12 lg:text-2xl xl:w-1/2 xl:text-3xl">
+                <div className="mt-2 ">
+                  <div className="bg-primary-100 xl:h-[250px] px-4 pt-4 pb-8">
                     <p className="font-bold font-body">Got a general inquiry?</p>
                     <p className="mt-4 ">
                       Send an email to{' '}
@@ -45,8 +45,8 @@ const Contact: React.FC = () => {
                     </p>
                   </div>
                 </div>
-                <div className="py-8 mx-auto mt-1 text-3xl ">
-                  <div className=" bg-primary-200 h-[250px] px-4 py-4">
+                <div className="py-8 mx-auto mt-1 ">
+                  <div className=" bg-primary-200 xl:h-[250px] px-4 pt-4 pb-8">
                     <p className="font-bold font-body">
                       Want to get a quote on our floating photovoltaic installations?
                     </p>
@@ -62,8 +62,8 @@ const Contact: React.FC = () => {
                     </p>
                   </div>
                 </div>
-                <div className="mt-1 text-3xl ">
-                  <div className="px-4 py-4 bg-primary-100 h-[250px]">
+                <div className="mt-1 ">
+                  <div className="px-4 pt-4 pb-8 bg-primary-100 xl:h-[250px]">
                     <p className="font-bold font-body">Follow us on social media!</p>
                     <div className="flex flex-row mt-4 ml-4">
                       <SocialIcon
