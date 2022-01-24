@@ -6,8 +6,8 @@ interface Props {
 
 const ChallengeTitle: React.FC<Props> = ({ name }) => {
   return (
-    <div className="flex flex-1 h-36">
-      <div className="mx-auto my-auto text-3xl text-center">{name}</div>
+    <div className="">
+      <div className="mx-auto my-auto text-4xl sm:text-5xl lg:text-6xl">{name}</div>
     </div>
   );
 };

@@ -1,41 +1,32 @@
-import React from 'react';
-import Popup from 'reactjs-popup';
+import React, { useState } from 'react';
 
 interface Props {
   name: string;
-  style: string;
+  number: string;
+  background: string;
   child: React.ReactNode;
 }
 
-const Challenge: React.FC<Props> = ({ name, style, child }) => {
+const Challenge: React.FC<Props> = ({ name, number, background, child }) => {
+  const [toggle, setToggle] = useState(false);
   return (
-    <Popup
-      trigger={
-        <button
-          className={
-            'mx-4 h-36 flex-1 flex focus:outline-none focus:ring-2 focus:ring-primary-400 hover:bg-secondary-500 rounded-lg' +
-            ' ' +
-            style
-          }
-        >
-          <div className="mx-8 my-auto text-lg leading-tight">{name}</div>
-        </button>
-      }
-      modal
-      nested
-    >
-      {(close) => (
-        <div className="flex flex-col px-8 max-w-screen-2xl rounded-3xl bg-secondary-50">
-          <button
-            className="self-end mr-4 text-4xl focus:outline-none active:border-transparent"
-            onClick={close}
-          >
-            &times;
-          </button>
-          {child}
-        </div>
+    <div>
+      <button
+        className={
+          'flex flex-row p-6 focus:outline-none text-3xl sm:text-4xl lg:text-5xl text-left focus:ring-inset focus:ring-2 w-full focus:ring-primary-400 ' +
+          ' ' +
+          background
+        }
+        onClick={() => setToggle(!toggle)}
+      >
+        <div className="mt-1 sm:mt-[5px] font-body">{number}</div>
+        <div className="pl-2 sm:pl-4 lg:pl-8 ">{name}</div>
+      </button>
+
+      {toggle && (
+        <div className={'flex flex-col px-8 max-w-screen-2xl' + ' ' + background}>{child}</div>
       )}
-    </Popup>
+    </div>
   );
 };
 
