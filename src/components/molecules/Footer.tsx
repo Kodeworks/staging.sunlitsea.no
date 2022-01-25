@@ -8,22 +8,26 @@ const Footer: React.FC = () => {
     <div className="flex w-full max-w-full pointer-events-none">
       <footer className="flex flex-col items-center w-full px-4 py-8 text-base text-white bg-gray-900 pointer-events-auto">
         <div className="flex flex-row flex-wrap justify-center w-full h-auto px-2 gap-x-8 gap-y-4">
-          <div className="flex flex-row w-[425px] ">
-            <LogoWithName
-              containerClassName=" inline-block ml-4 min-w-max pt-1"
-              svgClassName="w-8 my-auto fill-current"
-              textClassName="mt-0.5 ml-3.5 text-4xl tracking-[.11em] text-white font-body font-normal"
-            />
-            <SocialIcon
-              url="https://www.linkedin.com/company/sunlitsea/"
-              fgColor="white"
-              className="ml-4 scale-75"
-            />
-            <SocialIcon
-              url="https://www.youtube.com/channel/UCuDWVcMb3metkdBTk1CSxig"
-              fgColor="white"
-              className="scale-75 "
-            />
+          <div className="flex flex-col sm:flex-row w-[350px] sm:w-[425px] ">
+            <div className="mx-auto">
+              <LogoWithName
+                containerClassName=" inline-block ml-4 min-w-max pt-1"
+                svgClassName="w-8 my-auto fill-current"
+                textClassName="mt-0.5 ml-3.5 text-4xl tracking-[.11em] text-white font-body font-normal"
+              />
+            </div>
+            <div className="flex flex-row mx-auto">
+              <SocialIcon
+                url="https://www.linkedin.com/company/sunlitsea/"
+                fgColor="white"
+                className="ml-4 scale-75"
+              />
+              <SocialIcon
+                url="https://www.youtube.com/channel/UCuDWVcMb3metkdBTk1CSxig"
+                fgColor="white"
+                className="scale-75 "
+              />
+            </div>
           </div>
           <div className="flex flex-col  w-[136px]">
             <span>Established in 2019</span>

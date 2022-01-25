@@ -34,14 +34,14 @@ const PositionTile: React.FC<Props> = ({ position, positionsOpened, description,
               : 'One opening available'}
           </p>
 
-          <RightArrow className="absolute w-10 cursor-pointer pointer-events-none bottom-8 right-8" />
+          <RightArrow className="absolute w-10 cursor-pointer pointer-events-none md:bottom-4 md:right-4 bottom-2 right-2 " />
         </div>
       }
       modal
       nested
     >
       {(close) => (
-        <div className="flex flex-col px-8 mx-8 max-w-screen-2xl bg-primary-200">
+        <div className="flex flex-col px-2 mx-8 sm:px-4 md:px-8 max-w-screen-2xl bg-primary-200">
           <button
             className="self-end text-4xl focus:outline-none active:border-transparent"
             onClick={close}
@@ -49,7 +49,7 @@ const PositionTile: React.FC<Props> = ({ position, positionsOpened, description,
             &times;
           </button>
           <div className="flex flex-col pb-8 md:flex-row">
-            <div className={'flex flex-col px-12' + ' ' + (image ? 'md:w-7/12' : '')}>
+            <div className={'flex flex-col ' + ' ' + (image ? 'md:w-7/12' : '')}>
               <div className="text-2xl sm:text-3xl lg:text-4xl font-body">
                 {position.toUpperCase()}
               </div>

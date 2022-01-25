@@ -24,7 +24,9 @@ const Challenge: React.FC<Props> = ({ name, number, background, child }) => {
       </button>
 
       {toggle && (
-        <div className={'flex flex-col px-8 max-w-screen-2xl' + ' ' + background}>{child}</div>
+        <div className={'flex flex-col px-4 sm:px-8 md:px-12 max-w-screen-2xl' + ' ' + background}>
+          {child}
+        </div>
       )}
     </div>
   );

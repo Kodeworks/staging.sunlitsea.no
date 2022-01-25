@@ -13,13 +13,13 @@ const ContactPerson: React.FC<Props> = ({ name, image, role, email, phone }) => 
     <>
       <div className="flex flex-row pb-4">
         <img
-          className="object-contain h-[270px] lg:h-[335px] xl:h-[400px]"
+          className="object-contain h-[200px] sm:h-[270px] lg:h-[335px] xl:h-[400px]"
           src={'/img/about/' + image}
           alt={name}
         />
-        <div className="flex flex-col ml-4 text-xl lg:text-2xl">
+        <div className="flex flex-col ml-2 text-xl sm:ml-4 lg:text-2xl">
           <div className="text-3xl lg:text-4xl font-body">{name.toUpperCase()}</div>
-          <div className="text-gray-700  font-body">{role.toUpperCase()}</div>
+          <div className="text-gray-700 font-body">{role.toUpperCase()}</div>
           <a href={'mailto:' + email} className="mt-2 underline hover:text-support-light">
             {email}
           </a>

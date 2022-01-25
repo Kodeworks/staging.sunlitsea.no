@@ -12,7 +12,7 @@ const Main: React.FC = () => {
             autoPlay={true}
             loop={true}
             muted={true}
-            className="top-0 left-0 object-cover w-screen h-[56rem] brightness-90"
+            className="top-0 left-0 object-cover w-screen h-[36rem] md:h-[44rem] lg:h-[56rem] brightness-75"
             poster="img/jumbotron_video_poster.jpg"
             src="https://user-images.githubusercontent.com/66632214/148779626-72c2596b-4f4e-43c1-bc58-ea5a96a6f201.mp4"
           />
