@@ -25,6 +25,20 @@ Html {
 }
 
 .sls-top-page-poster__gradient {
-  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 79.69%);
+  @media (max-width: 1900px) {
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 79.69%);
+  }
+  @media (min-width: 1900px) {
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 79.69%),
+      linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.2) 5%, rgba(0, 0, 0, 0) 15%),
+      linear-gradient(270deg, #000000 0%, rgba(0, 0, 0, 0.2) 5%, rgba(0, 0, 0, 0) 15%);
+  }
+  transform: rotate(-180deg);
+}
+
+.gradient-with-sides {
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 79.69%),
+    linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.2) 5%, rgba(0, 0, 0, 0) 15%),
+    linear-gradient(270deg, #000000 0%, rgba(0, 0, 0, 0.2) 5%, rgba(0, 0, 0, 0) 15%);
   transform: rotate(-180deg);
 }
