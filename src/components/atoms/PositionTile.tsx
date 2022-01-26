@@ -41,7 +41,7 @@ const PositionTile: React.FC<Props> = ({ position, positionsOpened, description,
       nested
     >
       {(close) => (
-        <div className="flex flex-col px-2 mx-8 sm:px-4 md:px-8 max-w-screen-2xl bg-primary-200">
+        <div className="flex flex-col px-4 mx-2 sm:mx-8 md:px-8 max-w-screen-2xl bg-primary-200">
           <button
             className="self-end text-4xl focus:outline-none active:border-transparent"
             onClick={close}
@@ -53,8 +53,8 @@ const PositionTile: React.FC<Props> = ({ position, positionsOpened, description,
               <div className="text-2xl sm:text-3xl lg:text-4xl font-body">
                 {position.toUpperCase()}
               </div>
-              <div className="mt-4 text-xl">{description}</div>
-              <div className="mt-4 text-xl">
+              <div className="mt-2 text-lg sm:mt-4 sm:text-xl">{description}</div>
+              <div className="mt-2 text-lg sm:mt-4 sm:text-xl">
                 Interested? Send an email to{' '}
                 <a
                   className="underline text-support-dark"

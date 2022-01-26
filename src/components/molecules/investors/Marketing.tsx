@@ -19,8 +19,8 @@ const Marketing: React.FC = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-row gap-4 mt-8 text-sm lg:text-base xl:text-xl">
-          <div className="flex flex-col w-1/3">
+        <div className="flex flex-row flex-wrap justify-center gap-4 mt-8 text-sm lg:flex-nowrap lg:text-base xl:text-xl">
+          <div className="flex flex-col max-w-[300px] lg:max-w-full lg:w-1/3">
             <img
               className="object-contain "
               src="/img/investors/marketing_1.jpg"
@@ -28,7 +28,7 @@ const Marketing: React.FC = () => {
             />
             <div>Smart Quoter, 100 MWp in Abu Dhabi</div>
           </div>
-          <div className="flex flex-col w-1/3">
+          <div className="flex flex-col max-w-[300px] lg:max-w-full  lg:w-1/3">
             <img
               className="object-contain"
               src="/img/investors/marketing_2.jpg"
@@ -40,7 +40,7 @@ const Marketing: React.FC = () => {
             </div>
           </div>
 
-          <div className="flex flex-col w-1/3">
+          <div className="flex flex-col max-w-[300px] lg:max-w-full  lg:w-1/3">
             <img
               className="object-contain"
               src="/img/investors/marketing_3.jpg"

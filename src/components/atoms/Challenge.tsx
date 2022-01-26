@@ -13,13 +13,13 @@ const Challenge: React.FC<Props> = ({ name, number, background, child }) => {
     <div>
       <button
         className={
-          'flex flex-row p-6 focus:outline-none text-3xl sm:text-4xl lg:text-5xl text-left focus:ring-inset focus:ring-2 w-full focus:ring-primary-400 ' +
+          'flex flex-row p-4 sm:p-6 focus:outline-none text-3xl sm:text-4xl lg:text-5xl text-left focus:ring-inset focus:ring-2 w-full focus:ring-primary-400 ' +
           ' ' +
           background
         }
         onClick={() => setToggle(!toggle)}
       >
-        <div className="mt-1 sm:mt-[5px] font-body">{number}</div>
+        <div className="mt-[3px] sm:mt-[5px] font-body">{number}</div>
         <div className="pl-2 sm:pl-4 lg:pl-8 ">{name}</div>
       </button>
 

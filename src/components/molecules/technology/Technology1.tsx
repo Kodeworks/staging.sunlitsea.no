@@ -20,7 +20,7 @@ const Technology1: React.FC = () => {
           <>
             <div className="mx-auto">Reduction in solar panel efficiency over time</div>
             <img
-              className="object-contain mx-auto "
+              className="object-contain p-2 mx-auto bg-white"
               src={'/img/technology/technology_1_1.png'}
               alt="technology_1_1"
             />

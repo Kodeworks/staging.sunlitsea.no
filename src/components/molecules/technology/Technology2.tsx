@@ -14,7 +14,7 @@ const Technology2: React.FC = () => {
         images={
           <>
             <img
-              className="object-contain mx-auto"
+              className="object-contain p-2 mx-auto bg-white"
               src={'/img/technology/technology_2_1.png'}
               alt="technology_2_1"
             />

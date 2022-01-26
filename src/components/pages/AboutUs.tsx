@@ -41,7 +41,7 @@ const AboutUs: React.FC = () => {
               Sunlit Sea also hires consultants to work on specialized tasks in multiple fields.
             </div>
 
-            <div className="grid flex-wrap justify-center grid-cols-3 gap-4 mt-8 md:grid-cols-4 lg:gap-8">
+            <div className="grid flex-wrap justify-center grid-cols-3 gap-2 mt-8 sm:gap-4 md:grid-cols-4 lg:gap-8">
               {consultantsData.map(({ name, image, role }) => (
                 <Consultant name={name} image={image} role={role} key={name} />
               ))}
@@ -69,9 +69,9 @@ const AboutUs: React.FC = () => {
           <section>
             <div className="flex flex-col-reverse justify-between lg:flex-row xl:mt-8">
               <img
-                className="object-contain mt-4 lg:mt-0 lg:w-1/2 lg:max-w-full max-w-[400px] sm:max-w-[500px] mx-auto"
+                className="object-contain mt-4 lg:mt-0 lg:w-1/2 lg:max-w-full max-w-full sm:max-w-[500px] mx-auto"
                 src={'/img/about/culture.jpg'}
-                alt="partners"
+                alt="culture"
               />
               <div className="flex flex-col text-lg lg:pl-8 lg:text-xl xl:text-2xl 2xl:text-3xl lg:leading-tight 2xl:leading-tight xl:leading-tight">
                 <div className="text-4xl lg:text-5xl font-body">Culture</div>
@@ -120,7 +120,7 @@ const AboutUs: React.FC = () => {
                 </div>
               </div>
               <img
-                className="object-contain mt-4 lg:mt-0 lg:w-1/2 lg:max-w-full max-w-[400px] sm:max-w-[500px] mx-auto"
+                className="object-contain mt-4 lg:mt-0 lg:w-1/2 lg:max-w-full max-w-full sm:max-w-[500px] mx-auto"
                 src={'/img/about/partners.jpg'}
                 alt="partners"
               />
