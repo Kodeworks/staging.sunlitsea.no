@@ -99,15 +99,20 @@ const Careers: React.FC = () => {
           </div>
 
           <div className="grid grid-cols-1 gap-4 mt-16 mb-16 md:mt-24 lg:grid-cols-3 sm:grid-cols-2">
-            {careersData.map(({ positionsOpened, position, image, description }) => (
-              <PositionTile
-                positionsOpened={positionsOpened}
-                position={position}
-                description={description}
-                image={image}
-                key={position}
-              />
-            ))}
+            {careersData.map(
+              ({ positionsOpened, position, description, sector, location, trade, keywords }) => (
+                <PositionTile
+                  positionsOpened={positionsOpened}
+                  position={position}
+                  description={description}
+                  sector={sector}
+                  location={location}
+                  trade={trade}
+                  keywords={keywords}
+                  key={position}
+                />
+              )
+            )}
           </div>
         </section>
       </ContentContainer>

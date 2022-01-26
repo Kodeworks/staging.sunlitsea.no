@@ -2,35 +2,53 @@
   {
     "positionsOpened": 1,
     "position": "metallurgy specialist",
-    "description": "Need description and optionally a fitting image",
-    "image": "placeholder.jpg"
-  },
-  {
-    "positionsOpened": 2,
-    "position": "production line developer",
-    "description": "Need description and optionally a fitting image"
+    "description": "Sunlit Sea is currently searching for a metallurgy specialist. In your role you will be able to take part in the product development, which will include stretch forming and deep drawing metal forming processes. Furthermore, the candidate should be accustomed with Industrial adhesives and thermal bonding and the benefits and disadvantages related industrial use of metals. It is expected that you are able to implement finite element modelling and analysis to help understand and predict the impact of mechanical stimulus, prior to physical trials in a real life environment. In your role as metallurgy specialist you will require wide-ranging knowledge of characteristics, metal regulations and standard compliances. Mechanical experience is preferred.",
+    "sector": "Private",
+    "location": "Oslo",
+    "trade": "Energy, Industry",
+    "keywords": "Metallurgy, industrial, modelling, mechanical"
   },
   {
     "positionsOpened": 1,
     "position": "chemist or sealant specialist",
-    "description": "Need description and optionally a fitting image",
-    "image": "placeholder.jpg"
+    "description": "We are now looking for an experienced chemist or sealant specialist. At Sunlit Sea you will take part in further developing our floating solar installations and a crucial task will be to lead and initiate water vapor transport rate analysis of the mechanism before and after deployment. Furthermore, your role will be to administer and coordinate our bonding, sealing and potting. It is preferred that you have knowledge of syntactic materials and the insight in their structural applications and their compressive properties. The candidate should also possess competence and ability to execute thermal conductivity analysis in a marine environment with various structures and design.",
+    "sector": "Private",
+    "location": "Oslo",
+    "trade": "Energy, Industry",
+    "keywords": "Analysis, chemistry, thermal conductivity, sealant"
   },
   {
     "positionsOpened": 1,
-    "position": "senior embedded programmer and electronics specialist",
-    "description": "Need description and optionally a fitting image",
-    "image": "placeholder.jpg"
+    "position": "Senior embedded programmer and electronics specialist",
+    "description": "We are now looking for an accomplished senior embedded programmer and electronics specialist with proficiency in mathematics. It is preferable that you have broad insight into various protocols via inter bus systems. In your position you will require competence in project management addressing sensorics, microcontrollers and signal processing. You will be able to take part in an exciting journey developing and administering embedded systems that are trailbreaking in the latest evolution of the digital appliances. The candidate will take part in both high-level and low-level programming and is expected to make use of past, present, and future statistics through time series data. Due to our rapid growth we are also looking for a candidate that can help measure and analyse scalability in response to shifting conditions. Familiarity with DevOps is preferred.",
+    "sector": "Private",
+    "location": "Oslo",
+    "trade": "Energy, Industry, IT",
+    "keywords": "Embedded, Sensorics, Mathematics, Electronics"
   },
   {
     "positionsOpened": 1,
-    "position": "high voltage electrician",
-    "description": "Need description and optionally a fitting image",
-    "image": "placeholder.jpg"
+    "position": "Production line developer",
+    "description": "Sunlit Sea is now looking for a production line developer. We are looking for someone that can take our core assets and further refine our production plan and techniques. The candidate should possess mechanical experience and preferably have an industrial background from production optimization, i.e. reducing time to market, production cost and increasing quality on the production line. The role demands that the candidate is able to strategically create plans to make use of assets, schedule estimates and execute quality assurance before and during production. The work requires insight into CNC machinery handling, programming and basic metal-working. Candidates with HSE (health, safety and environment) qualifications and training are encouraged to apply. ",
+    "sector": "Private",
+    "location": "Oslo",
+    "trade": "Energy, Industry",
+    "keywords": "Mechanics, Quality assurance, Optimization"
   },
   {
     "positionsOpened": 1,
-    "position": "project leader with experience from (floating) solar projects",
-    "description": "Need description and optionally a fitting image"
+    "position": "Low voltage electrician",
+    "description": "We are looking to hire a low voltage electrician. Candidates with background from PV (photovoltaic) systems - schooled in the field of electrical circuits, inverters and transformers will be given priority. The right person will be involved in an exciting product development process, which will focus on refining the maximum power point tracking (MPPT) of our product. Certifications needed. Candidates with HSE (health, safety and environment) qualifications and training are encouraged to apply. Furthermore, the role will involve real-time simulation and administration of prototyping systems for power grids, power electronics.",
+    "sector": "Private",
+    "location": "Oslo",
+    "trade": "Energy, Industry"
+  },
+  {
+    "positionsOpened": 1,
+    "position": "solar project leader",
+    "description": "We are now looking for a knowledgeable project leader who specializes in solar. Emphasis will be put on floating solar experience and project management. The role will require strong financial and legal affairs skills. Moreover, you will be handed responsibility for contracts, e.g. Power purchase agreements (PPA) and Engineering, Procurement and Construction (EPC). The person will furthermore handle the company's adherence to official rules and formalities, e.i. document handling, license applications and general work related to legal processes.",
+    "sector": "Private",
+    "location": "Oslo",
+    "trade": "Energy, Industry"
   }
 ]

@@ -1,7 +1,7 @@
 # staging.sunlitsea.no
 
 ## Project setup (node version 12.13.0, npm version 6.9.0)
-The project is built with[Create React App](https://github.com/facebook/create-react-app), Craco, and typescript. Node version 12.13.0, npm version 6.9.0.
+The project is built with [Create React App](https://github.com/facebook/create-react-app), Craco, and typescript. Node version 12.13.0, npm version 6.9.0.
 ```
 npm install
 
@@ -23,7 +23,7 @@ Team members are in the team.json file and include string fields name, image, ro
 Consultants are in the consultants.json file and include string fields name, image, and role.
 When adding a new image, it should be placed in the public/img/people directory and have 350x500 pixels. Fields that are in uppercase are fixed in code so the case can be arbitrary in the JSON files.
 
-The job openings in the careers section can be edited in the file src/data/careers.json and include a number field positionsOpened, string fields position and description, and an optional image string. New images should be put in the public/img/careers directory.
+The job openings in the careers section can be edited in the file src/data/careers.json and include a number field positionsOpened, string fields position, description, sector, location, trade, and optional keywords.
 
 TODO roadmap guide
 

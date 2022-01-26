@@ -6,6 +6,10 @@ interface Props {
   position: string;
   positionsOpened: number;
   description: string;
+  sector: string;
+  location: string;
+  trade: string;
+  keywords?: string;
   image?: string;
 }
 
@@ -17,7 +21,16 @@ function capitalizeString(str: string) {
   }
 }
 
-const PositionTile: React.FC<Props> = ({ position, positionsOpened, description, image }) => {
+const PositionTile: React.FC<Props> = ({
+  position,
+  positionsOpened,
+  description,
+  sector,
+  location,
+  trade,
+  keywords,
+  image,
+}) => {
   return (
     <Popup
       trigger={
@@ -41,20 +54,24 @@ const PositionTile: React.FC<Props> = ({ position, positionsOpened, description,
       nested
     >
       {(close) => (
-        <div className="flex flex-col px-4 mx-2 sm:mx-8 md:px-8 max-w-screen-2xl bg-primary-200">
+        <div className="flex flex-col max-w-screen-xl px-2 mx-2 sm:mx-8 md:px-4 bg-primary-200">
           <button
             className="self-end text-4xl focus:outline-none active:border-transparent"
             onClick={close}
           >
             &times;
           </button>
-          <div className="flex flex-col pb-8 md:flex-row">
+          <div className="flex flex-col px-4 pb-8 text-lg md:px-8 md:flex-row sm:text-xl lg:text-2xl gap-y-2 sm:gap-y-4">
             <div className={'flex flex-col ' + ' ' + (image ? 'md:w-7/12' : '')}>
               <div className="text-2xl sm:text-3xl lg:text-4xl font-body">
                 {position.toUpperCase()}
               </div>
-              <div className="mt-2 text-lg sm:mt-4 sm:text-xl">{description}</div>
-              <div className="mt-2 text-lg sm:mt-4 sm:text-xl">
+              <div>{description}</div>
+              <div className="mt-2">Sector: {sector}</div>
+              <div>Location: {location}</div>
+              <div>Trade: {trade}</div>
+              {keywords && <div>Key words: {keywords}</div>}
+              <div className="mt-2">
                 Interested? Send an email to{' '}
                 <a
                   className="underline text-support-dark"
