@@ -14,7 +14,7 @@ const Technology13: React.FC = () => {
             </div>
           </div>
           <div className="flex flex-col lg:w-1/2">
-            <div className="mt-4 text-xl lg:mt-8 sm:text-2xl font-body">Our solution</div>
+            <div className="mt-4 text-xl lg:mt-8 sm:text-2xl font-headline">Our solution</div>
             <div className="">
               Sunlit Sea is developing a solution for the prevention of marine fouling based on
               proven technology. Our unique aluminum float facilitates the use of technology that is

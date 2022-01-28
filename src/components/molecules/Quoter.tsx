@@ -7,7 +7,7 @@ const Quoter: React.FC = () => {
   return (
     <>
       <div className="flex flex-col justify-end w-full h-full px-4 pb-4 mx-auto text-lg text-white sm:pb-8 md:px-0 md:w-3/4 lg:w-2/3 lg:text-2xl">
-        <div className="text-3xl lg:text-5xl font-body">
+        <div className="text-3xl lg:text-5xl font-headline">
           Get an estimate for your floating solar installation
         </div>
         <div className="mt-1 sm:mt-4 ">

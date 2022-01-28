@@ -23,7 +23,7 @@ const AboutUs: React.FC = () => {
           ]}
         />
         <ContentContainer className="flex flex-col justify-center py-16 bg-white lg:py-32 gap-y-16 lg:gap-y-32">
-          <div className="grid justify-center grid-cols-1 gap-4 lg:grid-cols-2 2xl:gap-8">
+          <div className="grid justify-center grid-cols-1 gap-4 lg:grid-cols-2 lg:gap-8">
             {teamData.map(({ name, image, role, description }) => (
               <Employee
                 name={name}
@@ -36,12 +36,12 @@ const AboutUs: React.FC = () => {
           </div>
 
           <section>
-            <div className="text-4xl lg:text-5xl font-body">Consultants</div>
-            <div className="mt-4 text-2xl lg:text-3xl">
+            <div className="default-heading">Consultants</div>
+            <div className="mt-4 default-body">
               Sunlit Sea also hires consultants to work on specialized tasks in multiple fields.
             </div>
 
-            <div className="grid flex-wrap justify-center grid-cols-3 gap-2 mt-8 sm:gap-4 md:grid-cols-4 lg:gap-8">
+            <div className="grid max-w-6xl grid-cols-3 mx-auto mt-8 gap-x-2 gap-y-2 sm:gap-x-4 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 3xl:max-w-full 3xl:gap-y-8 lg:gap-x-8">
               {consultantsData.map(({ name, image, role }) => (
                 <Consultant name={name} image={image} role={role} key={name} />
               ))}
@@ -50,15 +50,15 @@ const AboutUs: React.FC = () => {
 
           <section className="grid grid-cols-1 gap-4 md:gap-8 md:grid-cols-2 lg:gap-16">
             <div className="flex min-h-[200px] md:min-h-full flex-col p-4   lg:p-6 xl:p-8 2xl:p-12 bg-primary-100">
-              <h2 className="text-4xl xl:text-6xl lg:text-5xl font-body">Vision</h2>
-              <div className="mt-4 lg:text-xl xl:text-2xl 2xl:text-3xl">
+              <h2 className="default-heading">Vision</h2>
+              <div className="mt-4 default-body">
                 Steering the world{'’'}s transition to floating solar as the primary renewable
                 energy source.
               </div>
             </div>
             <div className="flex min-h-[200px] md:min-h-full flex-col p-4   lg:p-6 xl:p-8 2xl:p-12 bg-primary-100">
-              <h2 className="text-4xl xl:text-6xl lg:text-5xl font-body">Mission</h2>
-              <div className="mt-4 lg:text-xl xl:text-2xl 2xl:text-3xl">
+              <h2 className="default-heading">Mission</h2>
+              <div className="mt-4 default-body">
                 We strive to develop the most bankable, compelling and robust floating solar
                 solution for inland and near-shore applications. We aim to accomplish this with
                 clever engineering, smart sensors and data processing, and an inspiring, including
@@ -73,8 +73,8 @@ const AboutUs: React.FC = () => {
                 src={'/img/about/culture.jpg'}
                 alt="culture"
               />
-              <div className="flex flex-col text-lg lg:pl-8 lg:text-xl xl:text-2xl 2xl:text-3xl lg:leading-tight 2xl:leading-tight xl:leading-tight">
-                <div className="text-4xl lg:text-5xl font-body">Culture</div>
+              <div className="flex flex-col default-body lg:pl-8 ">
+                <div className="default-heading">Culture</div>
                 <div className="mt-4">
                   In Sunlit Sea we truly believe that a solid company culture forms the basis of any
                   robust brand. This not merely covers what happens inside our own office walls, but
@@ -100,10 +100,10 @@ const AboutUs: React.FC = () => {
           </section>
 
           <section>
-            <div className="text-4xl lg:text-5xl font-body">Network</div>
-            <div className="flex flex-col justify-between mt-4 lg:flex-row xl:mt-8">
-              <div className="flex flex-col text-lg lg:pr-8 lg:text-xl xl:text-2xl 2xl:text-3xl">
-                <div className="">
+            <div className="flex flex-col justify-between lg:flex-row ">
+              <div className="flex flex-col default-body lg:pr-8 ">
+                <div className="default-heading">Network</div>
+                <div className="mt-4 xl:mt-8 ">
                   Being a startup is a true challenge. For many it would not be possible to exist
                   without support and endorsement. Sunlit Sea has been able to further develop due
                   to financial programs and incentive schemes provided by Innovation Norway and The
@@ -120,7 +120,7 @@ const AboutUs: React.FC = () => {
                 </div>
               </div>
               <img
-                className="object-contain mt-4 lg:mt-0 lg:w-1/2 lg:max-w-full max-w-full sm:max-w-[500px] mx-auto"
+                className="object-contain mt-4 lg:mt-0 lg:w-1/2 3xl:max-w-full max-w-full sm:max-w-[500px] mx-auto"
                 src={'/img/about/partners.jpg'}
                 alt="partners"
               />

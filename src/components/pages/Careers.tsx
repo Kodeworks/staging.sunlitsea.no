@@ -30,8 +30,8 @@ const Careers: React.FC = () => {
               alt="Team working in lab"
             />
             <div className="flex flex-col 2xl:mt-20">
-              <h2 className="mt-8 text-4xl md:text-5xl xl:text-6xl font-body">Why Sunlit Sea?</h2>
-              <ul className="mt-8 text-xl lg:pb-8 xl:text-2xl">
+              <h2 className="mt-8 default-heading">Why Sunlit Sea?</h2>
+              <ul className="mt-8 default-body lg:pb-8 ">
                 <li className="ml-6 list-disc">Builds new, ground breaking industry</li>
                 <li className="ml-6 list-disc">Sets the new standard for the industry</li>
                 <li className="ml-6 list-disc">
@@ -56,10 +56,8 @@ const Careers: React.FC = () => {
 
           <section className="flex flex-col items-start gap-8 lg:gap-16 lg:w-1/2">
             <div className="flex flex-col ">
-              <h2 className="mt-4 text-4xl md:text-5xl xl:text-6xl font-body md:mt-0">
-                Who we are
-              </h2>
-              <div className="mt-4 text-xl xl:text-2xl">
+              <h2 className="mt-4 default-heading md:mt-0">Who we are</h2>
+              <div className="mt-4 default-body">
                 Sunlit Sea AS is developing a new type of technology for floating solar cell
                 installations. The solution is based on prefabrication of solar panel strings on
                 robust floats, adapted for and integrated with a new and efficient solution for
@@ -98,7 +96,7 @@ const Careers: React.FC = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 gap-4 mt-16 mb-16 md:mt-24 lg:grid-cols-3 sm:grid-cols-2">
+          <div className="grid grid-cols-1 gap-4 mt-16 mb-16 md:mt-16 lg:grid-cols-3 sm:grid-cols-2">
             {careersData.map(
               ({ positionsOpened, position, description, sector, location, trade, keywords }) => (
                 <PositionTile

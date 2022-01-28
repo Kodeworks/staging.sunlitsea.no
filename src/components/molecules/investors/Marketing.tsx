@@ -6,7 +6,7 @@ const Marketing: React.FC = () => {
       <section className="flex flex-col ">
         <div className="flex flex-row">
           <div className="flex flex-col text-lg xl:text-2xl">
-            <h2 className="text-4xl xl:text-6xl md:text-5xl font-body">Marketing</h2>
+            <h2 className="default-heading">Marketing</h2>
             <div className="mt-4 xl:mt-8">
               Smart Quoter facilitates web-based customer interaction. Customers can pre-design
               their floating solar power plant and receive indicative data on CAPEX, OPEX,

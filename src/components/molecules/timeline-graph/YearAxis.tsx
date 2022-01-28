@@ -30,7 +30,7 @@ export const YearAxis: React.FC<YearAxisProps> = ({ graphState, loading }) => {
               width: `${graphState.axisLengths[i]}px`,
               backgroundColor: yearColors[i],
             }}
-            className="flex items-center justify-center h-12 text-2xl font-bold font-body"
+            className="flex items-center justify-center h-12 text-2xl font-bold font-headline"
           >
             {year}
           </div>
@@ -51,7 +51,7 @@ export const YearAxis: React.FC<YearAxisProps> = ({ graphState, loading }) => {
 
               visibility: loading ? 'hidden' : 'visible',
             }}
-            className="flex items-center justify-center h-12 text-2xl font-bold font-body"
+            className="flex items-center justify-center h-12 text-2xl font-bold font-headline"
           >
             <div className="-rotate-90">{year}</div>
           </div>

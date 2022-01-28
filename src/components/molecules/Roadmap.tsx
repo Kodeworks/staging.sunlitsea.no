@@ -10,12 +10,12 @@ const Roadmap: React.FC = () => {
   return (
     <>
       <div className="flex flex-col justify-center bg-white">
-        <div className="text-4xl xl:text-6xl md:text-5xl font-body">Accomplishments</div>
+        <div className="default-heading">Accomplishments</div>
         {
           //eslint-disable-next-line
           <TimelineGraph {...(AccomplishmentsDataset as any)} />
         }
-        <div className="mt-16 text-4xl xl:text-6xl md:text-5xl font-body">Roadmap</div>
+        <div className="mt-16 default-heading">Roadmap</div>
         {
           //eslint-disable-next-line
           <TimelineGraph {...(RoadmapDataset as any)} />

@@ -1,5 +1,4 @@
 import React from 'react';
-import { SocialIcon } from 'react-social-icons';
 import { ContentContainer } from '../atoms/ContentContainer';
 import ContactPerson from './../atoms/ContactPerson';
 
@@ -9,7 +8,7 @@ const Contact: React.FC = () => {
       <div className="pb-8 bg-white">
         <ContentContainer>
           <div className="flex flex-col ">
-            <h1 className="mt-12 text-5xl md:mt-24 md:text-6xl font-body">Contact</h1>
+            <h1 className="mt-12 md:mt-24 default-heading">Contact</h1>
             <div className="flex flex-col mt-8 md:flex-row justify-evenly">
               <div className="flex flex-col mx-auto md:pr-8 md:w-1/2">
                 <ContactPerson
@@ -31,8 +30,8 @@ const Contact: React.FC = () => {
 
               <div className="flex flex-col mx-auto text-xl md:pl-8 md:w-5/12 lg:text-2xl xl:w-1/2 xl:text-3xl">
                 <div className="mt-2 ">
-                  <div className="bg-primary-100 xl:h-[250px] px-4 pt-4 pb-8">
-                    <p className="font-bold font-body">Got a general inquiry?</p>
+                  <div className="bg-primary-100 3xl:h-[250px] px-4 pt-4 pb-8">
+                    <p className="font-bold font-headline">Got a general inquiry?</p>
                     <p className="mt-4 ">
                       Send an email to{' '}
                       <a
@@ -46,8 +45,8 @@ const Contact: React.FC = () => {
                   </div>
                 </div>
                 <div className="py-8 mx-auto mt-1 ">
-                  <div className=" bg-primary-200 xl:h-[250px] px-4 pt-4 pb-8">
-                    <p className="font-bold font-body">
+                  <div className=" bg-primary-200 3xl:h-[250px] px-4 pt-4 pb-8">
+                    <p className="font-bold font-headline">
                       Want to get a quote on our floating photovoltaic installations?
                     </p>
                     <p className="mt-4 ">
@@ -63,19 +62,26 @@ const Contact: React.FC = () => {
                   </div>
                 </div>
                 <div className="mt-1 ">
-                  <div className="px-4 pt-4 pb-8 bg-primary-100 xl:h-[250px]">
-                    <p className="font-bold font-body">Follow us on social media!</p>
+                  <div className="px-4 pt-4 pb-8 bg-primary-100 3xl:h-[250px]">
+                    <p className="font-bold font-headline">Follow us on social media!</p>
                     <div className="flex flex-row mt-4 ml-4">
-                      <SocialIcon
-                        url="https://www.linkedin.com/company/sunlitsea/"
-                        fgColor="white"
-                        className="scale-125"
-                      />
-                      <SocialIcon
-                        url="https://www.youtube.com/channel/UCuDWVcMb3metkdBTk1CSxig"
-                        fgColor="white"
-                        className="ml-8 scale-125"
-                      />
+                      <a className="" href="https://www.linkedin.com/company/sunlitsea/">
+                        <img
+                          src={'/img/linkedin.png'}
+                          className="object-contain w-[55px] h-[55px]"
+                          alt="LinkedIn"
+                        />
+                      </a>
+                      <a
+                        className="ml-4"
+                        href="https://www.youtube.com/channel/UCuDWVcMb3metkdBTk1CSxig"
+                      >
+                        <img
+                          src={'/img/youtube.png'}
+                          className="object-contain w-[66px] h-[66px]"
+                          alt="youtube"
+                        />
+                      </a>
                     </div>
                   </div>
                 </div>

@@ -7,7 +7,7 @@ interface Props {
 const ChallengeTitle: React.FC<Props> = ({ name }) => {
   return (
     <div className="">
-      <div className="mx-auto my-auto text-4xl sm:text-5xl lg:text-6xl">{name}</div>
+      <div className="mx-auto my-auto default-heading">{name}</div>
     </div>
   );
 };

@@ -1,5 +1,4 @@
 import React from 'react';
-import { SocialIcon } from 'react-social-icons';
 
 import LogoWithName from '../atoms/LogoWithName';
 
@@ -13,20 +12,24 @@ const Footer: React.FC = () => {
               <LogoWithName
                 containerClassName=" inline-block ml-4 min-w-max pt-1"
                 svgClassName="w-8 my-auto fill-current"
-                textClassName="mt-0.5 ml-3.5 text-4xl tracking-[.11em] text-white font-body font-normal"
+                textClassName="mt-0.5 ml-3.5 text-4xl tracking-[.11em] text-white font-headline font-normal"
               />
             </div>
-            <div className="flex flex-row mx-auto">
-              <SocialIcon
-                url="https://www.linkedin.com/company/sunlitsea/"
-                fgColor="white"
-                className="ml-4 scale-75"
-              />
-              <SocialIcon
-                url="https://www.youtube.com/channel/UCuDWVcMb3metkdBTk1CSxig"
-                fgColor="white"
-                className="scale-75 "
-              />
+            <div className="flex flex-row mx-auto mt-2.5">
+              <a className="ml-4" href="https://www.linkedin.com/company/sunlitsea/">
+                <img
+                  src={'/img/linkedin.png'}
+                  className="object-contain w-[30px] h-[30px] bg-gray-100 invert"
+                  alt="LinkedIn"
+                />
+              </a>
+              <a className="ml-2" href="https://www.youtube.com/channel/UCuDWVcMb3metkdBTk1CSxig">
+                <img
+                  src={'/img/youtube.png'}
+                  className="object-contain w-[36px] h-[36px] bg-gray-100 invert"
+                  alt="youtube"
+                />
+              </a>
             </div>
           </div>
           <div className="flex flex-col  w-[136px]">

@@ -3,10 +3,8 @@ import React from 'react';
 const Costs: React.FC = () => {
   return (
     <>
-      <div className="flex flex-col text-lg lg:w-1/2 gap-y-4 lg:gap-y-8 xl:text-2xl">
-        <h2 className="pr-8 text-4xl xl:text-6xl md:text-5xl font-body">
-          Costs with floating solar power
-        </h2>
+      <div className="flex flex-col lg:w-1/2 gap-y-4 3xl:gap-y-8 default-body">
+        <h2 className="default-heading">Costs with floating solar power</h2>
         <div>
           CAPEX, OPEX and LCOE * for projects in floating solar power at sea are often considered by
           analysts to be dominated by: long-term installation processes with low quality, marine

@@ -35,7 +35,7 @@ const Technology: React.FC = () => {
         <ContentContainer>
           <div className="flex flex-col mt-4">
             <ChallengeTitle name="Weather" />
-            <div className="flex flex-col gap-5 mt-8">
+            <div className="flex flex-col gap-4 mt-4">
               <Challenge
                 name="Heat degrades solar panels over time"
                 number="1."
@@ -72,9 +72,9 @@ const Technology: React.FC = () => {
                 background="bg-primary-100"
                 child={<Technology6 />}
               />
-            </div>
-            <div className="flex flex-col gap-5 mt-8">
-              <ChallengeTitle name="Installation and maintenance" />
+              <div className="mt-4">
+                <ChallengeTitle name="Installation and maintenance" />
+              </div>
               <Challenge
                 name="Time consuming installation processes"
                 number="7."
@@ -105,9 +105,9 @@ const Technology: React.FC = () => {
                 background="bg-primary-200"
                 child={<Technology11 />}
               />
-            </div>
-            <div className="flex flex-col gap-5 mt-8">
-              <ChallengeTitle name="Landscape and environment" />
+              <div className="mt-4">
+                <ChallengeTitle name="Landscape and environment" />
+              </div>
               <Challenge
                 name="Centralized land-based solar is expensive"
                 number="12."

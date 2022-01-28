@@ -17,11 +17,9 @@ const Product: React.FC = () => {
         />
         <ContentContainer className="flex flex-col py-16 lg:py-32 gap-y-16 lg:gap-y-32">
           <section className="flex flex-col lg:flex-row">
-            <div className="flex flex-col lg:mr-12 lg:w-1/2">
-              <h2 className="text-4xl 2xl:text-6xl md:text-5xl font-body ">
-                Floating Solar Panels
-              </h2>
-              <div className="mt-8 text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
+            <div className="flex flex-col lg:mr-12 lg:w-1/2 default-heading">
+              <h2 className="">Floating Solar Panels</h2>
+              <div className="mt-8 default-body">
                 Sunlit Sea delivers prefabricated floating solar panel installations. This saves
                 time, reduces multiple sources of risk and the amount of personnel needed to
                 assemble the modules on site. The floats are delivered as strings, perfectly
@@ -42,9 +40,7 @@ const Product: React.FC = () => {
             </div>
           </section>
           <section className="flex flex-col">
-            <h2 className="text-4xl lg:text-right 2xl:text-6xl md:text-5xl font-body">
-              From manufacturing to deployment
-            </h2>
+            <h2 className="default-heading lg:text-right ">From manufacturing to deployment</h2>
             <div className="flex flex-col-reverse lg:flex-row">
               <div className="min-h-[300px] lg:min-h-full mt-8 lg:w-1/2">
                 <iframe
@@ -55,7 +51,7 @@ const Product: React.FC = () => {
                 />
               </div>
               <div className="flex flex-col lg:ml-12 lg:w-1/2">
-                <div className="mt-8 text-base lg:mt-4 md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
+                <div className="mt-8 text-base lg:mt-4 default-body">
                   Our quick manufacturing and deployment process is what makes Sunlit Sea stand out.
                   By pre-assembling the floats they can easily be transported and deployed on water.
                   This leads to easy logistics and low capital binding. Our industry specialists
@@ -71,8 +67,8 @@ const Product: React.FC = () => {
 
           <div className="flex flex-col gap-12 lg:flex-row">
             <section className="flex flex-col lg:w-1/2 ">
-              <h2 className="text-4xl xl:text-6xl md:text-5xl font-body">Construction</h2>
-              <div className="mt-4 text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
+              <h2 className="default-heading">Construction</h2>
+              <div className="mt-4 text-base default-body">
                 The installation is formed by two aluminum sheets that are welded together to form a
                 float. This metal has multiple properties that makes it ideal for the marine
                 environment; it is intrinsically robust and conducts heat exceptionally well. It is
@@ -85,8 +81,8 @@ const Product: React.FC = () => {
               </div>
             </section>
             <section className="flex flex-col lg:w-1/2 ">
-              <h2 className="text-4xl xl:text-6xl md:text-5xl font-body">Prefabrication</h2>
-              <div className="mt-4 text-base 2xl:pl-8 md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
+              <h2 className="default-heading">Prefabrication</h2>
+              <div className="mt-4 text-base 2xl:pl-8 default-body">
                 Prefabrication offer a range of advantages for both humans and climate, among
                 others:
                 <ul className="pl-6">
@@ -119,8 +115,8 @@ const Product: React.FC = () => {
           </div>
           <div className="flex flex-col sm:flex-row">
             <section className="flex flex-col sm:w-1/2 sm:mr-12">
-              <h2 className="text-4xl xl:text-6xl md:text-5xl font-body">Application areas</h2>
-              <div className="mt-4 text-base md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
+              <h2 className="default-heading">Application areas</h2>
+              <div className="mt-4 text-base default-body">
                 Thanks to extended longevity and rapid decommissioning our installations are
                 applicable for a wide variety of operations, such as dredging, commercial harbors or
                 even as a supplement to other energy producing facilities, such as dams. The system
@@ -129,7 +125,7 @@ const Product: React.FC = () => {
               </div>
             </section>
             <section className="flex flex-col p-4 mt-8 sm:mt-0 sm:w-1/2 lg:p-6 xl:p-8 2xl:p-12 bg-primary-100">
-              <h2 className="text-4xl xl:text-6xl md:text-5xl font-body">Specification</h2>
+              <h2 className="default-heading">Specification</h2>
               <div className="flex flex-col gap-6 mt-4">
                 <ProductSpecification property="Panel weight" value="60kg" />
                 <ProductSpecification property="Watt peak per panel" value="525W" />

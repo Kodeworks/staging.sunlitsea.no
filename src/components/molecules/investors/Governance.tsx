@@ -14,7 +14,7 @@ const Governance: React.FC = () => {
           </div>
         </div>
         <div className="flex flex-col lg:w-1/2">
-          <h2 className="text-5xl xl:text-6xl font-body">Corporate Governance</h2>
+          <h2 className="default-heading">Corporate Governance</h2>
           <ul className="mt-4 ml-8 text-lg leading-snug list-disc xl:text-2xl ">
             <li>Professionally skilled and working board</li>
             <ul className="ml-8 list-disc">

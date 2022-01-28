@@ -22,7 +22,7 @@ const Technology12: React.FC = () => {
               In addition, there is a market for offshore, but it is outside our scope
             </li>
           </ul>
-          <div className="mt-4 text-xl sm:text-2xl lg:mt-8 font-body">Our solution</div>
+          <div className="mt-4 text-xl sm:text-2xl lg:mt-8 font-headline">Our solution</div>
           <div className="">
             Sunlit Sea{"'"}s solution is robust with good hydrodynamic and aerodynamic properties,
             which means that it works well on both still and undulating water with low wave height.

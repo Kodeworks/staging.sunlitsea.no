@@ -12,7 +12,7 @@ const Main: React.FC = () => {
             autoPlay={true}
             loop={true}
             muted={true}
-            className="top-0 left-0 object-cover w-screen h-[36rem] md:h-[44rem] lg:h-[56rem] brightness-75"
+            className="top-0 left-0 object-cover w-screen h-screen max-h-[900px] brightness-75"
             poster="img/jumbotron_video_poster.jpg"
             src="https://user-images.githubusercontent.com/66632214/148779626-72c2596b-4f4e-43c1-bc58-ea5a96a6f201.mp4"
           />
@@ -24,14 +24,14 @@ const Main: React.FC = () => {
         <ContentContainer>
           <div className="w-full pt-16 pb-32 ">
             <section className="flex flex-row gap-6 lg:gap-12">
-              <div className="hidden md:w-1/2 md:block">
+              <div className="hidden md:w-1/2 md:block ">
                 <img
-                  className="object-contain"
+                  className="object-contain 2xl:max-h-80 2xl:mx-auto 3xl:max-h-full"
                   src="/img/main/main_page_placeholder.jpg"
                   alt="placeholder"
                 />
               </div>
-              <div className="text-lg md:w-1/2 2xl:leading-normal lg:text-xl xl:text-2xl 2xl:text-3xl font-arial">
+              <div className="md:w-1/2 2xl:leading-normal default-body">
                 Sunlit Sea is a technology provider to the floating solar industry and was founded
                 by Per Lindberg and Kodeworks AS in 2019. With a new and rapidly growing market
                 Sunlit Sea aims to address the potential of optimizing cost, longevity, power

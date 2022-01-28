@@ -5,7 +5,7 @@ const Customers: React.FC = () => {
     <>
       <div className="flex flex-row px-16 pt-16 pb-16 bg-white">
         <div className="flex flex-col w-7/12 pr-8">
-          <div className="text-5xl font-body">Kunder</div>
+          <div className="text-5xl font-headline">Kunder</div>
           <ul className="mt-8 text-3xl">
             <li className="mt-4 ml-8 list-disc">
               3 prototyper er testet med økende grad av technology readiness level hos fremtidige

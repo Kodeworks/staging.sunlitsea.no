@@ -5,7 +5,7 @@ const WhyInvest: React.FC = () => {
   return (
     <>
       <div className="flex flex-col">
-        <h2 className="text-4xl xl:text-6xl md:text-5xl font-body">Why invest in Sunlit Sea?</h2>
+        <h2 className="default-heading">Why invest in Sunlit Sea?</h2>
         <div className="flex flex-row flex-wrap justify-center gap-4 mt-8 md:flex-nowrap">
           <WhyInvestTile name="Very good history of gained value from 2019 to now" number="1" />
           <WhyInvestTile

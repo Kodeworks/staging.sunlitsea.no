@@ -6,10 +6,10 @@ const Financing: React.FC = () => {
   return (
     <>
       <div className="flex flex-col px-16 pt-16 pb-16 text-3xl bg-gray-200">
-        <div className="text-5xl font-body">Finansiering</div>
+        <div className="text-5xl font-headline">Finansiering</div>
         <div className="flex flex-row mt-8">
           <div className="flex flex-col w-1/2 pr-8">
-            <div className="text-4xl font-body">Tilskudd</div>
+            <div className="text-4xl font-headline">Tilskudd</div>
             <ul>
               <li className="mt-4 ml-8 list-disc">
                 Sunlit Sea har hentet 29,55 MNOK i tilskudd gjennom Innovasjon Norge-ordningene
@@ -30,7 +30,7 @@ const Financing: React.FC = () => {
           </div>
 
           <div className="flex flex-col w-1/2 pl-8">
-            <div className="text-4xl font-body">Investeringer/ansvarlig lån</div>
+            <div className="text-4xl font-headline">Investeringer/ansvarlig lån</div>
             <ul>
               <li className="mt-4 ml-8 list-disc">
                 Ved oppstart av Sunlit Sea ble 20 000 av de totalt 100 000 aksjer i selskapet solgt
@@ -56,7 +56,7 @@ const Financing: React.FC = () => {
 
         <div className="flex flex-row mt-8">
           <div className="flex flex-col w-1/2">
-            <div className="text-4xl font-body">Resultat</div>
+            <div className="text-4xl font-headline">Resultat</div>
             <ResultTable />
           </div>
           <div className="flex flex-col w-1/2">
@@ -85,7 +85,7 @@ const Financing: React.FC = () => {
 
         <div className="flex flex-row mt-8">
           <div className="flex flex-col w-1/2">
-            <div className="text-4xl font-body">Balanse</div>
+            <div className="text-4xl font-headline">Balanse</div>
             <BalanceTable />
           </div>
           <div className="flex flex-col w-1/2">

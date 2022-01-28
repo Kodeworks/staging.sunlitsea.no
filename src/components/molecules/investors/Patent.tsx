@@ -4,8 +4,8 @@ const Patent: React.FC = () => {
   return (
     <>
       <div className="flex flex-col px-2 pt-10 pb-8 sm:px-4 md:px-8 lg:pb-0 lg:w-1/2 bg-secondary-100">
-        <h2 className="text-4xl xl:text-6xl md:text-5xl font-body">Patent</h2>
-        <div className="flex flex-col mt-4 ml-8 text-lg lg:mt-12 xl:text-2xl">
+        <h2 className="default-heading">Patent</h2>
+        <div className="flex flex-col mt-4 ml-8 lg:mt-12 default-body">
           <ul>
             <li className="list-disc ">
               Sunlit Sea holds two patent applications in the UK dated 23.12.2019.

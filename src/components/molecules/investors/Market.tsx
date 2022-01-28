@@ -6,7 +6,7 @@ const Market: React.FC = () => {
       <div className="flex flex-col px-16 pt-16 pb-16 mt-16 text-3xl bg-white">
         <div className="flex flex-row">
           <div className="flex flex-col w-1/2 ">
-            <div className="text-5xl font-body">Marked</div>
+            <div className="text-5xl font-headline">Marked</div>
             <div className="mt-16">
               The market for floating solar power is forecast to have a compound annual growth rate
               (CAGR) of 25% - 40% * by 2027.
