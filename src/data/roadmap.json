@@ -1,41 +1,86 @@
 {
-  "yearsToShow": [2021, 2024],
+  "yearsToShow": [2022, 2024],
   "displayArrowOnAxisEnd": false,
   "events": [
-    { "date": "2021-04-15", "text": "Sveiseprosedyre etablert", "markerStyle": "aim" },
-    { "date": "2021-04-15", "text": "Produksjonslinje 1.0, manuell", "markerStyle": "aim" },
-    { "date": "2021-04-15", "text": "Bølgetanktest med fullskala flottører", "markerStyle": "aim" },
-    { "date": "2021-04-15", "text": "Aksjesalg min 10 MNOK – max 30 MNOK", "markerStyle": "aim" },
-
-    { "date": "2021-04-16", "text": "DNV verifikasjon i henhold til recommended practice DNV-RP-0584", "markerStyle": "aim" },
-    { "date": "2021-08-15", "text": "Prototype 4 installert i Trondheim", "markerStyle": "aim" },
-
-    { "date": "2022-01-15", "text": "Prototype 5 installert ved Sætre", "markerStyle": "aim" },
-
-    { "date": "2022-03-15", "text": "Pilot 1. 20 kWp", "markerStyle": "aim" },
-    { "date": "2022-03-15", "text": "Produksjonslinje 2.0, semiautomatisert", "markerStyle": "aim" },
-
-    { "date": "2022-04-15", "text": "Pilot 2. 50 kWp", "markerStyle": "aim" },
-    { "date": "2022-04-15", "text": "Prototype 6", "markerStyle": "aim" },
-    { "date": "2022-04-15", "text": "End-of-life assessment protokoll etablert", "markerStyle": "aim" },
-
-
-    { "date": "2022-05-15", "text": "Pilot 3. 100 kWP", "markerStyle": "aim" },
-
-    { "date": "2022-06-15", "text": "Pilot 4. 200 kWP", "markerStyle": "aim" },
-    { "date": "2022-06-15", "text": "Emisjon – aksjesalg for etablering av helautomatisk fabrikk", "markerStyle": "aim" },
-
-    { "date": "2022-07-14", "text": "Prototype 7", "markerStyle": "aim" },
-    { "date": "2022-07-14", "text": "Kommersielle installasjoner", "markerStyle": "aim" },
-
-    { "date": "2022-08-14", "text": "Marine grade performance ratio protokoll etablert", "markerStyle": "aim" },
-
-    { "date": "2022-10-14", "text": "Prototype 8", "markerStyle": "aim" },
-
-    { "date": "2023-02-14", "text": "Økt syklusrate og kvalitet, ny og oppdatert fabrikk", "markerStyle": "aim" },
-
-    { "date": "2023-07-14", "text": "Økning fra 50 til 500 MWp (mellom 2023 og 2026)", "markerStyle": "aim" },
-
-    { "date": "2024-07-14", "text": "Global skalering", "markerStyle": "aim" }
+    {
+      "date": "2022-02-01",
+      "text": "Prototype 6. Exposed location. Wave corrected performance ratio.",
+      "markerStyle": "aim"
+    },
+    {
+      "date": "2022-02-01",
+      "text": "DNV verification according to recommended practice DNV-RP-0584.",
+      "markerStyle": "aim"
+    },
+    {
+      "date": "2022-03-01",
+      "text": "Deployment technique established and completed.",
+      "markerStyle": "aim"
+    },
+    { "date": "2022-03-01", "text": "Wave tank test with full size floats.", "markerStyle": "aim" },
+    {
+      "date": "2022-03-01",
+      "text": "Production line version 2 (semi-auto) established.",
+      "markerStyle": "aim"
+    },
+    { "date": "2022-03-01", "text": "Commercial grade hinges.", "markerStyle": "aim" },
+    {
+      "date": "2022-03-01",
+      "text": "Prototype 7. Very exposed location. Complete operation.",
+      "markerStyle": "aim"
+    },
+    {
+      "date": "2022-03-01",
+      "text": "Prototype 8. Power production for a potential customer.",
+      "markerStyle": "aim"
+    },
+    {
+      "date": "2022-04-01",
+      "text": "Share sales, private or public offering, 200 MNOK.",
+      "markerStyle": "aim"
+    },
+    { "date": "2022-04-01", "text": "Pilot 1 & 2, 5 kWp each.", "markerStyle": "aim" },
+    { "date": "2022-05-01", "text": "Pilot 3 & 4, 20 & 150 kWp.", "markerStyle": "aim" },
+    { "date": "2022-06-01", "text": "Pilot 5, 268 kWp.", "markerStyle": "aim" },
+    {
+      "date": "2022-08-01",
+      "text": "End of life assessment protocol established.",
+      "markerStyle": "aim"
+    },
+    { "date": "2022-08-01", "text": "Pilot 6. 268 kWp.", "markerStyle": "aim" },
+    {
+      "date": "2022-09-01",
+      "text": "Decommissioning technique established and completed.",
+      "markerStyle": "aim"
+    },
+    {
+      "date": "2022-10-01",
+      "text": "Prototype 9. Power production for a potential customer. Module level power electronics for rapid shutdown.",
+      "markerStyle": "aim"
+    },
+    {
+      "date": "2022-10-01",
+      "text": "Prototype 10. Pushing the limits with regard to environmental exposure.",
+      "markerStyle": "aim"
+    },
+    {
+      "date": "2022-10-01",
+      "text": "Production line version 3 (fully automated) established.",
+      "markerStyle": "aim"
+    },
+    { "date": "2022-10-01", "text": "Pilot 7, 134 kWp.", "markerStyle": "aim" },
+    { "date": "2022-11-01", "text": "Commercial installation 1, 936 kWp.", "markerStyle": "aim" },
+    { "date": "2023-06-01", "text": "Install 7,5 MWp throughout the year.", "markerStyle": "aim" },
+    {
+      "date": "2023-12-01",
+      "text": "Significant improvement in cycle rate and quality, new factory.",
+      "markerStyle": "aim"
+    },
+    {
+      "date": "2024-06-01",
+      "text": "Gaining significant market shares and scaling, install 35 MWp.",
+      "markerStyle": "aim"
+    },
+    { "date": "2024-04-01", "text": "Larger floats", "markerStyle": "aim" }
   ]
 }

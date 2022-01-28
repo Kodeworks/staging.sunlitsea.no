@@ -22,7 +22,7 @@ export const TimelineGraph: React.FC<TimelineGraphProps> = (props) => {
 
   return (
     <div
-      className="timeline-graph-container relative mt-8 mb-8 mr-4 ml-4  overflow-hidden"
+      className="relative mt-8 mb-8 overflow-hidden timeline-graph-container"
       ref={ref}
       style={{
         height:
@@ -32,9 +32,9 @@ export const TimelineGraph: React.FC<TimelineGraphProps> = (props) => {
       }}
     >
       <TimelineGraphSVGElements loading={loading} graphState={graphState} svgRef={svgRef} />
-      <div className="graph-html-elements absolute top-0 left-0 z-30">
+      <div className="absolute top-0 left-0 z-30 graph-html-elements">
         <YearAxis graphState={graphState.state} loading={loading} />
-        <div className="graph-html-events absolute">
+        <div className="absolute graph-html-events">
           {graphState.state !== null &&
             graphState.state.events.map((event, i) => {
               return (

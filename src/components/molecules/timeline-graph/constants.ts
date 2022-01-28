@@ -14,7 +14,7 @@ export const TIMELINE_GRAPH_CONSTANTS = {
   initialGraphHeight: 400,
   maximumVerticalLIncrement: 1.5, // must be >1
   maximumVerticalLTotalIncrease: 4,
-  verticalBreakpointWidth: 720,
+  verticalBreakpointWidth: 1024,
   yearAxisVerticalWidth: 40,
   yearAxisHorizontalHeight: 44,
 };

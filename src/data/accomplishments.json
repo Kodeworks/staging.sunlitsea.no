@@ -1,63 +1,165 @@
 {
-  "yearsToShow": [2019, 2021],
+  "yearsToShow": [2019, 2022],
   "displayArrowOnAxisEnd": false,
   "events": [
     {
       "date": "2019-03-01",
-      "text": "Sunlit Sea ble stiftet av Per Lindberg og Kodeworks AS",
+      "text": "Per Lindberg and Kodeworks AS founded Sunlit Sea AS.",
       "markerStyle": "completed"
     },
     {
-      "date": "2019-11-10",
-      "text": "Sunlit Sea mottok det første av flere tilskudd fra Innovasjon Norge og landet et stort initielt salg av aksjer til eksterne investorer",
+      "date": "2019-03-01",
+      "text": "Kodeworks gives subordinated loan for startup period, 550 KNOK.",
       "markerStyle": "completed"
     },
     {
-      "date": "2020-03-03",
-      "text": "Prototype 1 installert i Oslofjorden",
-      "markerStyle": "completed",
-      "image": "/img/timeline/timeline-achieved-prototype-1.png"
+      "date": "2019-10-01",
+      "text": "Innovation Norway awards 650 KNOK grant for commercialization.",
+      "markerStyle": "completed"
     },
     {
-      "date": "2020-06-15",
-      "text": "Intensjonsavtale signert som foretrukket leverandør til det største bærekraftige eiendomsprosjektet i Norge, “Fjordbyen” ved Lierstranda",
+      "date": "2019-12-01",
+      "text": "Initial spread sale of shares, 2 MNOK invested by external investors at 50 MNOK valuation.",
+      "markerStyle": "completed"
+    },
+    {
+      "date": "2019-12-01",
+      "text": "Patent applications on 2 central aspects of Sunlit Sea’s solution delivered to UK patent office.",
+      "markerStyle": "completed"
+    },
+    {
+      "date": "2020-03-01",
+      "text": "Prototype 1. 4x4 float matrix. Basic sensors and power production.",
+      "markerStyle": "completed"
+    },
+    {
+      "date": "2020-04-01",
+      "text": "Ceiia delivers results substantiating the solution’s structural design. Stadt Towing Tank delivers results substantiating the solution’s hydrodynamic properties.",
+      "markerStyle": "completed"
+    },
+    {
+      "date": "2020-06-01",
+      "text": "Letter of intent on building a 1MWp pilot plant at Lierstranda mid 2021.",
+      "markerStyle": "completed"
+    },
+    {
+      "date": "2020-07-01",
+      "text": "Sunlit Sea Pakistan founded.",
+      "markerStyle": "completed"
+    },
+    {
+      "date": "2020-08-01",
+      "text": "Norwegian Research Council awards 14.6 MNOK in grant.",
+      "markerStyle": "completed"
+    },
+    {
+      "date": "2020-09-01",
+      "text": "Module level power electronics completed.",
+      "markerStyle": "completed"
+    },
+    {
+      "date": "2020-10-01",
+      "text": "Detailed production plans completed and visualized in 3D video material.",
       "markerStyle": "completed"
     },
     {
       "date": "2020-11-01",
-      "text": "November 2020 – total finansiering: 29 MNOK, totale kostnader: 6 MNOK",
+      "text": "Completed test tool for sensors and data communication.",
+      "markerStyle": "completed"
+    },
+    {
+      "date": "2020-11-01",
+      "text": "Supply chain: deal with a producer on favorable prices of marine-grade solar panels.",
+      "markerStyle": "completed"
+    },
+    {
+      "date": "2020-11-01",
+      "text": "Innovation Norway awards 8.3 MNOK in grants throughout the year. Total capital raised: 29 MNOK. Total expenses: ~6 MNOK.",
+      "markerStyle": "completed"
+    },
+    {
+      "date": "2020-11-01",
+      "text": "Share sales, ~1.5 MNOK. ",
       "markerStyle": "completed"
     },
     {
       "date": "2020-12-01",
-      "text": "Prototype 2 installert i Oslofjorden",
-      "markerStyle": "completed",
-      "image": "/img/timeline/timeline-achieved-prototype-2.png"
+      "text": "Prototype 2. 8 kWp. Floats with module level power electronics and sensorics.",
+      "markerStyle": "completed"
     },
     {
       "date": "2021-02-01",
-      "text": "Ny valuering: 300MNOK",
+      "text": "Latest verified evaluation: 300 MNOK.",
+      "markerStyle": "completed"
+    },
+    {
+      "date": "2021-04-01",
+      "text": "Full-time hydrodynamics expert.",
       "markerStyle": "completed"
     },
     {
       "date": "2021-05-01",
-      "text": "Prototype 3 installert i Trondheim",
-      "markerStyle": "completed",
-      "image": "/img/timeline/timeline-achieved-prototype-2.png"
-    },
-    {
-      "date": "2021-05-15",
-      "text": "2 nøkkelinvestorer investert: Nunchi Corp AS og Holta Invest AS",
+      "text": "Prototype 3. 3 kWp. Single float with load cells, moist sensors and digital twin.",
       "markerStyle": "completed"
     },
     {
-      "date": "2021-08-15",
-      "text": "R&D production line etablert",
+      "date": "2021-06-01",
+      "text": "8.4 MNOK grant for environment tech from Innovation Norway.",
       "markerStyle": "completed"
     },
     {
-      "date": "2021-12-30",
-      "text": "Total finansiering 50 MNOK, kostnader så langt 20 MNOK",
+      "date": "2021-06-01",
+      "text": "Share sales ~12.2 MNOK throughout the year.",
+      "markerStyle": "completed"
+    },
+    {
+      "date": "2021-08-01",
+      "text": "R&D production line established.",
+      "markerStyle": "completed"
+    },
+    {
+      "date": "2021-09-01",
+      "text": "Press tool finished. Integration into manufacturing pipeline.",
+      "markerStyle": "completed"
+    },
+    {
+      "date": "2021-09-01",
+      "text": "Full-time industrial expert.",
+      "markerStyle": "completed"
+    },
+    {
+      "date": "2021-09-01",
+      "text": "MVP of web-based sales tool.",
+      "markerStyle": "completed"
+    },
+    {
+      "date": "2021-10-01",
+      "text": "Hinges prototyped and tested.",
+      "markerStyle": "completed"
+    },
+    {
+      "date": "2021-11-01",
+      "text": "Production line version 1 (manual) established.",
+      "markerStyle": "completed"
+    },
+    {
+      "date": "2021-12-01",
+      "text": "Prototype 4. First form-pressed float, 2x2 m2. Additive welding.",
+      "markerStyle": "completed"
+    },
+    {
+      "date": "2021-12-01",
+      "text": "Water-ingress results from our research partner.",
+      "markerStyle": "completed"
+    },
+    {
+      "date": "2021-12-01",
+      "text": "Welding procedure established.",
+      "markerStyle": "completed"
+    },
+    {
+      "date": "2022-01-01",
+      "text": "Prototype 5. Exposed location.",
       "markerStyle": "completed"
     }
   ]
