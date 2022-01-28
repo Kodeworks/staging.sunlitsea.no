@@ -1,6 +1,6 @@
 {
-  "name": "staging.sunlitsea.no",
-  "homepage": "https://staging.sunlitsea.no",
+  "name": "sunlitsea.no",
+  "homepage": "https://sunlitsea.no",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
