@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import LogoWithName from '../atoms/LogoWithName';
+import LogoSvg from '../atoms/LogoSvg';
 import Hamburger from '../atoms/Hamburger';
 import Cross from '../atoms/Cross';
 
@@ -17,12 +17,10 @@ const NavBar: React.FC = () => {
 
   return (
     <>
-      <div className="fixed z-40 flex flex-row justify-between w-full py-1 3xl:py-4 bg-primary-100">
-        <LogoWithName
-          containerClassName="my-auto ml-3 md:ml-6 xl:ml-8 inline-block "
-          svgClassName="w-6 xl:w-8"
-          textClassName="hidden md:block text-2xl lg:text-3xl xl:text-4xl ml-1.5 xl:ml-3.5 font-headline mt-0.5 tracking-[.11em]"
-        />
+      <div className="fixed z-40 flex flex-row justify-between w-full py-1.5 3xl:py-4 bg-primary-100">
+        <a className="my-auto ml-3 w-36 sm:w-40 md:w-52 lg:w-64 3xl:w-72 md:ml-6 xl:ml-8 " href="/">
+          <LogoSvg className="" fill="#010101" />
+        </a>
         <div className="hidden pr-2 my-auto sm:block sm:pr-4">
           {items.map(function (object, i) {
             return (
@@ -41,11 +39,11 @@ const NavBar: React.FC = () => {
           onClick={() => setMenuButtonPressed(!menuButtonPressed)}
         >
           {!menuButtonPressed && <Hamburger className="" />}
-          {menuButtonPressed && <Cross className="w-4 h-4 mr-1" />}
+          {menuButtonPressed && <Cross className="w-3.5 h-3.5 mr-1" />}
         </button>
       </div>
       {menuButtonPressed && (
-        <div className="fixed z-40 flex flex-col w-full sm:hidden top-8 bg-primary-100">
+        <div className="fixed z-40 flex flex-col w-full sm:hidden top-6 bg-primary-100">
           {items.map(function (object, i) {
             return (
               <a

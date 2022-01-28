@@ -25,7 +25,7 @@ When adding a new image, it should be placed in the public/img/people directory 
 
 The job openings in the careers section can be edited in the file src/data/careers.json and include a number field positionsOpened, string fields position, description, sector, location, trade, and optional keywords.
 
-TODO roadmap guide
+The roadmap and accomplishments are edited in their respective JSON files in the src/data directory. Follow the existing pattern to update them. The day in the date is irrelevant. Additional readme regarding development of the roadmap can be found in src/components/molecules/timeline-graph/Readme.md.
 
 Follow the steps below for deployment to make the changes show up on the website.
 

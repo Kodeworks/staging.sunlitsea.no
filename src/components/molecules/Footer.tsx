@@ -1,6 +1,6 @@
 import React from 'react';
 
-import LogoWithName from '../atoms/LogoWithName';
+import LogoSvg from '../atoms/LogoSvg';
 
 const Footer: React.FC = () => {
   return (
@@ -8,13 +8,9 @@ const Footer: React.FC = () => {
       <footer className="flex flex-col items-center w-full px-4 py-8 text-base text-white bg-gray-900 pointer-events-auto">
         <div className="flex flex-row flex-wrap justify-center w-full h-auto px-2 gap-x-8 gap-y-4">
           <div className="flex flex-col sm:flex-row w-[350px] sm:w-[425px] ">
-            <div className="mx-auto">
-              <LogoWithName
-                containerClassName=" inline-block ml-4 min-w-max pt-1"
-                svgClassName="w-8 my-auto fill-current"
-                textClassName="mt-0.5 ml-3.5 text-4xl tracking-[.11em] text-white font-headline font-normal"
-              />
-            </div>
+            <a className="mx-auto mt-2.5 w-72" href="/">
+              <LogoSvg className="" fill="#FFFFFF" />
+            </a>
             <div className="flex flex-row mx-auto mt-2.5">
               <a className="ml-4" href="https://www.linkedin.com/company/sunlitsea/">
                 <img

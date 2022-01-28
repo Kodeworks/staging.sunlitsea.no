@@ -51,7 +51,7 @@ export const TopPagePoster: React.FC<TopPagePosterProps> = (props) => {
               <ContentContainer>
                 <h1 className="mt-8 text-6xl text-white font-headline">{props.headingText}</h1>
                 {props.subHeadingText.map((t, i) => (
-                  <p className="text-2xl text-white font-headline" key={i}>
+                  <p className="text-2xl text-white 2xl:text-3xl font-headline" key={i}>
                     {t}
                   </p>
                 ))}

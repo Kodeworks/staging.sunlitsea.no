@@ -13,7 +13,9 @@ const Product: React.FC = () => {
           image={'/img/product/product_poster.jpg'}
           imageAlt={'Deployment of floating solar panels'}
           headingText="Product"
-          subHeadingText={['Placeholder text']}
+          subHeadingText={[
+            'Sunlit Sea delivers floating solar panels. Below you will find an overview of how we manufacture and deploy our installations.',
+          ]}
         />
         <ContentContainer className="flex flex-col py-16 lg:py-32 gap-y-16 lg:gap-y-32">
           <section className="flex flex-col lg:flex-row">
