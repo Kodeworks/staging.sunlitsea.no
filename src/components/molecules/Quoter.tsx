@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import QuoterArrow from '../atoms/QuoterArrow';
 import DownArrow from '../atoms/DownArrow';
 
+const link = 'https://quote.sunlitsea.no/?location=';
+
 const Quoter: React.FC = () => {
   const [location, setLocation] = useState('');
   return (
@@ -23,12 +25,17 @@ const Quoter: React.FC = () => {
             onInput={(e) => {
               setLocation(e.currentTarget.value);
             }}
+            onKeyPress={(e) => {
+              if (e.key == 'Enter') {
+                window.location.assign(link + encodeURIComponent(location));
+              }
+            }}
             value={location}
             placeholder="Location"
           />
           <a
             className="z-10 flex flex-col justify-center px-3 mt-4 sm:mt-8 -ml-14 lg:-ml-20"
-            href={'https://quote.sunlitsea.no/?location=' + encodeURIComponent(location)}
+            href={link + encodeURIComponent(location)}
           >
             <QuoterArrow className="w-8 lg:w-16" />
           </a>
