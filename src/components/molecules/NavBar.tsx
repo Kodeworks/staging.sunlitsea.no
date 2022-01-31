@@ -25,7 +25,7 @@ const NavBar: React.FC = () => {
           className="ml-3 w-36 sm:w-40 md:w-52 lg:w-64 3xl:w-72 md:ml-6 xl:ml-8 my-1.5 3xl:my-4"
           href="/"
         >
-          <LogoSvg className="" fill="#010101" />
+          <LogoSvg fill="#010101" />
         </a>
         <div className="hidden pr-2 sm:flex sm:flex-row sm:pr-4">
           {items.map(function (object, i) {

@@ -1,11 +1,10 @@
 import React from 'react';
 
 interface Props {
-  className: string;
   fill: string;
 }
 
-const LogoSvg: React.FC<Props> = ({ className, fill }) => {
+const LogoSvg: React.FC<Props> = ({ fill }) => {
   return (
     <svg
       version="1.1"

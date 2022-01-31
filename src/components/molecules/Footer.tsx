@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-row flex-wrap justify-center w-full h-auto px-2 gap-x-8 gap-y-4">
           <div className="flex flex-col sm:flex-row w-[350px] sm:w-[425px] ">
             <a className="mx-auto mt-2.5 w-72" href="/">
-              <LogoSvg className="" fill="#FFFFFF" />
+              <LogoSvg fill="#FFFFFF" />
             </a>
             <div className="flex flex-row mx-auto mt-2.5">
               <a className="ml-4" href="https://www.linkedin.com/company/sunlitsea/">
