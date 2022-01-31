@@ -4,17 +4,11 @@
 The project is built with [Create React App](https://github.com/facebook/create-react-app), Craco, and typescript. Node version 12.13.0, npm version 6.9.0.
 ```
 npm install
-
 ```
 
 ### Compiles and hot-reloads for development
 ```
 npm run start
-```
-
-### Compiles and minifies for production
-```
-npm run build
 ```
 
 ### Editing dynamic content
