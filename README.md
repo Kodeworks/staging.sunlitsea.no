@@ -32,7 +32,7 @@ Follow the steps below for deployment to make the changes show up on the website
 ### Split deployment with Github Pages
 
 We use Github Pages for deployment. Github Pages allows only one domain per remote, so we use another remote for production. The second repo is https://github.com/Kodeworks/new-sunlitsea.no.
-This means we have to scripts for building: build-staging and build-prod. The difference between them is that each copies the right CNAME file to the build folder to set the correct domain.
+This means we have two scripts for building: build-staging and build-prod. The difference between them is that each copies the right CNAME file to the build folder to set the correct domain.
 Then the build should be pushed to the correct repo. If the wrong build is pushed to a repo, just reupload both of them. Keep a dev branch for the staging build and a master branch for the production build.
 
 ### Deployment staging
