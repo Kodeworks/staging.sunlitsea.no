@@ -36,9 +36,10 @@ const AboutUs: React.FC = () => {
           </div>
 
           <section>
-            <div className="default-heading">Consultants</div>
+            <div className="default-heading">Team members</div>
             <div className="mt-4 default-body">
-              Sunlit Sea also hires consultants to work on specialized tasks in multiple fields.
+              Sunlit Sea has a core team of employees and consultants to work on specialized tasks
+              in multiple fields.
             </div>
 
             <div className="grid max-w-6xl grid-cols-3 mx-auto mt-8 gap-x-2 gap-y-2 sm:gap-x-4 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 3xl:max-w-full 3xl:gap-y-8 lg:gap-x-8">

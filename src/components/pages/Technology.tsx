@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ChallengeTitle from './../atoms/ChallengeTitle';
 import Challenge from './../atoms/Challenge';
 import Technology1 from '../molecules/technology/Technology1';
@@ -20,7 +20,33 @@ import Technology16 from './../molecules/technology/Technology16';
 import { ContentContainer } from '../atoms/ContentContainer';
 import { TopPagePoster } from '../molecules/TopPagePoster';
 
+const weather = [
+  { name: 'Heat degrades solar panels over time', child: Technology1 },
+  { name: 'Heat reduces power production', child: Technology2 },
+  { name: 'Waves reduce power output', child: Technology3 },
+  { name: 'Movements degrade performance of solar panels', child: Technology4 },
+  { name: 'Ice offers risk to installations', child: Technology5 },
+  { name: 'Floating structures exposed to wind', child: Technology6 },
+];
+
+const installation = [
+  { name: 'Time consuming installation processes', child: Technology7 },
+  { name: 'Downtime during maintenance and handling', child: Technology8 },
+  { name: 'Difficulties guaranteeing performance ratio', child: Technology9 },
+  { name: 'Expensive marine technology', child: Technology10 },
+  { name: 'Challenges linked to short project lifespan', child: Technology11 },
+];
+
+const landscape = [
+  { name: 'Centralized land-based solar is expensive', child: Technology12 },
+  { name: 'Marine overgrowth impose large costs', child: Technology13 },
+  { name: 'Power leaks pose a threat to life and health', child: Technology14 },
+  { name: 'Electricity in salt water can cause corrosion', child: Technology15 },
+  { name: 'Floating solar apply unsustainable materials', child: Technology16 },
+];
+
 const Technology: React.FC = () => {
+  const [openedChallenge, setOpenedChallenge] = useState(0);
   return (
     <>
       <div className="pb-8 bg-white">
@@ -36,108 +62,45 @@ const Technology: React.FC = () => {
           <div className="flex flex-col mt-4">
             <ChallengeTitle name="Weather" />
             <div className="flex flex-col gap-4 mt-4">
-              <Challenge
-                name="Heat degrades solar panels over time"
-                number="1."
-                background="bg-primary-200"
-                child={<Technology1 />}
-              />
-              <Challenge
-                name="Heat reduces power production"
-                number="2."
-                background="bg-primary-100"
-                child={<Technology2 />}
-              />
-              <Challenge
-                name="Waves reduce power output"
-                number="3."
-                background="bg-primary-200"
-                child={<Technology3 />}
-              />
-              <Challenge
-                name="Movements degrade performance of solar panels"
-                number="4."
-                background="bg-primary-100"
-                child={<Technology4 />}
-              />
-              <Challenge
-                name="Ice offers risk to installations"
-                number="5."
-                background="bg-primary-200"
-                child={<Technology5 />}
-              />
-              <Challenge
-                name="Floating structures exposed to wind"
-                number="6."
-                background="bg-primary-100"
-                child={<Technology6 />}
-              />
+              {weather.map((object, i) => (
+                <Challenge
+                  name={object.name}
+                  number={i + 1}
+                  background={i % 2 === 0 ? 'bg-primary-200' : 'bg-primary-100'}
+                  child={<object.child />}
+                  key={i}
+                  openedChallenge={openedChallenge}
+                  setOpenedChallenge={setOpenedChallenge}
+                />
+              ))}
               <div className="mt-4">
                 <ChallengeTitle name="Installation and maintenance" />
               </div>
-              <Challenge
-                name="Time consuming installation processes"
-                number="7."
-                background="bg-primary-200"
-                child={<Technology7 />}
-              />
-              <Challenge
-                name="Downtime during maintenance and handling"
-                number="8."
-                background="bg-primary-100"
-                child={<Technology8 />}
-              />
-              <Challenge
-                name="Difficulties guaranteeing performance ratio"
-                number="9."
-                background="bg-primary-200"
-                child={<Technology9 />}
-              />
-              <Challenge
-                name="Expensive marine technology"
-                number="10."
-                background="bg-primary-100"
-                child={<Technology10 />}
-              />
-              <Challenge
-                name="Challenges linked to short project lifespan"
-                number="11."
-                background="bg-primary-200"
-                child={<Technology11 />}
-              />
+              {installation.map((object, i) => (
+                <Challenge
+                  name={object.name}
+                  number={i + weather.length + 1}
+                  background={i % 2 === 0 ? 'bg-primary-200' : 'bg-primary-100'}
+                  child={<object.child />}
+                  key={i}
+                  openedChallenge={openedChallenge}
+                  setOpenedChallenge={setOpenedChallenge}
+                />
+              ))}
               <div className="mt-4">
                 <ChallengeTitle name="Landscape and environment" />
               </div>
-              <Challenge
-                name="Centralized land-based solar is expensive"
-                number="12."
-                background="bg-primary-200"
-                child={<Technology12 />}
-              />
-              <Challenge
-                name="Marine overgrowth impose large costs"
-                number="13."
-                background="bg-primary-100"
-                child={<Technology13 />}
-              />
-              <Challenge
-                name="Power leaks pose a threat to life and health"
-                number="14."
-                background="bg-primary-200"
-                child={<Technology14 />}
-              />
-              <Challenge
-                name="Electricity in salt water can cause corrosion"
-                number="15."
-                background="bg-primary-100"
-                child={<Technology15 />}
-              />
-              <Challenge
-                name="Floating solar apply unsustainable materials"
-                number="16."
-                background="bg-primary-200"
-                child={<Technology16 />}
-              />
+              {landscape.map((object, i) => (
+                <Challenge
+                  name={object.name}
+                  number={i + weather.length + installation.length + 1}
+                  background={i % 2 === 0 ? 'bg-primary-200' : 'bg-primary-100'}
+                  child={<object.child />}
+                  key={i}
+                  openedChallenge={openedChallenge}
+                  setOpenedChallenge={setOpenedChallenge}
+                />
+              ))}
             </div>
           </div>
         </ContentContainer>

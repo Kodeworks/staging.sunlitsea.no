@@ -15,7 +15,7 @@ const TechnologyContent: React.FC<Props> = ({ description, solution, images }) =
           <div className="mt-4 text-xl sm:text-2xl lg:mt-8 font-headline">Our solution</div>
           <div className="text-lg sm:text-xl">{solution}</div>
         </div>
-        <div className="flex flex-col mt-4 text-lg xl:w-1/3 3xl:w-5/12 xl:mt-0 sm:text-xl">
+        <div className="flex flex-col mt-4 text-base italic xl:w-1/3 3xl:w-5/12 xl:mt-0">
           {images}
         </div>
       </div>

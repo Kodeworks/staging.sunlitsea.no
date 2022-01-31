@@ -37,7 +37,7 @@ const Technology12: React.FC = () => {
             src={'/img/technology/technology_12.jpg'}
             alt="technology_12"
           />
-          <div className="mx-auto">Setouchi Kirei Mega Solar Power Plant</div>
+          <div className="mx-auto text-base italic">Setouchi Kirei Mega Solar Power Plant</div>
         </div>
       </div>
     </>
