@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.6f4348a7.css",
-    "main.js": "/static/js/main.5a12e406.js",
+    "main.css": "/static/css/main.d9656ae7.css",
+    "main.js": "/static/js/main.c06ddd4d.js",
     "static/media/Everett-Medium.otf": "/static/media/Everett-Medium.fe1f0666f6c77437b30c.otf",
     "index.html": "/index.html",
     "static/media/accomplishment-marker.svg": "/static/media/accomplishment-marker.4754c5b35f195bbf0164ab2d2388d55b.svg",
     "static/media/expected-milestone-marker.svg": "/static/media/expected-milestone-marker.efc90701b2babad427a68031e218c8bc.svg",
-    "main.6f4348a7.css.map": "/static/css/main.6f4348a7.css.map",
-    "main.5a12e406.js.map": "/static/js/main.5a12e406.js.map"
+    "main.d9656ae7.css.map": "/static/css/main.d9656ae7.css.map",
+    "main.c06ddd4d.js.map": "/static/js/main.c06ddd4d.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f4348a7.css",
-    "static/js/main.5a12e406.js"
+    "static/css/main.d9656ae7.css",
+    "static/js/main.c06ddd4d.js"
   ]
 }
