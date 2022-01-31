@@ -8,7 +8,7 @@ interface Props {
 const ProductSpecification: React.FC<Props> = ({ property, value }) => {
   return (
     <div className="flex flex-row text-sm font-headline md:text-base lg:text-lg xl:text-xl 2xl:text-2xl">
-      <div className="w-9/12">{property}</div>
+      <div className="w-2/3 pr-1">{property}</div>
       <div className="font-bold">{value}</div>
     </div>
   );

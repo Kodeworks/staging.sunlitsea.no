@@ -61,7 +61,7 @@ const PositionTile: React.FC<Props> = ({
           >
             &times;
           </button>
-          <div className="flex flex-col px-1 pb-8 overflow-scroll text-sm text-lg leading-tight sm:px-4 md:px-8 md:flex-row sm:text-xl lg:text-2xl gap-y-2 sm:gap-y-4">
+          <div className="flex flex-col px-1 pb-8 text-sm leading-tight sm:px-4 md:px-8 md:flex-row sm:text-xl lg:text-2xl gap-y-2 sm:gap-y-4">
             <div className={'flex flex-col ' + ' ' + (image ? 'md:w-7/12' : '')}>
               <div className="text-lg leading-none sm:text-3xl lg:text-4xl font-headline">
                 {position.toUpperCase()}

@@ -115,8 +115,8 @@ const Product: React.FC = () => {
               </div>
             </section>
           </div>
-          <div className="flex flex-col sm:flex-row">
-            <section className="flex flex-col sm:w-1/2 sm:mr-12">
+          <div className="flex flex-col gap-8 sm:gap-12 sm:flex-row">
+            <section className="flex flex-col sm:w-1/2 ">
               <h2 className="default-heading">Application areas</h2>
               <div className="mt-4 text-base default-body">
                 Thanks to extended longevity and rapid decommissioning our installations are
@@ -126,14 +126,14 @@ const Product: React.FC = () => {
                 intensive industries like data storage centres.
               </div>
             </section>
-            <section className="flex flex-col p-4 mt-8 sm:mt-0 sm:w-1/2 lg:p-6 xl:p-8 2xl:p-12 bg-primary-100">
+            <section className="flex flex-col p-2 sm:w-1/2 lg:p-4 xl:p-6 bg-primary-100">
               <h2 className="default-heading">Specification</h2>
               <div className="flex flex-col gap-6 mt-4">
                 <ProductSpecification property="Panel weight" value="60kg" />
-                <ProductSpecification property="Watt peak per panel" value="525W" />
-                <ProductSpecification property="Panel dimensions" value="2m x 2m" />
+                <ProductSpecification property="Watt peak per panel" value="537W" />
+                <ProductSpecification property="Panel dimensions" value="1.88m x 1.88m" />
                 <ProductSpecification property="Distance between panels" value="15cm" />
-                <ProductSpecification property="Maximum force on anchor points" value="2000N" />
+                <ProductSpecification property="Maximum force on anchor points" value="2kN" />
               </div>
             </section>
           </div>

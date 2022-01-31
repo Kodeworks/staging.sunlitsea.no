@@ -40,7 +40,7 @@ export const TopPagePoster: React.FC<TopPagePosterProps> = (props) => {
     return (
       <>
         <div className="bg-black">
-          <div className="relative h-screen max-h-[900px] mt-10 max-w-[1900px] mx-auto">
+          <div className="relative h-screen max-h-[900px] 3xl:mt-10 max-w-[1900px] mx-auto">
             <img
               src={props.image}
               alt={props.imageAlt}

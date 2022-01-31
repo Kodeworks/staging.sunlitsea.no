@@ -25,9 +25,8 @@
     "role": "IT DEVELOPER"
   },
   {
-    "name": "OLE MARIUS FORBORD",
-    "image": "ole.jpg",
-    "role": "ELECTRICAL ENGINEER"
+    "name": "Karim Jablili",
+    "role": "consultant"
   },
   {
     "name": "RUNE HOLMGREN",
@@ -35,8 +34,7 @@
     "role": "ELECTRONICS AND COMMUNICATION"
   },
   {
-    "name": "WILCO HEKKERT",
-    "image": "wilco.jpg",
-    "role": "B2B SALES"
+    "name": "Jonas",
+    "role": "consultant"
   }
 ]

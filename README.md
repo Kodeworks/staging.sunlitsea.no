@@ -20,7 +20,7 @@ npm run build
 ### Editing dynamic content
 In the about section the team members and consultants can be edited in the JSON files found under src/data.
 Team members are in the team.json file and include string fields name, image, role, and description.
-Consultants are in the consultants.json file and include string fields name, image, and role.
+Consultants are in the consultants.json file and include string fields name, optional image (if lacking image, will be replaced with placeholder), and role.
 When adding a new image, it should be placed in the public/img/people directory and have 350x500 pixels. Fields that are in uppercase are fixed in code so the case can be arbitrary in the JSON files.
 
 The job openings in the careers section can be edited in the file src/data/careers.json and include a number field positionsOpened, string fields position, description, sector, location, trade, and optional keywords.
