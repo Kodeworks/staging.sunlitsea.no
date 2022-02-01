@@ -17,7 +17,7 @@ const Investors: React.FC = () => {
           headingText="Investor"
           subHeadingText={[
             'Sunlit Sea is developing new technology for floating solar installations that opens a completely new market for systems nearshore, ' +
-              'a market where as of today no other than a pilot plant has been installed (worldwide). ' +
+              'a market where as of today no other than small plants have been installed (worldwide). ' +
               'The technology has been proven and we are shortly making our second public offering to scale up production capacity.',
           ]}
         />
