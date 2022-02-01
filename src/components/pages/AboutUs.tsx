@@ -1,10 +1,12 @@
 import React from 'react';
 import Employee from './../atoms/Employee';
+import Partner from './../atoms/Partner';
 import Consultant from './../atoms/Consultant';
 import teamData from '../../data/team.json';
 import consultantsData from '../../data/consultants.json';
 import { ContentContainer } from '../atoms/ContentContainer';
 import { TopPagePoster } from '../molecules/TopPagePoster';
+import partnersData from '../../data/partners.json';
 
 const AboutUs: React.FC = () => {
   return (
@@ -101,8 +103,8 @@ const AboutUs: React.FC = () => {
           </section>
 
           <section>
-            <div className="flex flex-col justify-between lg:flex-row ">
-              <div className="flex flex-col default-body lg:pr-8 ">
+            <div className="flex flex-col justify-between gap-8">
+              <div className="flex flex-col default-body lg:pr-8">
                 <div className="default-heading">Network</div>
                 <div className="mt-4 xl:mt-8 ">
                   Being a startup is a true challenge. For many it would not be possible to exist
@@ -119,12 +121,22 @@ const AboutUs: React.FC = () => {
                   both from offshore and solar power. Together with our partners we will show that
                   Norway is the world{"'"}s leading energy nation!
                 </div>
+                <div className="mt-4">
+                  You can click on individual partners below to read how we worked together with
+                  them.
+                </div>
               </div>
-              <img
-                className="object-contain mt-4 lg:mt-0 lg:w-1/2 3xl:max-w-full max-w-full sm:max-w-[500px] mx-auto"
-                src={'/img/about/partners.jpg'}
-                alt="partners"
-              />
+              <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 lg:gap-y-1">
+                {partnersData.map(({ image, name, link, description }) => (
+                  <Partner
+                    image={image}
+                    name={name}
+                    link={link}
+                    description={description}
+                    key={image}
+                  />
+                ))}
+              </div>
             </div>
           </section>
         </ContentContainer>

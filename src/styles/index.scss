@@ -43,3 +43,19 @@ Html {
 .default-body {
   @apply text-base md:text-lg lg:text-xl xl:text-2xl 3xl:text-3xl font-arial;
 }
+
+.partner-scroll::-webkit-scrollbar {
+  @apply bg-white w-2;
+}
+
+.partner-scroll::-webkit-scrollbar-thumb {
+  @apply bg-primary-100;
+}
+
+.position-scroll::-webkit-scrollbar {
+  @apply bg-primary-100 w-2;
+}
+
+.position-scroll::-webkit-scrollbar-thumb {
+  @apply bg-primary-400;
+}

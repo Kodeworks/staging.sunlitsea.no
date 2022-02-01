@@ -54,7 +54,7 @@ const PositionTile: React.FC<Props> = ({
       nested
     >
       {(close) => (
-        <div className="flex flex-col max-w-screen-xl px-1 sm:px-2 sm:mx-8 md:px-4 bg-primary-200">
+        <div className="flex flex-col max-w-screen-xl max-h-screen px-1 overflow-y-auto sm:px-2 sm:mx-8 md:px-4 bg-primary-100 position-scroll">
           <button
             className="self-end text-4xl focus:outline-none active:border-transparent"
             onClick={close}

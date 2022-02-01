@@ -21,6 +21,8 @@ The job openings in the careers section can be edited in the file src/data/caree
 
 The roadmap and accomplishments are edited in their respective JSON files in the src/data directory. Follow the existing pattern to update them. The day in the date is irrelevant. Additional readme regarding development of the roadmap can be found in src/components/molecules/timeline-graph/Readme.md.
 
+Partners can be edited in src/data/partners.json with fields name string, image string (images should be put in public/image/about/partners), description string array, and link string.
+
 Follow the steps below for deployment to make the changes show up on the website.
 
 ### Split deployment with Github Pages
