@@ -126,7 +126,7 @@ const AboutUs: React.FC = () => {
                   them.
                 </div>
               </div>
-              <div className="flex flex-wrap justify-center gap-x-6 gap-y-2 lg:gap-y-1">
+              <div className="flex flex-wrap justify-center gap-x-6 lg:gap-x-12 lg:gap-y-6 gap-y-4">
                 {partnersData.map(({ image, name, link, description }) => (
                   <Partner
                     image={image}

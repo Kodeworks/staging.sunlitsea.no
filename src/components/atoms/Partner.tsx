@@ -12,7 +12,7 @@ const Partner: React.FC<Props> = ({ image, name, link, description }) => {
   return (
     <Popup
       trigger={
-        <div className="relative max-w-[6rem] max-h-[4rem] sm:max-w-[8rem] sm:max-h-[5rem] lg:max-w-[10rem] lg:max-h-[7rem] flex justify-center cursor-pointer">
+        <div className="relative max-w-[6rem] min-w-[6rem]  sm:max-w-[8rem] sm:min-w-[8rem] lg:max-w-[10rem] lg:min-w-[10rem] 3xl:max-w-[12rem] 3xl:min-w-[12rem]  flex justify-center cursor-pointer ">
           <div className="absolute z-10 w-full h-full hover:bg-opacity-[.15] hover:bg-primary-300" />
           <img src={'/img/about/partners/' + image} className="z-0 object-contain" />
         </div>
@@ -38,7 +38,7 @@ const Partner: React.FC<Props> = ({ image, name, link, description }) => {
                   <div key={i}>{paragraph}</div>
                 ))}
               </div>
-              <div className="flex flex-row justify-center gap-8 mt-8">
+              <div className="flex flex-row justify-center gap-8 mt-8 lg:gap-16">
                 {link && (
                   <a href={link} className="my-auto text-support-dark hover:text-support-light">
                     {link?.replaceAll('http://', '').replaceAll('https://', '').split('/')[0]}
