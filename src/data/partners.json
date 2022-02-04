@@ -50,12 +50,20 @@
   {
     "image": "ife.png",
     "name": "Institute for Energy Technology",
+    "link": "https://ife.no/en/",
     "description": [
       "IFE is an independent research institute with a broad activity within renewable energy, from development and analysis of materials and components to full energy systems. IFE helps established and new companies to develop and validate new products, solutions and technology along the TRL scale. IFE has decades of experience working within the fields addressed by Sunlit Seas solution: PV, floating constructions, instrumentation and measurement techniques, and modeling of material processes. Three departments at IFE will be involved in the planned research.",
       "Department of Solar Power Systems hosts one of the leading research groups on Floating PV and has performed R&D with FPV-companies since 2015. The Department of Material Processing has a strong background in numerical modeling from a range of industries. The Welding, Instruments, Engineering, Workshop department has entered the field of PV systems over the past years and provided support within data acquisition from various PV test systems at the IFE campus and worldwide."
     ]
   },
-  { "image": "innovationNorway.png", "name": "Innovation Norway", "description": [""] },
+  {
+    "image": "innovationNorway.png",
+    "name": "Innovation Norway",
+    "link": "https://www.innovasjonnorge.no/en/start-page",
+    "description": [
+      "Innovation Norway is the Norwegian Government's most important instrument for innovation and development of Norwegian enterprises and industry. Sunlit Sea has received support through grants on several occasions, and the organization has been an important partner and contributor to our company since start-up in 2019."
+    ]
+  },
   {
     "image": "kodeworks.png",
     "name": "Kodeworks",
