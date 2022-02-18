@@ -23,7 +23,7 @@ const Costs: React.FC = () => {
           significantly lower financial risk Sunlit Sea projects.
         </div>
         <div className="text-base xl:text-xl">
-          * CAPEX = cost of capital, OPEX = operating expenses, LCOE = cost of energy over the
+          * CAPEX = capital expenditures, OPEX = operating expenses, LCOE = cost of energy over the
           lifetime of technology
         </div>
       </div>
