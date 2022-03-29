@@ -138,6 +138,88 @@ const Product: React.FC = () => {
             </section>
           </div>
 
+          <div className="flex flex-col gap-8 sm:gap-12 sm:flex-row">
+            <section className="flex flex-col">
+              <h2 className="default-heading">
+                DNV awards Sunlit Sea Design Basis Statement of Conformity
+              </h2>
+              <div className="mt-4 text-base default-body">
+                The issued verification has concluded that the Design Basis for structural design
+                complies with DNV-RP-0584, Recommended Practice for Design, development, and
+                operation of floating solar photovoltaic systems. The statement covers the
+                methodology, including system description, design philosophy, environmental
+                criteria, and methodology for assessing global loading and response.
+              </div>
+              <div className="mt-4 text-base default-body">
+                DNV-RP-0584 was issued in 2021 and is intended as a guideline and list of
+                requirements for FPV systems. DNV informs that the recommended practice is
+                applicable in all geographic regions and major markets and that it provides a
+                comprehensive set of requirements, recommendations, and guidelines for design,
+                development, operation, and decommissioning.
+              </div>
+              <div className="flex flex-col gap-8 sm:gap-12 md:flex-row">
+                <img
+                  className="object-contain mt-4 lg:mt-0 md:w-1/2 max-w-full sm:max-w-[500px] mx-auto"
+                  src={'/img/product/DNV_rp_0584.jpg'}
+                  alt="DNV"
+                />
+                <section className="flex flex-col md:w-1/2">
+                  <div className="mt-4 text-base default-body">
+                    “The floating solar industry is experiencing an incredibly fast growth and it is
+                    interesting to see new technology concepts being developed, such as the
+                    innovative solution proposed by Sunlit Sea. In this young and growing segment,
+                    it is of paramount importance to follow a quality-based approach to ensure
+                    reliability of floating solar systems. Using DNV-RP-0584 for verification and
+                    assurance allows to implement requirements and guidance already at early
+                    development stages, as done in this virtuous example from Sunlit Sea” said
+                    Global Practice Lead Floating Solar, DNV, Michele Tagliapietra.
+                  </div>
+                  <div className="mt-4 text-base default-body">
+                    DNV Project Manager, Tore Hordvik further added that: “The verification of
+                    Sunlit Sea
+                    {"'"}s design methodology is based on a thorough review by DNV{"'"}s leading
+                    experts within hydrodynamics and structural design. A robust and well-documented
+                    design methodology was defined by Sunlit Sea and is concluded to comply with the
+                    requirements in DNV-RP-0584. Hence a Statement of Conformity is issued.”
+                  </div>
+                </section>
+              </div>
+
+              <div className="mt-4 text-base default-body">
+                “We strive to provide the globally preferred solution for floating solar power
+                production. We are doing this by building our solution dedicated to floating solar
+                and making good use of all the added values that floating solar offers. Sunlit Sea
+                {"'"}s solution offers excellent cooling, reduced panel degradation, and rapid
+                deployment due to pre-fabrication. In our quest to do this, we make good use of
+                well-established knowledge and infrastructure. DNV is a brilliant partner in our
+                verification work, and we are proud to say that our design basis is conformant to
+                DNV-RP-0584.
+              </div>
+              <div className="mt-4 text-base default-body">
+                Sunlit Sea is a {"'"}one-stop-shop{"'"} for floating solar, hence determining the
+                interfaces to other fields is paramount for achieving good bankability and
+                competitive financing. Therefore, DNV{"'"}s verification is imperative. Building a
+                dedicated solution for the floating solar segment gives us the possibility to
+                address the most pressing challenges project developers and installers experience
+                and we are glad for the valuable and efficient cooperation we have with DNV.” Sunlit
+                Sea CEO, Per Lindberg, explained.
+              </div>
+              <div className="mt-4 text-base default-body">
+                “In Sunlit Sea we focus on research and development to ensure the best-suited
+                solution. We have a strong collaboration with the University of Oslo, Stadt Towing
+                Tank, and Institute for Energy Technology to further develop the solution.
+                Significant work is carried out to establish design loads and to ensure structural
+                integrity. To get a third-party evaluation of our design methodology we asked DNV to
+                verify our Design Basis. DNV is known for skilled people and long experience with
+                marine structures and was an obvious choice for reviewing the Design Basis. Their
+                knowledge and experience were proven during the review process and by the
+                conclusions drawn. The results of the work and comments provided will be implemented
+                in our design, and we look forward to furthering collaboration with DNV.” Chief
+                Technology Officer, Bjørn Hervold Riise.
+              </div>
+            </section>
+          </div>
+
           <div className="grid grid-cols-2 gap-6 sm:grid-cols-3">
             <ApplicationAreaItem title="Cottages" image="cottage" />
             <ApplicationAreaItem title="Hydroelectric dams" image="dams" />

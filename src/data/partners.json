@@ -175,5 +175,13 @@
     "description": [
       "Whiston Industries is the UK's number one press tool manufacturer and subcontract machining specialist, supplying the worldwide automotive, aerospace, medical, energy and marine industries. The aluminum floats are pressed at their headquarters and the company contributes with production optimization and clinching."
     ]
+  },
+  {
+    "image": "dnv.png",
+    "name": "DNV",
+    "link": "https://www.dnv.com/",
+    "description": [
+      "DNV is an international accredited registrar and classification society. The company currently has about 12,000 employees and 350 offices operating in more than 100 countries, and provides services for several industries including maritime, oil & gas, renewable energy, electrification, food & beverage and healthcare."
+    ]
   }
 ]
