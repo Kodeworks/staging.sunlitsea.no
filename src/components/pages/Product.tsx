@@ -160,7 +160,7 @@ const Product: React.FC = () => {
               <div className="flex flex-col gap-8 sm:gap-12 md:flex-row">
                 <img
                   className="object-contain mt-4 lg:mt-0 md:w-1/2 max-w-full sm:max-w-[500px] mx-auto"
-                  src={'/img/product/DNV_rp_0584.jpg'}
+                  src={'/img/product/dnv_rp_0584.jpg'}
                   alt="DNV"
                 />
                 <section className="flex flex-col md:w-1/2">
