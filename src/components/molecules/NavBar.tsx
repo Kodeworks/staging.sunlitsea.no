@@ -10,6 +10,7 @@ const items = [
   { name: 'About', link: 'about_us' },
   { name: 'Investors', link: 'investors' },
   { name: 'Careers', link: 'careers' },
+  { name: 'Warranty', link: 'warranty' },
   { name: 'Contact', link: 'contact' },
 ];
 
@@ -27,7 +28,7 @@ const NavBar: React.FC = () => {
         >
           <LogoSvg fill="#010101" />
         </a>
-        <div className="hidden pr-2 sm:flex sm:flex-row sm:pr-4">
+        <div className="hidden pr-2 md:flex md:flex-row sm:pr-4">
           {items.map(function (object, i) {
             const current = window.location.href.includes(object.link);
             return (
@@ -46,7 +47,7 @@ const NavBar: React.FC = () => {
           })}
         </div>
         <button
-          className="block mr-4 sm:hidden"
+          className="block mr-4 md:hidden"
           onClick={() => setMenuButtonPressed(!menuButtonPressed)}
         >
           {!menuButtonPressed && <Hamburger className="" />}

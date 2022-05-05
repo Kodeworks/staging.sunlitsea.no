@@ -8,6 +8,7 @@ import Technology from './pages/Technology';
 import Careers from './pages/Careers';
 import Investors from './pages/Investors';
 import Contact from './pages/Contact';
+import Warranty from './pages/Warranty';
 
 export const routes = {
   '/': Main,
@@ -17,6 +18,7 @@ export const routes = {
   '/careers': Careers,
   '/investors': Investors,
   '/contact': Contact,
+  '/warranty': Warranty,
 } as const;
 
 export const AppRoutes: React.FC = () => {
